@@ -1,12 +1,12 @@
-﻿Log file open, 11/08/17 18:37:21
+﻿Log file open, 11/08/17 19:09:47
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: AiGame
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-381989025) SRandInit(-381989025).
+LogInit: Display: RandInit(2003295569) SRandInit(2003295570).
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.163496
+LogStats: Stats thread started at 0.317743
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -103,450 +103,853 @@ LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: -EpicPortal 
+LogInit: Command line: 
 LogInit: Base directory: D:/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.08-20.37.22:181][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.08-20.37.22:181][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.08-20.37.22:197][  0]LogInit: Computer: WELTALL
-[2017.11.08-20.37.22:197][  0]LogInit: User: YuriMeitzen
-[2017.11.08-20.37.22:197][  0]LogInit: CPU Page size=4096, Cores=3
-[2017.11.08-20.37.22:197][  0]LogInit: High frequency timer resolution =3.433668 MHz
-[2017.11.08-20.37.22:198][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2017.11.08-20.37.22:198][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.08-20.37.22:198][  0]LogMemory: Process Physical Memory: 278.20 MB used, 278.20 MB peak
-[2017.11.08-20.37.22:198][  0]LogMemory: Process Virtual Memory: 279.93 MB used, 279.93 MB peak
-[2017.11.08-20.37.22:198][  0]LogMemory: Physical Memory: 5934.33 MB used,  2216.25 MB free, 8150.58 MB total
-[2017.11.08-20.37.22:198][  0]LogMemory: Virtual Memory: 673.12 MB used,  2216.25 MB free, 134217728.00 MB total
-[2017.11.08-20.37.22:432][  0]LogInit: Using OS detected language (en-US).
-[2017.11.08-20.37.22:432][  0]LogInit: Using OS detected locale (pt-BR).
-[2017.11.08-20.37.22:435][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.08-20.37.23:334][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.08-20.37.23:373][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
-[2017.11.08-20.37.23:373][  0]LogD3D11RHI:       2024/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2017.11.08-20.37.23:376][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.08-20.37.23:376][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.08-20.37.23:376][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.08-20.37.23:385][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.08-20.37.23:385][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.08-20.37.23:385][  0]LogWindows: EnumDisplayDevices:
-[2017.11.08-20.37.23:385][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
-[2017.11.08-20.37.23:386][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
-[2017.11.08-20.37.23:386][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
-[2017.11.08-20.37.23:387][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
-[2017.11.08-20.37.23:387][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
-[2017.11.08-20.37.23:388][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
-[2017.11.08-20.37.23:388][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2017.11.08-20.37.23:388][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
-[2017.11.08-20.37.23:388][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
-[2017.11.08-20.37.23:388][  0]LogD3D11RHI:      Driver Date: 7-20-2017
-[2017.11.08-20.37.23:388][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.08-20.37.23:421][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.08-20.37.23:433][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2017.11.08-20.37.23:433][  0]LogD3D11RHI: HDR output is supported on display 0 (AMD Device: 0x0, Display: 0x0).
-[2017.11.08-20.37.23:434][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Intermediate/Shaders/WorkingDirectory/4348/).
-[2017.11.08-20.37.23:434][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Yuri Meitzen/AppData/Local/Temp/UnrealShaderWorkingDir/FF39A36F40F3E680C8906BA11A28DDB3/'.
-[2017.11.08-20.37.23:434][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.11.08-20.37.25:224][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.08-20.37.25:343][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.11.08-20.37.25:475][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.08-20.37.25:619][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.11.08-20.37.25:741][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.11.08-20.37.25:863][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.08-20.37.25:974][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.08-20.37.26:094][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.08-20.37.26:174][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.11.08-20.37.26:275][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.11.08-20.37.26:393][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.08-20.37.26:524][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.08-20.37.26:650][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.08-20.37.26:765][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.08-20.37.26:874][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.08-20.37.27:039][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.08-20.37.27:039][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.08-20.37.27:138][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.11.08-20.37.27:283][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.11.08-20.37.27:329][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.11.08-20.37.27:407][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.08-20.37.27:479][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.08-20.37.27:550][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.08-20.37.27:628][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.11.08-20.37.27:628][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.11.08-20.37.28:241][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.11.08-20.37.28:441][  0]LogDerivedDataCache: Loaded boot cache 0.20s 101MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.08-20.37.28:441][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.11.08-20.37.28:441][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.08-20.37.28:441][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.08-20.37.28:442][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.08-20.37.28:442][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.08-20.37.28:465][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.08-20.37.28:478][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.08-20.37.28:495][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.08-20.37.28:496][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.08-20.37.28:496][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.08-20.37.28:496][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.08-20.37.28:902][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
-[2017.11.08-20.37.29:092][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.08-20.37.29:579][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.08-20.37.29:630][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.08-20.37.29:630][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.08-20.37.29:630][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.11.08-20.37.29:630][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.11.08-20.37.29:630][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.11.08-20.37.29:660][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.08-20.37.30:246][  0]LogNetVersion: AiGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2679581370)
-[2017.11.08-20.37.30:840][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.366383 seconds
-[2017.11.08-20.37.30:850][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.11.08-20.37.30:851][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.11.08-20.37.30:851][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.08-20.37.30:933][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.08-20.37.35:940][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.08-20.37.36:000][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.08-20.37.36:988][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.08-20.37.38:383][  0]SourceControl: Source control is disabled
-[2017.11.08-20.37.38:383][  0]SourceControl: Source control is disabled
-[2017.11.08-20.37.38:438][  0]SourceControl: Source control is disabled
-[2017.11.08-20.37.38:494][  0]SourceControl: Source control is disabled
-[2017.11.08-20.37.39:169][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.08-20.37.39:459][  0]LogOcInput: OculusInput pre-init called
-[2017.11.08-20.37.39:770][  0]LogEngine: Initializing Engine...
-[2017.11.08-20.37.39:773][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.08-20.37.40:166][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.08-20.37.40:166][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.08-20.37.40:448][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.08-20.37.40:486][  0]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.11.08-20.37.40:518][  0]LogInit: FAudioDevice initialized.
-[2017.11.08-20.37.41:665][  0]LogDerivedDataCache: Saved boot cache 1.15s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.11.08-20.37.41:714][  0]LogInit: Texture streaming: Enabled
-[2017.11.08-20.37.41:883][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.08-20.37.42:533][  0]LogInit: Transaction tracking system initialized
-[2017.11.08-20.37.42:905][  0]BlueprintLog: New page: Editor Load
-[2017.11.08-20.37.44:086][  0]LocalizationService: Localization service is disabled
-[2017.11.08-20.37.44:753][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
-[2017.11.08-20.37.44:753][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
-[2017.11.08-20.37.44:753][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
-[2017.11.08-20.37.44:990][  0]LogConsoleResponse: Display: 
-[2017.11.08-20.37.45:686][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/' took 0.01s
-[2017.11.08-20.37.45:686][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.08-20.37.45:686][  0]LogCook: Display: Mobile HDR setting 1
-[2017.11.08-20.37.45:686][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.11.08-20.37.46:978][  0]SourceControl: Source control is disabled
-[2017.11.08-20.37.46:978][  0]Cmd: MAP LOAD FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.08-20.37.46:979][  0]LightingResults: New page: Lighting Build
-[2017.11.08-20.37.47:031][  0]MapCheck: New page: Map Check
-[2017.11.08-20.37.47:031][  0]LightingResults: New page: Lighting Build
-[2017.11.08-20.37.53:766][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2017.11.08-20.37.55:342][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.08-20.37.55:461][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.08-20.37.55:566][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 104,294ms to complete.
-[2017.11.08-20.37.55:566][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 8.587
-[2017.11.08-20.37.58:478][  0]LogCollectionManager: Loaded 0 collections in 0.001133 seconds
-[2017.11.08-20.37.59:090][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Collections/' took 0.01s
-[2017.11.08-20.37.59:090][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Developers/YuriMeitzen/Collections/' took 0.01s
-[2017.11.08-20.37.59:090][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Collections/' took 0.01s
-[2017.11.08-20.37.59:090][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.11.08-20.37.59:216][  0]LogContentBrowser: Native class hierarchy populated in 0.0566 seconds. Added 2386 classes and 500 folders.
-[2017.11.08-20.37.59:596][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.11.08-20.37.59:647][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.11.08-20.37.59:873][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.11.08-20.38.05:088][  0]LogSlate: Took 0.000850 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.08-20.38.05:097][  0]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.08-20.38.05:181][  0]LogSlate: Took 0.039286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.08-20.38.05:814][  0]LogRenderer: Reallocating scene render targets to support 1036x576 Format 9 NumSamples 1 (Frame:1).
-[2017.11.08-20.38.07:188][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2017.11.08-20.38.07:189][  0]LogLoad: (Engine Initialization) Total time: 47.14 seconds
-[2017.11.08-20.38.07:189][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.11.08-20.38.07:189][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.11.08-20.38.07:189][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.11.08-20.38.07:698][  0]LogContentStreaming: Texture pool size now 800 MB
-[2017.11.08-20.38.07:796][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.08-20.38.18:456][100]LogAssetRegistry: Asset discovery search completed in 49.5754 seconds
-[2017.11.08-20.38.18:458][100]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.11.08-20.38.18:458][100]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
-[2017.11.08-20.38.19:916][211]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.11.08-20.38.20:356][212]Cmd: QUIT_EDITOR
-[2017.11.08-20.38.20:404][212]LogExit: Preparing to exit.
-[2017.11.08-20.38.21:200][212]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/' was aborted.
-[2017.11.08-20.38.21:285][212]LogExit: Editor shut down
-[2017.11.08-20.38.21:299][212]LogExit: Transaction tracking system shut down
-[2017.11.08-20.38.21:424][212]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.11.08-20.38.21:424][212]LogDirectoryWatcher: A directory notification for '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/' was aborted.
-[2017.11.08-20.38.21:424][212]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.11.08-20.38.21:425][212]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.11.08-20.38.21:425][212]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.11.08-20.38.21:490][212]LogExit: Object subsystem successfully closed.
-[2017.11.08-20.38.21:649][212]LogD3D11RHI: Shutdown
-[2017.11.08-20.38.21:649][212]LogD3D11RHI: CleanupD3DDevice
-[2017.11.08-20.38.21:844][212]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.11.08-20.38.21:899][212]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2017.11.08-20.38.21:899][212]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2017.11.08-20.38.21:899][212]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2017.11.08-20.38.21:899][212]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2017.11.08-20.38.21:902][212]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2017.11.08-20.38.21:902][212]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2017.11.08-20.38.21:902][212]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2017.11.08-20.38.21:902][212]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Collections/' was aborted.
-[2017.11.08-20.38.21:902][212]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Developers/YuriMeitzen/Collections/' was aborted.
-[2017.11.08-20.38.21:902][212]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Collections/' was aborted.
-[2017.11.08-20.38.21:902][212]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2017.11.08-20.38.21:902][212]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2017.11.08-20.38.21:902][212]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2017.11.08-20.38.21:903][212]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2017.11.08-20.38.21:903][212]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2017.11.08-20.38.21:903][212]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2017.11.08-20.38.21:903][212]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2017.11.08-20.38.21:903][212]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2017.11.08-20.38.21:903][212]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2017.11.08-20.38.21:903][212]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2017.11.08-20.38.21:903][212]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2017.11.08-20.38.21:903][212]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2017.11.08-20.38.21:903][212]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2017.11.08-20.38.21:903][212]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2017.11.08-20.38.21:903][212]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module Media (477)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2017.11.08-20.38.21:904][212]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2017.11.08-20.38.21:905][212]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2017.11.08-20.38.21:905][212]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2017.11.08-20.38.21:905][212]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2017.11.08-20.38.22:573][212]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2017.11.08-20.38.22:573][212]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2017.11.08-20.38.22:573][212]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2017.11.08-20.38.22:573][212]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2017.11.08-20.38.22:573][212]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2017.11.08-20.38.22:573][212]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2017.11.08-20.38.22:573][212]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2017.11.08-20.38.22:573][212]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2017.11.08-20.38.22:574][212]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2017.11.08-20.38.22:629][212]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2017.11.08-20.38.22:629][212]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2017.11.08-20.38.22:629][212]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2017.11.08-20.38.22:629][212]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2017.11.08-20.38.22:629][212]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2017.11.08-20.38.22:629][212]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2017.11.08-20.38.22:629][212]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2017.11.08-20.38.22:629][212]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2017.11.08-20.38.22:629][212]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2017.11.08-20.38.22:629][212]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2017.11.08-20.38.22:630][212]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2017.11.08-20.38.22:631][212]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2017.11.08-20.38.22:631][212]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2017.11.08-20.38.22:837][212]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2017.11.08-20.38.22:837][212]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2017.11.08-20.38.22:837][212]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2017.11.08-20.38.22:837][212]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2017.11.08-20.38.22:837][212]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2017.11.08-20.38.22:837][212]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2017.11.08-20.38.22:837][212]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2017.11.08-20.38.22:837][212]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2017.11.08-20.38.22:837][212]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2017.11.08-20.38.22:838][212]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2017.11.08-20.38.22:839][212]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2017.11.08-20.38.22:839][212]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2017.11.08-20.38.22:839][212]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2017.11.08-20.38.22:840][212]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2017.11.08-20.38.22:840][212]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2017.11.08-20.38.22:840][212]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2017.11.08-20.38.22:840][212]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2017.11.08-20.38.22:840][212]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2017.11.08-20.38.22:840][212]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2017.11.08-20.38.22:840][212]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2017.11.08-20.38.22:840][212]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2017.11.08-20.38.22:940][212]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2017.11.08-20.38.23:041][212]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2017.11.08-20.38.23:041][212]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2017.11.08-20.38.23:041][212]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2017.11.08-20.38.23:041][212]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2017.11.08-20.38.23:041][212]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2017.11.08-20.38.23:041][212]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2017.11.08-20.38.23:043][212]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2017.11.08-20.38.23:043][212]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2017.11.08-20.38.23:043][212]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.11.08-20.38.23:043][212]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.11.08-20.38.23:044][212]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2017.11.08-20.38.23:047][212]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.11.08-20.38.23:048][212]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.11.08-20.38.23:105][212]LogDerivedDataCache: Shutdown
-[2017.11.08-20.38.23:105][212]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.11.08-20.38.23:106][212]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.11.08-20.38.23:107][212]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.11.08-20.38.23:107][212]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.11.08-20.38.23:107][212]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.11.08-20.38.23:107][212]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.11.08-20.38.23:107][212]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.11.08-20.38.23:107][212]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.11.08-20.38.23:107][212]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.11.08-20.38.23:107][212]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.11.08-20.38.23:107][212]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.11.08-20.38.23:107][212]LogOnline: Display: Unloading online subsystem: NULL
-[2017.11.08-20.38.23:107][212]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.11.08-20.38.23:107][212]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.11.08-20.38.23:107][212]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.11.08-20.38.23:107][212]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD0593A1A-4007-E5B8-9F9E-AD841E54B870%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=4d336c304cb600f3833bee9ec6324b6b%7C97e6c6ec20b34e1681bb9ded12457367%7Cea9e9fd9-3d7e-4d9a-8813-872780a612b3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.11.08-20.38.23:114][212]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.11.08-20.38.23:116][212]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.11.08-20.38.23:116][212]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.11.08-20.38.23:116][212]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.11.08-20.38.23:116][212]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.11.08-20.38.23:116][212]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.11.08-20.38.23:116][212]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.11.08-20.38.23:116][212]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.11.08-20.38.23:117][212]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.11.08-20.38.23:117][212]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.11.08-20.38.23:118][212]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.11.08-20.38.23:118][212]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.11.08-20.38.23:118][212]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.11.08-20.38.23:118][212]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.11.08-20.38.23:118][212]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.11.08-20.38.23:118][212]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.11.08-20.38.23:118][212]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.11.08-20.38.23:118][212]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.11.08-20.38.23:118][212]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.11.08-20.38.23:121][212]LogExit: Exiting.
-[2017.11.08-20.38.23:150][212]Log file closed, 11/08/17 18:38:23
+[2017.11.08-21.09.48:343][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.08-21.09.48:343][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.08-21.09.48:364][  0]LogInit: Computer: WELTALL
+[2017.11.08-21.09.48:364][  0]LogInit: User: YuriMeitzen
+[2017.11.08-21.09.48:364][  0]LogInit: CPU Page size=4096, Cores=3
+[2017.11.08-21.09.48:364][  0]LogInit: High frequency timer resolution =3.433668 MHz
+[2017.11.08-21.09.48:364][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.11.08-21.09.48:364][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.08-21.09.48:364][  0]LogMemory: Process Physical Memory: 278.78 MB used, 278.78 MB peak
+[2017.11.08-21.09.48:364][  0]LogMemory: Process Virtual Memory: 279.96 MB used, 279.96 MB peak
+[2017.11.08-21.09.48:364][  0]LogMemory: Physical Memory: 4708.63 MB used,  3441.95 MB free, 8150.58 MB total
+[2017.11.08-21.09.48:365][  0]LogMemory: Virtual Memory: 673.12 MB used,  3441.95 MB free, 134217728.00 MB total
+[2017.11.08-21.09.48:619][  0]LogInit: Using OS detected language (en-US).
+[2017.11.08-21.09.48:619][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.11.08-21.09.48:623][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.08-21.09.49:702][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.08-21.09.49:725][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2017.11.08-21.09.49:725][  0]LogD3D11RHI:       2024/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.11.08-21.09.49:727][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.08-21.09.49:727][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.08-21.09.49:727][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.08-21.09.49:736][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.08-21.09.49:736][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.08-21.09.49:736][  0]LogWindows: EnumDisplayDevices:
+[2017.11.08-21.09.49:736][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2017.11.08-21.09.49:736][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.08-21.09.49:737][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.08-21.09.49:737][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.08-21.09.49:738][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.08-21.09.49:738][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.08-21.09.49:739][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.11.08-21.09.49:739][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2017.11.08-21.09.49:739][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
+[2017.11.08-21.09.49:739][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2017.11.08-21.09.49:739][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.08-21.09.49:769][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.08-21.09.49:783][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.11.08-21.09.49:783][  0]LogD3D11RHI: HDR output is supported on display 0 (AMD Device: 0x0, Display: 0x0).
+[2017.11.08-21.09.49:784][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Intermediate/Shaders/WorkingDirectory/9236/).
+[2017.11.08-21.09.49:784][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Yuri Meitzen/AppData/Local/Temp/UnrealShaderWorkingDir/93C3C66544EE85D121AC49985F3E27B3/'.
+[2017.11.08-21.09.49:784][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.08-21.09.51:350][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.08-21.09.51:514][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.08-21.09.51:661][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.08-21.09.51:801][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.08-21.09.51:949][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.08-21.09.52:076][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.08-21.09.52:215][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.08-21.09.52:344][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.08-21.09.52:475][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.08-21.09.52:628][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.08-21.09.52:774][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.08-21.09.52:970][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.08-21.09.53:116][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.08-21.09.53:280][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.08-21.09.53:434][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.08-21.09.53:709][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.08-21.09.53:709][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.08-21.09.53:819][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.08-21.09.54:009][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.08-21.09.54:082][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.08-21.09.54:197][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.08-21.09.54:327][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.08-21.09.54:448][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.08-21.09.54:563][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.08-21.09.54:563][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.08-21.09.55:545][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.08-21.09.55:815][  0]LogDerivedDataCache: Loaded boot cache 0.27s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.08-21.09.55:815][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.08-21.09.55:816][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.08-21.09.55:816][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.08-21.09.55:816][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.08-21.09.55:816][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.08-21.09.55:849][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.08-21.09.55:864][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.08-21.09.55:889][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.08-21.09.55:890][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.08-21.09.55:891][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.08-21.09.55:891][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.08-21.09.56:485][  0]LogAssetRegistry: FAssetRegistry took 0.0325 seconds to start up
+[2017.11.08-21.09.56:765][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.08-21.09.57:503][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.08-21.09.57:564][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.08-21.09.57:565][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.08-21.09.57:565][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.08-21.09.57:565][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.08-21.09.57:565][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.08-21.09.57:578][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.08-21.09.58:221][  0]LogNetVersion: AiGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2679581370)
+[2017.11.08-21.09.58:604][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.079926 seconds
+[2017.11.08-21.09.58:615][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.08-21.09.58:615][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.08-21.09.58:615][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.08-21.09.58:756][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.08-21.10.04:430][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.08-21.10.04:487][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.08-21.10.05:387][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.08-21.10.05:916][  0]SourceControl: Source control is disabled
+[2017.11.08-21.10.05:916][  0]SourceControl: Source control is disabled
+[2017.11.08-21.10.05:976][  0]SourceControl: Source control is disabled
+[2017.11.08-21.10.06:031][  0]SourceControl: Source control is disabled
+[2017.11.08-21.10.06:747][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.08-21.10.07:031][  0]LogOcInput: OculusInput pre-init called
+[2017.11.08-21.10.07:332][  0]LogEngine: Initializing Engine...
+[2017.11.08-21.10.07:335][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.08-21.10.07:775][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.08-21.10.07:775][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.08-21.10.08:080][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.08-21.10.08:134][  0]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-21.10.08:192][  0]LogInit: FAudioDevice initialized.
+[2017.11.08-21.10.08:427][  0]LogDerivedDataCache: Saved boot cache 0.23s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.08-21.10.08:488][  0]LogInit: Texture streaming: Enabled
+[2017.11.08-21.10.08:794][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.08-21.10.08:795][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={8B1689E9-41BF-8EAA-79D7-BEB440E7A7E3}
+[2017.11.08-21.10.09:368][  0]LogInit: Transaction tracking system initialized
+[2017.11.08-21.10.10:141][  0]BlueprintLog: New page: Editor Load
+[2017.11.08-21.10.11:835][  0]LocalizationService: Localization service is disabled
+[2017.11.08-21.10.12:424][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2017.11.08-21.10.12:424][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2017.11.08-21.10.12:424][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
+[2017.11.08-21.10.12:618][  0]LogConsoleResponse: Display: 
+[2017.11.08-21.10.12:827][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.08-21.10.12:827][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.08-21.10.12:827][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.08-21.10.14:147][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/' took 0.01s
+[2017.11.08-21.10.14:274][  0]SourceControl: Source control is disabled
+[2017.11.08-21.10.14:274][  0]Cmd: MAP LOAD FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.08-21.10.14:276][  0]LightingResults: New page: Lighting Build
+[2017.11.08-21.10.14:373][  0]MapCheck: New page: Map Check
+[2017.11.08-21.10.14:373][  0]LightingResults: New page: Lighting Build
+[2017.11.08-21.10.15:631][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.08-21.10.15:648][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.08-21.10.15:702][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.08-21.10.15:797][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 94,507ms to complete.
+[2017.11.08-21.10.15:797][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.523
+[2017.11.08-21.10.15:882][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.08-21.10.16:064][  0]LogCollectionManager: Loaded 0 collections in 0.001821 seconds
+[2017.11.08-21.10.16:177][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Collections/' took 0.01s
+[2017.11.08-21.10.16:178][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Developers/YuriMeitzen/Collections/' took 0.01s
+[2017.11.08-21.10.16:178][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Collections/' took 0.01s
+[2017.11.08-21.10.16:178][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.08-21.10.16:199][  0]LogContentBrowser: Native class hierarchy populated in 0.0209 seconds. Added 2386 classes and 500 folders.
+[2017.11.08-21.10.16:320][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.11.08-21.10.16:396][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.11.08-21.10.16:480][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2017.11.08-21.10.16:623][  0]LogSlate: Took 0.000346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.08-21.10.16:628][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.08-21.10.16:637][  0]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.08-21.10.16:816][  0]LogRenderer: Reallocating scene render targets to support 1036x576 Format 9 NumSamples 1 (Frame:1).
+[2017.11.08-21.10.17:122][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.11.08-21.10.17:123][  0]LogLoad: (Engine Initialization) Total time: 31.67 seconds
+[2017.11.08-21.10.17:123][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.08-21.10.17:123][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.08-21.10.17:123][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.08-21.10.17:180][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.11.08-21.10.17:262][  0]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-21.10.17:354][  2]LogAssetRegistry: Asset discovery search completed in 20.8922 seconds
+[2017.11.08-21.10.17:357][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.08-21.10.17:357][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000123 seconds (updated 0 objects)
+[2017.11.08-21.10.18:162][ 66]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-21.11.28:263][816]LogBlueprint: Warning: [Ai_Controller_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:264][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'StoredPawn' pin not found
+[2017.11.08-21.11.28:264][816]LogBlueprint: Warning: [Ai_Controller_BP] 'ControllerArrow' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:264][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'ControllerArrow' pin not found
+[2017.11.08-21.11.28:264][816]LogBlueprint: Warning: [Ai_Controller_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:264][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'StoredPawn' pin not found
+[2017.11.08-21.11.28:264][816]LogBlueprint: Warning: [Ai_Controller_BP] 'MovementRate' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:264][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'MovementRate' pin not found
+[2017.11.08-21.11.28:265][816]LogBlueprint: Warning: [Ai_Controller_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:265][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'StoredPawn' pin not found
+[2017.11.08-21.11.28:265][816]LogBlueprint: Warning: [Ai_Controller_BP] 'SpringArm' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:265][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'SpringArm' pin not found
+[2017.11.08-21.11.28:266][816]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:266][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bLeftClick' pin not found
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bRightClick' pin not found
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'RightClickHoldCounter' pin not found
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'RightClickHoldCounter' pin not found
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'RightClickHoldCounter' pin not found
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bRightClick' pin not found
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bRightClick' pin not found
+[2017.11.08-21.11.28:267][816]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bRightClick' pin not found
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bLeftClick' pin not found
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bLeftClick' pin not found
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'LeftClickHoldCounter' pin not found
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bLeftClick' pin not found
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'LeftClickHoldCounter' pin not found
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.11.28:268][816]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'LeftClickHoldCounter' pin not found
+[2017.11.08-21.11.28:306][816]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-21.11.28:809][816]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 113 classes and 0 folders.
+[2017.11.08-21.11.29:696][816]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.08-21.11.29:810][816]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.08-21.11.30:124][817]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.08-21.18.50:862][567]LogLinker: Can't find file '/Game/AI_Stream/AIS_PlayerController'
+[2017.11.08-21.18.50:862][567]LogLinker: Can't find file '/Game/AI_Stream/AIS_PlayerController'
+[2017.11.08-21.18.50:890][567]LogLinker: Can't find file '/Game/AI_Stream/AIS_PlayerPawn'
+[2017.11.08-21.18.50:891][567]LogLinker: Can't find file '/Game/AI_Stream/AIS_PlayerPawn'
+[2017.11.08-21.18.50:892][567]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/AI_Stream/AIS_PlayerPawn.AIS_PlayerPawn_C',MemberName="ControllerArrow")'
+[2017.11.08-21.18.50:893][567]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/AI_Stream/AIS_PlayerPawn.AIS_PlayerPawn_C',MemberName="SpringArm")'
+[2017.11.08-21.18.50:897][567]LogBlueprint: Warning: [Ai_Controller_BP] 'MovementRate' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:897][567]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:897][567]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:897][567]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:897][567]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:897][567]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:898][567]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:898][567]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:898][567]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:898][567]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:898][567]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:898][567]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:898][567]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:899][567]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:899][567]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:899][567]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:899][567]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:899][567]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:899][567]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:900][567]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:900][567]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:900][567]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:900][567]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:901][567]LogBlueprint: Warning: [Ai_Controller_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:901][567]LogBlueprint: Warning: [Ai_Controller_BP] 'ControllerArrow' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:901][567]LogBlueprint: Warning: [Ai_Controller_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:901][567]LogBlueprint: Warning: [Ai_Controller_BP] 'SpringArm' variable not found. Base class was probably changed.
+[2017.11.08-21.18.50:901][567]LogBlueprint: Warning: [Ai_Controller_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.18.53:932][655]LogSavePackage: Save=236.04ms
+[2017.11.08-21.18.53:932][655]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Ai_Controller_BPC9EB16FA41A1287F6C256BAB59EF58BA.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/Ai_Controller_BP.uasset'
+[2017.11.08-21.18.53:937][655]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/Ai_Controller_BP.uasset
+[2017.11.08-21.19.47:791][647]LogRenderer: Reallocating scene render targets to support 1144x620 Format 9 NumSamples 1 (Frame:1).
+[2017.11.08-21.19.57:029][300]LogProperty: Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'/Game/AI_Stream/AIS_PlayerController.AIS_PlayerController_C''
+[2017.11.08-21.19.57:032][300]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/AI_Stream/AIS_PlayerController.AIS_PlayerController_C',MemberName="StoredPawn",MemberGuid=E4E0E5B24015598E02D6BCBF6C71DDFF)'
+[2017.11.08-21.19.57:045][300]LogBlueprint: Warning: [AI_Pawn_BP] 'StoredController' variable not found. Base class was probably changed.
+[2017.11.08-21.19.57:045][300]LogBlueprint: Warning: [AI_Pawn_BP] 'StoredController' variable not found. Base class was probably changed.
+[2017.11.08-21.19.57:045][300]LogBlueprint: Warning: [AI_Pawn_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.19.57:045][300]LogBlueprint: Warning: [AI_Pawn_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.20.14:885][884]BlueprintLog: New page: Compile Ai_Controller_BP
+[2017.11.08-21.20.14:971][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] Can't connect pins  Stored Pawn  and  Target : Object Reference is not compatible with Actor Object Reference.
+[2017.11.08-21.20.14:983][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "StoredPawn" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Get StoredPawn
+[2017.11.08-21.20.14:983][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "SpringArm" in 'Ai_Controller_BP'.
+Make sure 'Ai_Controller_BP' has been compiled for  Get SpringArm
+[2017.11.08-21.20.14:983][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "StoredPawn" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Get StoredPawn
+[2017.11.08-21.20.14:983][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "ControllerArrow" in 'Ai_Controller_BP'.
+Make sure 'Ai_Controller_BP' has been compiled for  Get ControllerArrow
+[2017.11.08-21.20.14:983][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "StoredPawn" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Get StoredPawn
+[2017.11.08-21.20.14:984][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "LeftClickHoldCounter" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Set LeftClickHoldCounter
+[2017.11.08-21.20.14:984][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "bLeftClick" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Set bLeftClick
+[2017.11.08-21.20.14:984][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "LeftClickHoldCounter" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Get LeftClickHoldCounter
+[2017.11.08-21.20.14:984][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "bLeftClick" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Get bLeftClick
+[2017.11.08-21.20.14:984][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "RightClickHoldCounter" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Set RightClickHoldCounter
+[2017.11.08-21.20.14:984][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "bRightClick" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Set bRightClick
+[2017.11.08-21.20.14:985][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "RightClickHoldCounter" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Get RightClickHoldCounter
+[2017.11.08-21.20.14:985][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "bRightClick" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Get bRightClick
+[2017.11.08-21.20.14:985][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "bRightClick" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Set bRightClick
+[2017.11.08-21.20.14:986][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "RightClickHoldCounter" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Set RightClickHoldCounter
+[2017.11.08-21.20.14:986][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "bRightClick" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Get bRightClick
+[2017.11.08-21.20.14:986][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "bLeftClick" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Set bLeftClick
+[2017.11.08-21.20.14:986][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "LeftClickHoldCounter" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Set LeftClickHoldCounter
+[2017.11.08-21.20.14:986][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "bLeftClick" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Get bLeftClick
+[2017.11.08-21.20.14:986][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] Can't connect pins  Target  and  Stored Pawn : Actor Object Reference is not compatible with Object Reference.
+[2017.11.08-21.20.14:987][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "MovementRate" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Get MovementRate
+[2017.11.08-21.20.15:002][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Movement Rate  could not be found
+[2017.11.08-21.20.15:002][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Left Click  could not be found
+[2017.11.08-21.20.15:002][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Left Click Hold Counter  could not be found
+[2017.11.08-21.20.15:002][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Left Click  could not be found
+[2017.11.08-21.20.15:002][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Right Click  could not be found
+[2017.11.08-21.20.15:002][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Right Click Hold Counter  could not be found
+[2017.11.08-21.20.15:003][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Right Click  could not be found
+[2017.11.08-21.20.15:003][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Right Click  could not be found
+[2017.11.08-21.20.15:003][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Right Click Hold Counter  could not be found
+[2017.11.08-21.20.15:003][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Right Click Hold Counter  could not be found
+[2017.11.08-21.20.15:003][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Right Click  could not be found
+[2017.11.08-21.20.15:003][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Left Click  could not be found
+[2017.11.08-21.20.15:003][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Left Click Hold Counter  could not be found
+[2017.11.08-21.20.15:003][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Left Click Hold Counter  could not be found
+[2017.11.08-21.20.15:004][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Left Click  could not be found
+[2017.11.08-21.20.15:004][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Stored Pawn  could not be found
+[2017.11.08-21.20.15:004][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Stored Pawn  could not be found
+[2017.11.08-21.20.15:004][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Controller Arrow  could not be found
+[2017.11.08-21.20.15:004][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Spring Arm  could not be found
+[2017.11.08-21.20.15:004][884]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Stored Pawn  could not be found
+[2017.11.08-21.20.15:512][884]LogBlueprint: Warning: [Compiler Ai_Controller_BP] [0630,06] Compile of Ai_Controller_BP failed. 22 Fatal Issue(s) 20 Warning(s) [in 626 ms] (/Game/ThirdPersonBP/Blueprints/Ai_Controller_BP.Ai_Controller_BP)
+[2017.11.08-21.21.07:511][585]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.039
+[2017.11.08-21.21.07:513][585]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP] ([1] browsable assets)...
+[2017.11.08-21.21.07:513][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP]
+[2017.11.08-21.21.07:552][585]LogSavePackage: Save=28.46ms
+[2017.11.08-21.21.07:552][585]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AI_Pawn_BP_Auto1F4879A6C496623DFA3DBDF88AA7B37ED.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP_Auto1.uasset'
+[2017.11.08-21.21.07:553][585]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP_Auto1.uasset
+[2017.11.08-21.21.07:570][585]LogFileHelpers: Auto-saving content packages took 0.041
+[2017.11.08-21.25.13:333][888]BlueprintLog: New page: Compile Ai_Controller_BP
+[2017.11.08-21.25.13:409][888]LogBlueprint: Error: [Compiler AI_Pawn_BP] Can't connect pins  Self  and  Stored Pawn : Self Object Reference is not compatible with Object Reference.
+[2017.11.08-21.25.13:409][888]LogBlueprint: Error: [Compiler AI_Pawn_BP] Can't connect pins  Stored Pawn  and  Self : Object Reference is not compatible with Self Object Reference.
+[2017.11.08-21.25.13:409][888]LogBlueprint: Warning: [Compiler AI_Pawn_BP] Could not find a variable named "StoredPawn" in 'AI_Pawn_BP'.
+Make sure 'AI_Pawn_BP' has been compiled for  Set StoredPawn
+[2017.11.08-21.25.13:409][888]LogBlueprint: Warning: [Compiler AI_Pawn_BP] Could not find a variable named "StoredController" in 'AI_Pawn_BP_C'.
+Make sure 'AI_Pawn_BP_C' has been compiled for  Set StoredController
+[2017.11.08-21.25.13:410][888]LogBlueprint: Error: [Compiler AI_Pawn_BP] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.11.08-21.25.13:417][888]LogBlueprint: Error: [Compiler Ai_Controller_BP] Can't connect pins  Stored Pawn  and  Target : Object Reference is not compatible with Actor Object Reference.
+[2017.11.08-21.25.13:417][888]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "SpringArm" in 'Ai_Controller_BP'.
+Make sure 'Ai_Controller_BP' has been compiled for  Get SpringArm
+[2017.11.08-21.25.13:417][888]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "ControllerArrow" in 'Ai_Controller_BP'.
+Make sure 'Ai_Controller_BP' has been compiled for  Get ControllerArrow
+[2017.11.08-21.25.13:418][888]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "RightClickHoldCounter" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Set RightClickHoldCounter
+[2017.11.08-21.25.13:418][888]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "RightClickHoldCounter" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Get RightClickHoldCounter
+[2017.11.08-21.25.13:419][888]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "RightClickHoldCounter" in 'Ai_Controller_BP_C'.
+Make sure 'Ai_Controller_BP_C' has been compiled for  Set RightClickHoldCounter
+[2017.11.08-21.25.13:419][888]LogBlueprint: Error: [Compiler Ai_Controller_BP] Can't connect pins  Target  and  Stored Pawn : Actor Object Reference is not compatible with Object Reference.
+[2017.11.08-21.25.13:421][888]LogBlueprint: Error: [Compiler AI_Pawn_BP] The property associated with  Stored Pawn  could not be found
+[2017.11.08-21.25.13:421][888]LogBlueprint: Error: [Compiler AI_Pawn_BP] Default value '' for  Stored Controller  is invalid: 'PinSubCategoryObject on pin 'StoredController' is NULL and PinSubCategory is '' not 'self''
+[2017.11.08-21.25.13:422][888]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Right Click Hold Counter  could not be found
+[2017.11.08-21.25.13:422][888]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Right Click Hold Counter  could not be found
+[2017.11.08-21.25.13:422][888]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Right Click Hold Counter  could not be found
+[2017.11.08-21.25.13:422][888]LogBlueprint: Error: [Compiler Ai_Controller_BP] Failed to find class for pin  Stored Pawn
+[2017.11.08-21.25.13:423][888]LogBlueprint: Error: [Compiler Ai_Controller_BP] Failed to find class for pin  Stored Pawn
+[2017.11.08-21.25.13:423][888]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Controller Arrow  could not be found
+[2017.11.08-21.25.13:423][888]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Spring Arm  could not be found
+[2017.11.08-21.25.13:423][888]LogBlueprint: Error: [Compiler Ai_Controller_BP] Failed to find class for pin  Stored Pawn
+[2017.11.08-21.25.13:428][888]LogBlueprint: Warning: [Compiler AI_Pawn_BP] [0927,98] Compile of AI_Pawn_BP failed. 5 Fatal Issue(s) 2 Warning(s) [in 69 ms] (/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP.AI_Pawn_BP)
+[2017.11.08-21.25.13:776][888]LogBlueprint: Warning: [Compiler Ai_Controller_BP] [0928,32] Compile of Ai_Controller_BP failed. 10 Fatal Issue(s) 5 Warning(s) [in 443 ms] (/Game/ThirdPersonBP/Blueprints/Ai_Controller_BP.Ai_Controller_BP)
+[2017.11.08-21.25.37:293][293]BlueprintLog: New page: Compile Ai_Controller_BP
+[2017.11.08-21.25.37:350][293]LogBlueprint: Error: [Compiler AI_Pawn_BP] Can't connect pins  Self  and  Stored Pawn : Self Object Reference is not compatible with Object Reference.
+[2017.11.08-21.25.37:350][293]LogBlueprint: Error: [Compiler AI_Pawn_BP] Can't connect pins  Stored Pawn  and  Self : Object Reference is not compatible with Self Object Reference.
+[2017.11.08-21.25.37:350][293]LogBlueprint: Warning: [Compiler AI_Pawn_BP] Could not find a variable named "StoredPawn" in 'AI_Pawn_BP'.
+Make sure 'AI_Pawn_BP' has been compiled for  Set StoredPawn
+[2017.11.08-21.25.37:350][293]LogBlueprint: Warning: [Compiler AI_Pawn_BP] Could not find a variable named "StoredController" in 'AI_Pawn_BP_C'.
+Make sure 'AI_Pawn_BP_C' has been compiled for  Set StoredController
+[2017.11.08-21.25.37:351][293]LogBlueprint: Error: [Compiler AI_Pawn_BP] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.11.08-21.25.37:358][293]LogBlueprint: Error: [Compiler Ai_Controller_BP] Can't connect pins  Stored Pawn  and  Target : Object Reference is not compatible with Actor Object Reference.
+[2017.11.08-21.25.37:358][293]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "SpringArm" in 'Ai_Controller_BP'.
+Make sure 'Ai_Controller_BP' has been compiled for  Get SpringArm
+[2017.11.08-21.25.37:358][293]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "ControllerArrow" in 'Ai_Controller_BP'.
+Make sure 'Ai_Controller_BP' has been compiled for  Get ControllerArrow
+[2017.11.08-21.25.37:359][293]LogBlueprint: Error: [Compiler Ai_Controller_BP] Can't connect pins  Target  and  Stored Pawn : Actor Object Reference is not compatible with Object Reference.
+[2017.11.08-21.25.37:362][293]LogBlueprint: Error: [Compiler AI_Pawn_BP] The property associated with  Stored Pawn  could not be found
+[2017.11.08-21.25.37:362][293]LogBlueprint: Error: [Compiler AI_Pawn_BP] Default value '' for  Stored Controller  is invalid: 'PinSubCategoryObject on pin 'StoredController' is NULL and PinSubCategory is '' not 'self''
+[2017.11.08-21.25.37:363][293]LogBlueprint: Error: [Compiler Ai_Controller_BP] Failed to find class for pin  Stored Pawn
+[2017.11.08-21.25.37:363][293]LogBlueprint: Error: [Compiler Ai_Controller_BP] Failed to find class for pin  Stored Pawn
+[2017.11.08-21.25.37:363][293]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Controller Arrow  could not be found
+[2017.11.08-21.25.37:363][293]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Spring Arm  could not be found
+[2017.11.08-21.25.37:363][293]LogBlueprint: Error: [Compiler Ai_Controller_BP] Failed to find class for pin  Stored Pawn
+[2017.11.08-21.25.37:368][293]LogBlueprint: Warning: [Compiler AI_Pawn_BP] [0951,92] Compile of AI_Pawn_BP failed. 5 Fatal Issue(s) 2 Warning(s) [in 48 ms] (/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP.AI_Pawn_BP)
+[2017.11.08-21.25.37:603][293]LogBlueprint: Warning: [Compiler Ai_Controller_BP] [0952,15] Compile of Ai_Controller_BP failed. 7 Fatal Issue(s) 2 Warning(s) [in 309 ms] (/Game/ThirdPersonBP/Blueprints/Ai_Controller_BP.Ai_Controller_BP)
+[2017.11.08-21.28.47:346][316]LogSavePackage: Save=185.71ms
+[2017.11.08-21.28.47:346][316]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Ai_Controller_BPF3451A6B405D15E9B48AA3AEF021D2BA.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/Ai_Controller_BP.uasset'
+[2017.11.08-21.28.47:351][316]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/Ai_Controller_BP.uasset
+[2017.11.08-21.28.47:355][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AI_Pawn_BP.uasset" SILENT=true
+[2017.11.08-21.28.47:385][316]LogSavePackage: Save=28.41ms
+[2017.11.08-21.28.47:385][316]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AI_Pawn_BP1E92716B4CDBC4F459241A80B8118CA1.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AI_Pawn_BP.uasset'
+[2017.11.08-21.28.47:388][316]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AI_Pawn_BP.uasset
+[2017.11.08-21.28.52:501][636]BlueprintLog: New page: Compile Ai_Controller_BP
+[2017.11.08-21.28.52:562][636]LogBlueprint: Error: [Compiler AI_Pawn_BP] Can't connect pins  Self  and  Stored Pawn : Self Object Reference is not compatible with Object Reference.
+[2017.11.08-21.28.52:562][636]LogBlueprint: Error: [Compiler AI_Pawn_BP] Can't connect pins  Stored Pawn  and  Self : Object Reference is not compatible with Self Object Reference.
+[2017.11.08-21.28.52:562][636]LogBlueprint: Warning: [Compiler AI_Pawn_BP] Could not find a variable named "StoredPawn" in 'AI_Pawn_BP'.
+Make sure 'AI_Pawn_BP' has been compiled for  Set StoredPawn
+[2017.11.08-21.28.52:562][636]LogBlueprint: Warning: [Compiler AI_Pawn_BP] Could not find a variable named "StoredController" in 'AI_Pawn_BP_C'.
+Make sure 'AI_Pawn_BP_C' has been compiled for  Set StoredController
+[2017.11.08-21.28.52:562][636]LogBlueprint: Error: [Compiler AI_Pawn_BP] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.11.08-21.28.52:569][636]LogBlueprint: Error: [Compiler Ai_Controller_BP] Can't connect pins  Stored Pawn  and  Target : Object Reference is not compatible with Actor Object Reference.
+[2017.11.08-21.28.52:570][636]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "SpringArm" in 'Ai_Controller_BP'.
+Make sure 'Ai_Controller_BP' has been compiled for  Get SpringArm
+[2017.11.08-21.28.52:570][636]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "ControllerArrow" in 'Ai_Controller_BP'.
+Make sure 'Ai_Controller_BP' has been compiled for  Get ControllerArrow
+[2017.11.08-21.28.52:571][636]LogBlueprint: Error: [Compiler Ai_Controller_BP] Can't connect pins  Target  and  Stored Pawn : Actor Object Reference is not compatible with Object Reference.
+[2017.11.08-21.28.52:573][636]LogBlueprint: Error: [Compiler AI_Pawn_BP] The property associated with  Stored Pawn  could not be found
+[2017.11.08-21.28.52:573][636]LogBlueprint: Error: [Compiler AI_Pawn_BP] Default value '' for  Stored Controller  is invalid: 'PinSubCategoryObject on pin 'StoredController' is NULL and PinSubCategory is '' not 'self''
+[2017.11.08-21.28.52:574][636]LogBlueprint: Error: [Compiler Ai_Controller_BP] Failed to find class for pin  Stored Pawn
+[2017.11.08-21.28.52:574][636]LogBlueprint: Error: [Compiler Ai_Controller_BP] Failed to find class for pin  Stored Pawn
+[2017.11.08-21.28.52:574][636]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Controller Arrow  could not be found
+[2017.11.08-21.28.52:574][636]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Spring Arm  could not be found
+[2017.11.08-21.28.52:574][636]LogBlueprint: Error: [Compiler Ai_Controller_BP] Failed to find class for pin  Stored Pawn
+[2017.11.08-21.28.52:579][636]LogBlueprint: Warning: [Compiler AI_Pawn_BP] [1147,13] Compile of AI_Pawn_BP failed. 5 Fatal Issue(s) 2 Warning(s) [in 52 ms] (/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP.AI_Pawn_BP)
+[2017.11.08-21.28.52:820][636]LogBlueprint: Warning: [Compiler Ai_Controller_BP] [1147,37] Compile of Ai_Controller_BP failed. 7 Fatal Issue(s) 2 Warning(s) [in 318 ms] (/Game/ThirdPersonBP/Blueprints/Ai_Controller_BP.Ai_Controller_BP)
+[2017.11.08-21.30.03:725][951]LogSlate: Took 0.020670 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.08-21.30.39:315][909]LogEditorTransaction: Undo Create Pin Link
+[2017.11.08-21.30.41:809][ 60]LogEditorTransaction: Undo Break Pin Links
+[2017.11.08-21.30.49:497][591]LogEditorTransaction: Undo Create Pin Link
+[2017.11.08-21.30.50:392][641]LogEditorTransaction: Undo Break Pin Links
+[2017.11.08-21.31.15:010][729]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.037
+[2017.11.08-21.31.15:012][729]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Ai_Controller_BP] ([1] browsable assets)...
+[2017.11.08-21.31.15:012][729]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Ai_Controller_BP]
+[2017.11.08-21.31.15:207][729]LogSavePackage: Save=190.88ms
+[2017.11.08-21.31.15:207][729]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Ai_Controller_BP_Auto2B346483B48B9750D2E5CFA8ECB952A6D.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Ai_Controller_BP_Auto2.uasset'
+[2017.11.08-21.31.15:231][729]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Ai_Controller_BP_Auto2.uasset
+[2017.11.08-21.31.15:231][729]LogFileHelpers: Auto-saving content packages took 0.220
+[2017.11.08-21.32.03:288][442]LogSavePackage: Save=168.56ms
+[2017.11.08-21.32.03:288][442]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Ai_Controller_BPB352AA8446615CE192F84795A0A13A80.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/Ai_Controller_BP.uasset'
+[2017.11.08-21.32.03:292][442]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/Ai_Controller_BP.uasset
+[2017.11.08-21.32.04:026][498]BlueprintLog: New page: Compile Ai_Controller_BP
+[2017.11.08-21.32.04:086][498]LogBlueprint: Error: [Compiler AI_Pawn_BP] Can't connect pins  Self  and  Stored Pawn : Self Object Reference is not compatible with Object Reference.
+[2017.11.08-21.32.04:086][498]LogBlueprint: Error: [Compiler AI_Pawn_BP] Can't connect pins  Stored Pawn  and  Self : Object Reference is not compatible with Self Object Reference.
+[2017.11.08-21.32.04:086][498]LogBlueprint: Warning: [Compiler AI_Pawn_BP] Could not find a variable named "StoredPawn" in 'AI_Pawn_BP'.
+Make sure 'AI_Pawn_BP' has been compiled for  Set StoredPawn
+[2017.11.08-21.32.04:087][498]LogBlueprint: Warning: [Compiler AI_Pawn_BP] Could not find a variable named "StoredController" in 'AI_Pawn_BP_C'.
+Make sure 'AI_Pawn_BP_C' has been compiled for  Set StoredController
+[2017.11.08-21.32.04:087][498]LogBlueprint: Error: [Compiler AI_Pawn_BP] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.11.08-21.32.04:128][498]LogBlueprint: Error: [Compiler Ai_Controller_BP] In use pin  Stored Pawn  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.11.08-21.32.04:128][498]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "SpringArm" in 'Ai_Controller_BP'.
+Make sure 'Ai_Controller_BP' has been compiled for  Get SpringArm
+[2017.11.08-21.32.04:129][498]LogBlueprint: Error: [Compiler Ai_Controller_BP] In use pin  Stored Pawn  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.11.08-21.32.04:129][498]LogBlueprint: Warning: [Compiler Ai_Controller_BP] Could not find a variable named "ControllerArrow" in 'Ai_Controller_BP'.
+Make sure 'Ai_Controller_BP' has been compiled for  Get ControllerArrow
+[2017.11.08-21.32.04:129][498]LogBlueprint: Error: [Compiler Ai_Controller_BP] In use pin  Stored Pawn  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.11.08-21.32.04:133][498]LogBlueprint: Error: [Compiler AI_Pawn_BP] The property associated with  Stored Pawn  could not be found
+[2017.11.08-21.32.04:133][498]LogBlueprint: Error: [Compiler AI_Pawn_BP] Default value '' for  Stored Controller  is invalid: 'PinSubCategoryObject on pin 'StoredController' is NULL and PinSubCategory is '' not 'self''
+[2017.11.08-21.32.04:134][498]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Controller Arrow  could not be found
+[2017.11.08-21.32.04:134][498]LogBlueprint: Error: [Compiler Ai_Controller_BP] The property associated with  Spring Arm  could not be found
+[2017.11.08-21.32.04:140][498]LogBlueprint: Warning: [Compiler AI_Pawn_BP] [1338,69] Compile of AI_Pawn_BP failed. 5 Fatal Issue(s) 2 Warning(s) [in 88 ms] (/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP.AI_Pawn_BP)
+[2017.11.08-21.32.04:377][498]LogBlueprint: Warning: [Compiler Ai_Controller_BP] [1338,93] Compile of Ai_Controller_BP failed. 5 Fatal Issue(s) 2 Warning(s) [in 350 ms] (/Game/ThirdPersonBP/Blueprints/Ai_Controller_BP.Ai_Controller_BP)
+[2017.11.08-21.33.31:445][480]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.08-21.33.38:779][849]LogSavePackage: Save=270.51ms
+[2017.11.08-21.33.38:779][849]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Ai_Controller_BP756F2D7C46D7BBB433A392BA95616992.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/Ai_Controller_BP.uasset'
+[2017.11.08-21.33.38:782][849]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/Ai_Controller_BP.uasset
+[2017.11.08-21.33.48:707][617]LogBlueprint: Error: [Compiler AI_Pawn_BP] Can't connect pins  Self  and  Stored Pawn : Self Object Reference is not compatible with Object Reference.
+[2017.11.08-21.33.48:707][617]LogBlueprint: Error: [Compiler AI_Pawn_BP] Can't connect pins  Stored Pawn  and  Self : Object Reference is not compatible with Self Object Reference.
+[2017.11.08-21.33.48:707][617]LogBlueprint: Warning: [Compiler AI_Pawn_BP] Could not find a variable named "StoredPawn" in 'AI_Pawn_BP'.
+Make sure 'AI_Pawn_BP' has been compiled for  Set StoredPawn
+[2017.11.08-21.33.48:707][617]LogBlueprint: Warning: [Compiler AI_Pawn_BP] Could not find a variable named "StoredController" in 'AI_Pawn_BP_C'.
+Make sure 'AI_Pawn_BP_C' has been compiled for  Set StoredController
+[2017.11.08-21.33.48:707][617]LogBlueprint: Error: [Compiler AI_Pawn_BP] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.11.08-21.33.48:717][617]LogBlueprint: Warning: [Compiler AIS_PlayerController] Could not find a variable named "SpringArm" in 'AIS_PlayerController'.
+Make sure 'AIS_PlayerController' has been compiled for  Get SpringArm
+[2017.11.08-21.33.48:718][617]LogBlueprint: Warning: [Compiler AIS_PlayerController] Could not find a variable named "ControllerArrow" in 'AIS_PlayerController'.
+Make sure 'AIS_PlayerController' has been compiled for  Get ControllerArrow
+[2017.11.08-21.33.48:718][617]LogBlueprint: Error: [Compiler AIS_PlayerController] In use pin  Stored Pawn  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.11.08-21.33.48:721][617]LogBlueprint: Error: [Compiler AIS_PlayerController] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.11.08-21.33.48:722][617]LogBlueprint: Error: [Compiler AI_Pawn_BP] The property associated with  Stored Pawn  could not be found
+[2017.11.08-21.33.48:722][617]LogBlueprint: Error: [Compiler AI_Pawn_BP] Default value '' for  Stored Controller  is invalid: 'PinSubCategoryObject on pin 'StoredController' is NULL and PinSubCategory is '' not 'self''
+[2017.11.08-21.33.48:723][617]LogBlueprint: Error: [Compiler AIS_PlayerController] The property associated with  Controller Arrow  could not be found
+[2017.11.08-21.33.48:723][617]LogBlueprint: Error: [Compiler AIS_PlayerController] The property associated with  Spring Arm  could not be found
+[2017.11.08-21.33.48:726][617]LogBlueprint: Warning: [Compiler AI_Pawn_BP] [1443,27] Compile of AI_Pawn_BP failed. 5 Fatal Issue(s) 2 Warning(s) [in 52 ms] (/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP.AI_Pawn_BP)
+[2017.11.08-21.33.48:726][617]LogBlueprint: Warning: [Compiler AIS_PlayerController] [1443,27] Compile of AIS_PlayerController failed. 4 Fatal Issue(s) 2 Warning(s) [in 52 ms] (/Game/ThirdPersonBP/Blueprints/AIS_PlayerController.AIS_PlayerController)
+[2017.11.08-21.33.48:763][617]LogBlueprint: Error: [Compiler AI_Pawn_BP] Can't connect pins  Self  and  Stored Pawn : Self Object Reference is not compatible with Object Reference.
+[2017.11.08-21.33.48:763][617]LogBlueprint: Error: [Compiler AI_Pawn_BP] Can't connect pins  Stored Pawn  and  Self : Object Reference is not compatible with Self Object Reference.
+[2017.11.08-21.33.48:763][617]LogBlueprint: Warning: [Compiler AI_Pawn_BP] Could not find a variable named "StoredPawn" in 'AI_Pawn_BP'.
+Make sure 'AI_Pawn_BP' has been compiled for  Set StoredPawn
+[2017.11.08-21.33.48:763][617]LogBlueprint: Warning: [Compiler AI_Pawn_BP] Could not find a variable named "StoredController" in 'AI_Pawn_BP_C'.
+Make sure 'AI_Pawn_BP_C' has been compiled for  Set StoredController
+[2017.11.08-21.33.48:763][617]LogBlueprint: Error: [Compiler AI_Pawn_BP] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.11.08-21.33.48:764][617]LogBlueprint: Error: [Compiler AI_Pawn_BP] The property associated with  Stored Pawn  could not be found
+[2017.11.08-21.33.48:764][617]LogBlueprint: Error: [Compiler AI_Pawn_BP] Default value '' for  Stored Controller  is invalid: 'PinSubCategoryObject on pin 'StoredController' is NULL and PinSubCategory is '' not 'self''
+[2017.11.08-21.33.48:764][617]LogBlueprint: Warning: [Compiler AI_Pawn_BP] [1443,31] Compile of AI_Pawn_BP failed. 5 Fatal Issue(s) 2 Warning(s) [in 5 ms] (/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP.AI_Pawn_BP)
+[2017.11.08-21.33.48:797][617]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/AIS_PlayerController.AIS_PlayerController_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Ai_Controller_BP.PackageMetaData'
+[2017.11.08-21.33.48:797][617]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/AIS_PlayerController.AIS_PlayerController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Ai_Controller_BP.PackageMetaData'
+[2017.11.08-21.33.48:797][617]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/AIS_PlayerController.SKEL_AIS_PlayerController_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/Ai_Controller_BP.PackageMetaData'
+[2017.11.08-21.33.49:020][617]LogSavePackage: Save=169.51ms
+[2017.11.08-21.33.49:020][617]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_PlayerController703EE37F4B9C21E3F6CF1086DC1F74B2.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AIS_PlayerController.uasset'
+[2017.11.08-21.33.49:023][617]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AIS_PlayerController.uasset
+[2017.11.08-21.33.49:393][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AI_Pawn_BP.uasset" SILENT=true
+[2017.11.08-21.33.49:448][617]LogSavePackage: Save=44.33ms
+[2017.11.08-21.33.49:448][617]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AI_Pawn_BP2C3BACFD4D2F6A5CEED9519615AB4CFE.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AI_Pawn_BP.uasset'
+[2017.11.08-21.33.49:451][617]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AI_Pawn_BP.uasset
+[2017.11.08-21.34.08:744][348]LogBlueprint: Error: [Compiler AIS_PlayerPawn] Can't connect pins  Self  and  Stored Pawn : Self Object Reference is not compatible with Object Reference.
+[2017.11.08-21.34.08:744][348]LogBlueprint: Error: [Compiler AIS_PlayerPawn] Can't connect pins  Stored Pawn  and  Self : Object Reference is not compatible with Self Object Reference.
+[2017.11.08-21.34.08:744][348]LogBlueprint: Warning: [Compiler AIS_PlayerPawn] Could not find a variable named "StoredPawn" in 'AIS_PlayerPawn'.
+Make sure 'AIS_PlayerPawn' has been compiled for  Set StoredPawn
+[2017.11.08-21.34.08:744][348]LogBlueprint: Warning: [Compiler AIS_PlayerPawn] Could not find a variable named "StoredController" in 'AIS_PlayerPawn_C'.
+Make sure 'AIS_PlayerPawn_C' has been compiled for  Set StoredController
+[2017.11.08-21.34.08:745][348]LogBlueprint: Error: [Compiler AIS_PlayerPawn] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.11.08-21.34.08:745][348]LogBlueprint: Error: [Compiler AIS_PlayerPawn] The property associated with  Stored Pawn  could not be found
+[2017.11.08-21.34.08:745][348]LogBlueprint: Error: [Compiler AIS_PlayerPawn] Default value '' for  Stored Controller  is invalid: 'PinSubCategoryObject on pin 'StoredController' is NULL and PinSubCategory is '' not 'self''
+[2017.11.08-21.34.08:746][348]LogBlueprint: Warning: [Compiler AIS_PlayerPawn] [1463,29] Compile of AIS_PlayerPawn failed. 5 Fatal Issue(s) 2 Warning(s) [in 6 ms] (/Game/ThirdPersonBP/Blueprints/AIS_PlayerPawn.AIS_PlayerPawn)
+[2017.11.08-21.34.08:772][348]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/AIS_PlayerPawn.AIS_PlayerPawn:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP.PackageMetaData'
+[2017.11.08-21.34.08:772][348]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/AIS_PlayerPawn.SKEL_AIS_PlayerPawn_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP.PackageMetaData'
+[2017.11.08-21.34.08:772][348]LogMetaData: Removing '/Game/ThirdPersonBP/Blueprints/AIS_PlayerPawn.AIS_PlayerPawn_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/AI_Pawn_BP.PackageMetaData'
+[2017.11.08-21.34.08:917][348]LogSavePackage: Save=96.27ms
+[2017.11.08-21.34.08:917][348]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_PlayerPawn4CC3B2C549E3972D0924538CB02C7F30.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AIS_PlayerPawn.uasset'
+[2017.11.08-21.34.08:925][348]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AIS_PlayerPawn.uasset
+[2017.11.08-21.34.09:475][348]LogSavePackage: Save=245.98ms
+[2017.11.08-21.34.09:477][348]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_PlayerController4C005AAE4D0D2A7B2E959AA21A07896B.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AIS_PlayerController.uasset'
+[2017.11.08-21.34.09:489][348]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AIS_PlayerController.uasset
+[2017.11.08-21.34.55:662][268]LogProperty: Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'/Game/AI_Stream/AIS_PlayerController.AIS_PlayerController_C''
+[2017.11.08-21.34.55:664][268]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/AI_Stream/AIS_PlayerController.AIS_PlayerController_C',MemberName="StoredPawn",MemberGuid=E4E0E5B24015598E02D6BCBF6C71DDFF)'
+[2017.11.08-21.34.55:665][268]LogBlueprint: Warning: [AIS_PlayerPawn] 'StoredController' variable not found. Base class was probably changed.
+[2017.11.08-21.34.55:665][268]LogBlueprint: Warning: [AIS_PlayerPawn] 'StoredController' variable not found. Base class was probably changed.
+[2017.11.08-21.34.55:665][268]LogBlueprint: Warning: [AIS_PlayerPawn] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.34.55:666][268]LogBlueprint: Warning: [AIS_PlayerPawn] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.34.59:370][609]BlueprintLog: New page: Compile AIS_PlayerPawn
+[2017.11.08-21.34.59:378][609]LogBlueprint: Error: [Compiler AIS_PlayerPawn] Can't connect pins  Self  and  Stored Pawn : Self Object Reference is not compatible with Object Reference.
+[2017.11.08-21.34.59:378][609]LogBlueprint: Error: [Compiler AIS_PlayerPawn] Can't connect pins  Stored Pawn  and  Self : Object Reference is not compatible with Self Object Reference.
+[2017.11.08-21.34.59:378][609]LogBlueprint: Warning: [Compiler AIS_PlayerPawn] Could not find a variable named "StoredPawn" in 'AIS_PlayerPawn'.
+Make sure 'AIS_PlayerPawn' has been compiled for  Set StoredPawn
+[2017.11.08-21.34.59:378][609]LogBlueprint: Warning: [Compiler AIS_PlayerPawn] Could not find a variable named "StoredController" in 'AIS_PlayerPawn_C'.
+Make sure 'AIS_PlayerPawn_C' has been compiled for  Set StoredController
+[2017.11.08-21.34.59:378][609]LogBlueprint: Warning: [Compiler AIS_PlayerPawn] Can't connect pins  Object  and  New Controller : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.11.08-21.34.59:378][609]LogBlueprint: Error: [Compiler AIS_PlayerPawn] In use pin  As AIS Player Controller  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.11.08-21.34.59:378][609]LogBlueprint: Warning: [Compiler AIS_PlayerPawn] Can't connect pins  New Controller  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2017.11.08-21.34.59:379][609]LogBlueprint: Error: [Compiler AIS_PlayerPawn] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.11.08-21.34.59:379][609]LogBlueprint: Error: [Compiler AIS_PlayerPawn] The property associated with  Stored Pawn  could not be found
+[2017.11.08-21.34.59:379][609]LogBlueprint: Error: [Compiler AIS_PlayerPawn] The property associated with  Stored Controller  could not be found
+[2017.11.08-21.34.59:512][609]LogBlueprint: Warning: [Compiler AIS_PlayerPawn] [1514,06] Compile of AIS_PlayerPawn failed. 6 Fatal Issue(s) 4 Warning(s) [in 141 ms] (/Game/ThirdPersonBP/Blueprints/AIS_PlayerPawn.AIS_PlayerPawn)
+[2017.11.08-21.37.06:839][537]LogEditorTransaction: Undo Create Pin Link
+[2017.11.08-21.37.07:888][594]LogEditorTransaction: Undo Create Pin Link
+[2017.11.08-21.37.08:607][646]LogEditorTransaction: Undo Create Pin Link
+[2017.11.08-21.37.09:157][685]LogEditorTransaction: Undo Create Pin Link
+[2017.11.08-21.37.09:550][713]LogEditorTransaction: Undo Change Parameter Type
+[2017.11.08-21.37.09:981][723]LogEditorTransaction: Undo Move Nodes
+[2017.11.08-21.37.10:959][798]LogEditorTransaction: Undo Paste clipboard contents
+[2017.11.08-21.37.14:581][ 32]LogEditorTransaction: Undo Delete current selection
+[2017.11.08-21.37.18:573][235]BlueprintLog: New page: Compile AIS_PlayerController
+[2017.11.08-21.37.18:631][235]LogBlueprint: Error: [Compiler AIS_PlayerPawn] Can't connect pins  Self  and  Stored Pawn : Self Object Reference is not compatible with Object Reference.
+[2017.11.08-21.37.18:631][235]LogBlueprint: Error: [Compiler AIS_PlayerPawn] Can't connect pins  Stored Pawn  and  Self : Object Reference is not compatible with Self Object Reference.
+[2017.11.08-21.37.18:631][235]LogBlueprint: Warning: [Compiler AIS_PlayerPawn] Could not find a variable named "StoredPawn" in 'AIS_PlayerPawn'.
+Make sure 'AIS_PlayerPawn' has been compiled for  Set StoredPawn
+[2017.11.08-21.37.18:632][235]LogBlueprint: Warning: [Compiler AIS_PlayerPawn] Could not find a variable named "StoredController" in 'AIS_PlayerPawn_C'.
+Make sure 'AIS_PlayerPawn_C' has been compiled for  Set StoredController
+[2017.11.08-21.37.18:632][235]LogBlueprint: Error: [Compiler AIS_PlayerPawn] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.11.08-21.37.18:639][235]LogBlueprint: Warning: [Compiler AIS_PlayerController] Could not find a variable named "SpringArm" in 'AIS_PlayerController'.
+Make sure 'AIS_PlayerController' has been compiled for  Get SpringArm
+[2017.11.08-21.37.18:639][235]LogBlueprint: Warning: [Compiler AIS_PlayerController] Could not find a variable named "ControllerArrow" in 'AIS_PlayerController'.
+Make sure 'AIS_PlayerController' has been compiled for  Get ControllerArrow
+[2017.11.08-21.37.18:639][235]LogBlueprint: Error: [Compiler AIS_PlayerController] In use pin  Stored Pawn  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.11.08-21.37.18:642][235]LogBlueprint: Error: [Compiler AIS_PlayerController] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2017.11.08-21.37.18:642][235]LogBlueprint: Error: [Compiler AIS_PlayerPawn] The property associated with  Stored Pawn  could not be found
+[2017.11.08-21.37.18:642][235]LogBlueprint: Error: [Compiler AIS_PlayerPawn] Default value '' for  Stored Controller  is invalid: 'PinSubCategoryObject on pin 'StoredController' is NULL and PinSubCategory is '' not 'self''
+[2017.11.08-21.37.18:643][235]LogBlueprint: Error: [Compiler AIS_PlayerController] The property associated with  Controller Arrow  could not be found
+[2017.11.08-21.37.18:643][235]LogBlueprint: Error: [Compiler AIS_PlayerController] The property associated with  Spring Arm  could not be found
+[2017.11.08-21.37.18:648][235]LogBlueprint: Warning: [Compiler AIS_PlayerPawn] [1653,20] Compile of AIS_PlayerPawn failed. 5 Fatal Issue(s) 2 Warning(s) [in 48 ms] (/Game/ThirdPersonBP/Blueprints/AIS_PlayerPawn.AIS_PlayerPawn)
+[2017.11.08-21.37.18:891][235]LogBlueprint: Warning: [Compiler AIS_PlayerController] [1653,44] Compile of AIS_PlayerController failed. 4 Fatal Issue(s) 2 Warning(s) [in 317 ms] (/Game/ThirdPersonBP/Blueprints/AIS_PlayerController.AIS_PlayerController)
+[2017.11.08-21.37.53:846][562]LogSavePackage: Save=39.51ms
+[2017.11.08-21.37.53:846][562]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_PlayerPawn6B28F05A4AF42CFC047176B10E5C4A1A.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AIS_PlayerPawn.uasset'
+[2017.11.08-21.37.53:849][562]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AIS_PlayerPawn.uasset
+[2017.11.08-21.37.54:013][562]LogSavePackage: Save=159.08ms
+[2017.11.08-21.37.54:014][562]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_PlayerController172ED6FB42998ABCB744D3833D6F5414.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AIS_PlayerController.uasset'
+[2017.11.08-21.37.54:020][562]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/AIS_PlayerController.uasset
+[2017.11.08-21.42.26:823][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.08-21.42.29:689][537]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.08-21.42.30:176][538]Cmd: QUIT_EDITOR
+[2017.11.08-21.42.30:453][538]LogExit: Preparing to exit.
+[2017.11.08-21.42.31:447][538]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/' was aborted.
+[2017.11.08-21.42.31:827][538]LogExit: Editor shut down
+[2017.11.08-21.42.32:375][538]LogExit: Transaction tracking system shut down
+[2017.11.08-21.42.32:898][538]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.08-21.42.32:899][538]LogDirectoryWatcher: A directory notification for '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/' was aborted.
+[2017.11.08-21.42.32:899][538]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.08-21.42.32:899][538]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.08-21.42.32:899][538]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.08-21.42.33:507][538]LogExit: Object subsystem successfully closed.
+[2017.11.08-21.42.33:537][538]LogD3D11RHI: Shutdown
+[2017.11.08-21.42.33:537][538]LogD3D11RHI: CleanupD3DDevice
+[2017.11.08-21.42.33:653][538]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.08-21.42.33:678][538]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.11.08-21.42.33:678][538]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.11.08-21.42.33:686][538]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.11.08-21.42.33:686][538]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.11.08-21.42.33:686][538]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.11.08-21.42.33:686][538]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.08-21.42.33:694][538]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.11.08-21.42.33:695][538]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Collections/' was aborted.
+[2017.11.08-21.42.33:695][538]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Developers/YuriMeitzen/Collections/' was aborted.
+[2017.11.08-21.42.33:695][538]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Collections/' was aborted.
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.11.08-21.42.33:695][538]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.11.08-21.42.33:696][538]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.11.08-21.42.33:697][538]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.11.08-21.42.33:697][538]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.11.08-21.42.33:697][538]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.11.08-21.42.33:697][538]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.11.08-21.42.33:697][538]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.11.08-21.42.33:697][538]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.11.08-21.42.33:697][538]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.11.08-21.42.33:697][538]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.11.08-21.42.33:697][538]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.11.08-21.42.34:121][538]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.11.08-21.42.34:121][538]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.11.08-21.42.34:121][538]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.11.08-21.42.34:121][538]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.11.08-21.42.34:121][538]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.11.08-21.42.34:121][538]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.11.08-21.42.34:122][538]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.11.08-21.42.34:122][538]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.11.08-21.42.34:122][538]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.11.08-21.42.34:122][538]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.11.08-21.42.34:122][538]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.11.08-21.42.34:122][538]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.11.08-21.42.34:122][538]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.11.08-21.42.34:122][538]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.11.08-21.42.34:122][538]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.11.08-21.42.34:123][538]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.11.08-21.42.34:123][538]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.11.08-21.42.34:124][538]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.11.08-21.42.34:124][538]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.11.08-21.42.34:124][538]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.11.08-21.42.34:124][538]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.11.08-21.42.34:125][538]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.11.08-21.42.34:125][538]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.11.08-21.42.34:125][538]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.11.08-21.42.34:180][538]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.11.08-21.42.34:180][538]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.11.08-21.42.34:180][538]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.11.08-21.42.34:180][538]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.11.08-21.42.34:180][538]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.11.08-21.42.34:181][538]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.11.08-21.42.34:181][538]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.11.08-21.42.34:181][538]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.11.08-21.42.34:181][538]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.11.08-21.42.34:181][538]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.11.08-21.42.34:208][538]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.11.08-21.42.34:214][538]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.11.08-21.42.34:214][538]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.11.08-21.42.34:214][538]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.11.08-21.42.34:214][538]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.11.08-21.42.34:214][538]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.11.08-21.42.34:214][538]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.11.08-21.42.34:214][538]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.11.08-21.42.34:215][538]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.11.08-21.42.34:215][538]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.11.08-21.42.34:215][538]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.11.08-21.42.34:216][538]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.11.08-21.42.34:216][538]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.11.08-21.42.34:216][538]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.11.08-21.42.34:216][538]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.11.08-21.42.34:216][538]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.11.08-21.42.34:216][538]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.11.08-21.42.34:216][538]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.11.08-21.42.34:216][538]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.11.08-21.42.34:216][538]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.11.08-21.42.34:217][538]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.11.08-21.42.34:230][538]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.11.08-21.42.34:231][538]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.11.08-21.42.34:233][538]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.11.08-21.42.34:234][538]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.11.08-21.42.34:234][538]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.11.08-21.42.34:234][538]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.11.08-21.42.34:234][538]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.11.08-21.42.34:234][538]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.11.08-21.42.34:234][538]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.11.08-21.42.34:234][538]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.11.08-21.42.34:234][538]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.11.08-21.42.34:234][538]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.11.08-21.42.34:234][538]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.11.08-21.42.34:336][538]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.11.08-21.42.34:437][538]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.11.08-21.42.34:437][538]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.11.08-21.42.34:437][538]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.11.08-21.42.34:437][538]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.11.08-21.42.34:437][538]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.11.08-21.42.34:437][538]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.11.08-21.42.34:439][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.08-21.42.34:440][538]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.08-21.42.34:441][538]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.08-21.42.34:441][538]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.08-21.42.34:441][538]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.08-21.42.34:441][538]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.08-21.42.34:441][538]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.08-21.42.34:444][538]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.08-21.42.34:444][538]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.08-21.42.34:444][538]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.08-21.42.34:444][538]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.08-21.42.34:444][538]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.08-21.42.34:445][538]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.08-21.42.34:445][538]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.08-21.42.34:445][538]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.08-21.42.34:445][538]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.08-21.42.34:445][538]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.08-21.42.34:445][538]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.08-21.42.34:445][538]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.08-21.42.34:445][538]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.08-21.42.34:445][538]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.08-21.42.34:445][538]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.08-21.42.34:445][538]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.08-21.42.34:454][538]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.08-21.42.34:554][538]LogDerivedDataCache: Shutdown
+[2017.11.08-21.42.34:554][538]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.08-21.42.34:554][538]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.08-21.42.34:554][538]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.08-21.42.34:554][538]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.08-21.42.34:555][538]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.08-21.42.34:555][538]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.08-21.42.34:555][538]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.08-21.42.34:555][538]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.08-21.42.34:555][538]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.08-21.42.34:555][538]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.08-21.42.34:555][538]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.08-21.42.34:555][538]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.08-21.42.34:555][538]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.08-21.42.34:555][538]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.08-21.42.34:556][538]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.08-21.42.34:556][538]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.08-21.42.34:556][538]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.08-21.42.34:556][538]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.08-21.42.34:556][538]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.08-21.42.34:556][538]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.08-21.42.34:556][538]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.08-21.42.34:556][538]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.08-21.42.34:556][538]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.08-21.42.34:557][538]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.08-21.42.34:557][538]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.08-21.42.34:557][538]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.08-21.42.34:557][538]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.08-21.42.34:557][538]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.08-21.42.34:557][538]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.08-21.42.34:557][538]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.08-21.42.34:557][538]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.08-21.42.34:558][538]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.08-21.42.34:558][538]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.08-21.42.34:558][538]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.08-21.42.34:558][538]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.08-21.42.34:558][538]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.08-21.42.34:558][538]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.08-21.42.34:558][538]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.08-21.42.34:558][538]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.08-21.42.34:558][538]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.08-21.42.34:558][538]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.08-21.42.34:558][538]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.08-21.42.34:559][538]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.08-21.42.34:559][538]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.08-21.42.34:559][538]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.08-21.42.34:559][538]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.08-21.42.34:559][538]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.08-21.42.34:559][538]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.08-21.42.34:559][538]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.08-21.42.34:559][538]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.08-21.42.34:559][538]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.08-21.42.34:560][538]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.08-21.42.34:560][538]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.08-21.42.34:560][538]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB98B6BA2-44F5-2187-2603-39AB20F3D8EB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=4d336c304cb600f3833bee9ec6324b6b%7C97e6c6ec20b34e1681bb9ded12457367%7Cea9e9fd9-3d7e-4d9a-8813-872780a612b3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.08-21.42.34:566][538]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.08-21.42.34:574][538]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.08-21.42.34:575][538]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.08-21.42.34:575][538]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.08-21.42.34:575][538]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.08-21.42.34:576][538]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.08-21.42.34:576][538]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.08-21.42.34:576][538]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.08-21.42.34:586][538]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.08-21.42.34:586][538]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.08-21.42.34:586][538]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.08-21.42.34:586][538]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.08-21.42.34:586][538]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.08-21.42.34:586][538]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.08-21.42.34:586][538]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.08-21.42.34:586][538]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.08-21.42.34:586][538]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.08-21.42.34:586][538]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.08-21.42.34:586][538]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.08-21.42.34:590][538]LogExit: Exiting.
+[2017.11.08-21.42.34:618][538]Log file closed, 11/08/17 19:42:34

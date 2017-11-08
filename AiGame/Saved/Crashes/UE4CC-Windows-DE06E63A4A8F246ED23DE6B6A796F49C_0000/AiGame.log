@@ -1,0 +1,649 @@
+﻿Log file open, 11/08/17 18:57:13
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: AiGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-584379668) SRandInit(-584379668).
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.248969
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: D:/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.08-20.57.14:406][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.08-20.57.14:406][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.08-20.57.14:422][  0]LogInit: Computer: WELTALL
+[2017.11.08-20.57.14:422][  0]LogInit: User: YuriMeitzen
+[2017.11.08-20.57.14:422][  0]LogInit: CPU Page size=4096, Cores=3
+[2017.11.08-20.57.14:422][  0]LogInit: High frequency timer resolution =3.433668 MHz
+[2017.11.08-20.57.14:423][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.11.08-20.57.14:423][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.08-20.57.14:423][  0]LogMemory: Process Physical Memory: 278.75 MB used, 278.75 MB peak
+[2017.11.08-20.57.14:423][  0]LogMemory: Process Virtual Memory: 279.96 MB used, 279.96 MB peak
+[2017.11.08-20.57.14:423][  0]LogMemory: Physical Memory: 4977.13 MB used,  3173.45 MB free, 8150.58 MB total
+[2017.11.08-20.57.14:423][  0]LogMemory: Virtual Memory: 673.12 MB used,  3173.45 MB free, 134217728.00 MB total
+[2017.11.08-20.57.14:625][  0]LogInit: Using OS detected language (en-US).
+[2017.11.08-20.57.14:625][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.11.08-20.57.14:629][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.08-20.57.15:509][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.08-20.57.15:531][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2017.11.08-20.57.15:531][  0]LogD3D11RHI:       2024/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.11.08-20.57.15:533][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.08-20.57.15:533][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.08-20.57.15:533][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.08-20.57.15:541][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.08-20.57.15:541][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.08-20.57.15:541][  0]LogWindows: EnumDisplayDevices:
+[2017.11.08-20.57.15:541][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2017.11.08-20.57.15:541][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.08-20.57.15:542][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.08-20.57.15:542][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.08-20.57.15:542][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.08-20.57.15:543][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.08-20.57.15:543][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.11.08-20.57.15:543][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2017.11.08-20.57.15:543][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
+[2017.11.08-20.57.15:543][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2017.11.08-20.57.15:543][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.08-20.57.15:572][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.08-20.57.15:586][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.11.08-20.57.15:587][  0]LogD3D11RHI: HDR output is supported on display 0 (AMD Device: 0x0, Display: 0x0).
+[2017.11.08-20.57.15:587][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Intermediate/Shaders/WorkingDirectory/920/).
+[2017.11.08-20.57.15:587][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Yuri Meitzen/AppData/Local/Temp/UnrealShaderWorkingDir/392973824FD57DD7E321A18167BF2E73/'.
+[2017.11.08-20.57.15:587][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.08-20.57.17:280][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.08-20.57.17:399][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.08-20.57.17:526][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.08-20.57.17:648][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.08-20.57.17:763][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.08-20.57.17:876][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.08-20.57.18:024][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.08-20.57.18:154][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.08-20.57.18:267][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.08-20.57.18:419][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.08-20.57.18:534][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.08-20.57.18:668][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.08-20.57.18:782][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.08-20.57.18:910][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.08-20.57.19:031][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.08-20.57.19:277][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.08-20.57.19:277][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.08-20.57.19:376][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.08-20.57.19:570][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.08-20.57.19:635][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.08-20.57.19:770][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.08-20.57.19:940][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.08-20.57.20:099][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.08-20.57.20:203][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.08-20.57.20:203][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.08-20.57.20:889][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.08-20.57.21:082][  0]LogDerivedDataCache: Loaded boot cache 0.19s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.08-20.57.21:082][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.08-20.57.21:082][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.08-20.57.21:082][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.08-20.57.21:082][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.08-20.57.21:082][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.08-20.57.21:110][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.08-20.57.21:123][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.08-20.57.21:141][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.08-20.57.21:141][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.08-20.57.21:142][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.08-20.57.21:142][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.08-20.57.21:504][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
+[2017.11.08-20.57.21:682][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.08-20.57.22:151][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.08-20.57.22:197][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.08-20.57.22:198][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.08-20.57.22:198][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.08-20.57.22:198][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.08-20.57.22:198][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.08-20.57.22:224][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.08-20.57.22:744][  0]LogNetVersion: AiGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2679581370)
+[2017.11.08-20.57.22:986][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.058583 seconds
+[2017.11.08-20.57.22:993][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.08-20.57.22:993][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.08-20.57.22:993][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.08-20.57.23:063][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.08-20.57.27:368][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.08-20.57.27:449][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.08-20.57.28:426][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.08-20.57.28:858][  0]SourceControl: Source control is disabled
+[2017.11.08-20.57.28:858][  0]SourceControl: Source control is disabled
+[2017.11.08-20.57.28:909][  0]SourceControl: Source control is disabled
+[2017.11.08-20.57.28:960][  0]SourceControl: Source control is disabled
+[2017.11.08-20.57.29:601][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.08-20.57.29:864][  0]LogOcInput: OculusInput pre-init called
+[2017.11.08-20.57.30:145][  0]LogEngine: Initializing Engine...
+[2017.11.08-20.57.30:148][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.08-20.57.30:661][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.08-20.57.30:661][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.08-20.57.30:948][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.08-20.57.30:995][  0]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.08-20.57.31:060][  0]LogInit: FAudioDevice initialized.
+[2017.11.08-20.57.31:319][  0]LogDerivedDataCache: Saved boot cache 0.26s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.08-20.57.31:398][  0]LogInit: Texture streaming: Enabled
+[2017.11.08-20.57.31:661][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.08-20.57.31:661][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={9B825711-4D61-8943-482C-9A9F8EDD3145}
+[2017.11.08-20.57.32:108][  0]LogInit: Transaction tracking system initialized
+[2017.11.08-20.57.32:874][  0]BlueprintLog: New page: Editor Load
+[2017.11.08-20.57.34:532][  0]LocalizationService: Localization service is disabled
+[2017.11.08-20.57.35:150][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2017.11.08-20.57.35:150][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2017.11.08-20.57.35:150][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
+[2017.11.08-20.57.35:351][  0]LogConsoleResponse: Display: 
+[2017.11.08-20.57.35:558][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.08-20.57.35:558][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.08-20.57.35:558][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.08-20.57.36:351][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/' took 0.01s
+[2017.11.08-20.57.37:060][  0]SourceControl: Source control is disabled
+[2017.11.08-20.57.37:060][  0]Cmd: MAP LOAD FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.08-20.57.37:061][  0]LightingResults: New page: Lighting Build
+[2017.11.08-20.57.37:171][  0]MapCheck: New page: Map Check
+[2017.11.08-20.57.37:171][  0]LightingResults: New page: Lighting Build
+[2017.11.08-20.57.38:442][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.08-20.57.38:457][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.08-20.57.38:516][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.08-20.57.38:616][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 99,808ms to complete.
+[2017.11.08-20.57.38:616][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.556
+[2017.11.08-20.57.38:938][  0]LogCollectionManager: Loaded 0 collections in 0.001991 seconds
+[2017.11.08-20.57.39:073][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Collections/' took 0.01s
+[2017.11.08-20.57.39:073][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Developers/YuriMeitzen/Collections/' took 0.02s
+[2017.11.08-20.57.39:073][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Collections/' took 0.01s
+[2017.11.08-20.57.39:073][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.11.08-20.57.39:110][  0]LogContentBrowser: Native class hierarchy populated in 0.0361 seconds. Added 2386 classes and 500 folders.
+[2017.11.08-20.57.39:253][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.11.08-20.57.39:342][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0101 seconds. Added 0 classes and 0 folders.
+[2017.11.08-20.57.39:434][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0035 seconds. Added 1 classes and 2 folders.
+[2017.11.08-20.57.39:620][  0]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.08-20.57.39:626][  0]LogSlate: Took 0.000351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.08-20.57.39:634][  0]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.08-20.57.39:851][  0]LogRenderer: Reallocating scene render targets to support 1036x576 Format 9 NumSamples 1 (Frame:1).
+[2017.11.08-20.57.40:171][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.11.08-20.57.40:171][  0]LogLoad: (Engine Initialization) Total time: 28.30 seconds
+[2017.11.08-20.57.40:171][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.08-20.57.40:172][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.08-20.57.40:172][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.08-20.57.40:547][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.11.08-20.57.40:642][  0]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-20.57.41:528][  3]LogAssetRegistry: Asset discovery search completed in 20.0461 seconds
+[2017.11.08-20.57.41:534][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.08-20.57.41:534][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000196 seconds (updated 0 objects)
+[2017.11.08-20.57.41:573][  3]LogSlate: Took 0.000847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-21.03.41:322][450]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.08-21.03.41:826][450]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 113 classes and 0 folders.
+[2017.11.08-21.03.42:707][450]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.08-21.03.45:596][591]LogSlate: Took 0.000409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.08-21.04.58:018][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23447"
+[2017.11.08-21.04.58:018][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23478"
+[2017.11.08-21.04.58:019][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23524"
+[2017.11.08-21.04.58:019][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23527"
+[2017.11.08-21.04.58:019][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23530"
+[2017.11.08-21.04.58:019][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23700"
+[2017.11.08-21.04.58:020][411]LogLinker: Can't find file '/Game/AIStream/PlayerBlueprints/AIS_PlayerPawn'
+[2017.11.08-21.04.58:020][411]LogLinker: Can't find file '/Game/AIStream/PlayerBlueprints/AIS_PlayerPawn'
+[2017.11.08-21.04.58:020][411]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/AIStream/PlayerBlueprints/AIS_PlayerPawn.AIS_PlayerPawn_C',MemberName="ControllerArrow")'
+[2017.11.08-21.04.58:020][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_32154"
+[2017.11.08-21.04.58:020][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23706"
+[2017.11.08-21.04.58:021][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23713"
+[2017.11.08-21.04.58:021][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23723"
+[2017.11.08-21.04.58:021][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23727"
+[2017.11.08-21.04.58:021][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23739"
+[2017.11.08-21.04.58:021][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23745"
+[2017.11.08-21.04.58:021][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23749"
+[2017.11.08-21.04.58:021][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24025"
+[2017.11.08-21.04.58:021][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24151"
+[2017.11.08-21.04.58:021][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24158"
+[2017.11.08-21.04.58:021][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24160"
+[2017.11.08-21.04.58:021][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24162"
+[2017.11.08-21.04.58:021][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24468"
+[2017.11.08-21.04.58:022][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24472"
+[2017.11.08-21.04.58:022][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24818"
+[2017.11.08-21.04.58:022][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24859"
+[2017.11.08-21.04.58:022][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25473"
+[2017.11.08-21.04.58:022][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25488"
+[2017.11.08-21.04.58:022][411]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/AIStream/PlayerBlueprints/AIS_PlayerPawn.AIS_PlayerPawn_C',MemberName="SpringArm")'
+[2017.11.08-21.04.58:022][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_32160"
+[2017.11.08-21.04.58:023][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25496"
+[2017.11.08-21.04.58:023][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25505"
+[2017.11.08-21.04.58:023][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25514"
+[2017.11.08-21.04.58:023][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25520"
+[2017.11.08-21.04.58:023][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25535"
+[2017.11.08-21.04.58:023][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25550"
+[2017.11.08-21.04.58:023][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25562"
+[2017.11.08-21.04.58:023][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25574"
+[2017.11.08-21.04.58:023][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25592"
+[2017.11.08-21.04.58:023][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25598"
+[2017.11.08-21.04.58:023][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25640"
+[2017.11.08-21.04.58:023][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25652"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25654"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25661"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25663"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25969"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26249"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26251"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26263"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26265"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26269"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26283"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26287"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26292"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26297"
+[2017.11.08-21.04.58:024][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26330"
+[2017.11.08-21.04.58:025][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26345"
+[2017.11.08-21.04.58:025][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26784"
+[2017.11.08-21.04.58:025][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26790"
+[2017.11.08-21.04.58:025][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_30831"
+[2017.11.08-21.04.58:025][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31220"
+[2017.11.08-21.04.58:025][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31259"
+[2017.11.08-21.04.58:025][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31271"
+[2017.11.08-21.04.58:025][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31458"
+[2017.11.08-21.04.58:025][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31316"
+[2017.11.08-21.04.58:025][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31328"
+[2017.11.08-21.04.58:025][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31340"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31352"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31416"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31418"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31423"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31438"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31443"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31494"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31496"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31498"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31500"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31502"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31505"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31514"
+[2017.11.08-21.04.58:026][411]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31968"
+[2017.11.08-21.04.58:027][411]LogBlueprint: Warning: [Ai_Controller_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:027][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'StoredPawn' pin not found
+[2017.11.08-21.04.58:027][411]LogBlueprint: Warning: [Ai_Controller_BP] 'ControllerArrow' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:028][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'ControllerArrow' pin not found
+[2017.11.08-21.04.58:028][411]LogBlueprint: Warning: [Ai_Controller_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:028][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'StoredPawn' pin not found
+[2017.11.08-21.04.58:028][411]LogBlueprint: Warning: [Ai_Controller_BP] 'MovementRate' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:028][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'MovementRate' pin not found
+[2017.11.08-21.04.58:028][411]LogBlueprint: Warning: [Ai_Controller_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:029][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'StoredPawn' pin not found
+[2017.11.08-21.04.58:029][411]LogBlueprint: Warning: [Ai_Controller_BP] 'SpringArm' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:029][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'SpringArm' pin not found
+[2017.11.08-21.04.58:029][411]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bRightClick' pin not found
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'RightClickHoldCounter' pin not found
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'RightClickHoldCounter' pin not found
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'RightClickHoldCounter' pin not found
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bRightClick' pin not found
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bRightClick' pin not found
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:030][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bRightClick' pin not found
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'LeftClickHoldCounter' pin not found
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bLeftClick' pin not found
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bLeftClick' pin not found
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'LeftClickHoldCounter' pin not found
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'LeftClickHoldCounter' pin not found
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bLeftClick' pin not found
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.04.58:031][411]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bLeftClick' pin not found
+[2017.11.08-21.04.59:534][494]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.08-21.05.03:529][656]LogEditorTransaction: Undo Paste clipboard contents
+[2017.11.08-21.05.10:057][219]LogSavePackage: Save=33.91ms
+[2017.11.08-21.05.10:057][219]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Ai_Controller_BPFB391F8E40F1EA2696637FA448B02472.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/Ai_Controller_BP.uasset'
+[2017.11.08-21.05.10:081][219]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/Ai_Controller_BP.uasset
+[2017.11.08-21.09.18:379][616]LogLinker: Can't find file '/Game/AIStream/PlayerBlueprints/AIS_PlayerController'
+[2017.11.08-21.09.18:380][616]LogLinker: Can't find file '/Game/AIStream/PlayerBlueprints/AIS_PlayerController'
+[2017.11.08-21.09.18:380][616]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/AIStream/PlayerBlueprints/AIS_PlayerController.AIS_PlayerController_C',MemberName="ReceiveBeginPlay")'
+[2017.11.08-21.09.18:380][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_5196"
+[2017.11.08-21.09.18:380][616]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/AIStream/PlayerBlueprints/AIS_PlayerController.AIS_PlayerController_C',MemberName="ReceiveTick")'
+[2017.11.08-21.09.18:380][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_5198"
+[2017.11.08-21.09.18:381][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23447"
+[2017.11.08-21.09.18:381][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23478"
+[2017.11.08-21.09.18:381][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23524"
+[2017.11.08-21.09.18:381][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23527"
+[2017.11.08-21.09.18:381][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23530"
+[2017.11.08-21.09.18:381][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23700"
+[2017.11.08-21.09.18:382][616]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/AIStream/PlayerBlueprints/AIS_PlayerPawn.AIS_PlayerPawn_C',MemberName="ControllerArrow")'
+[2017.11.08-21.09.18:382][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_32154"
+[2017.11.08-21.09.18:382][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23706"
+[2017.11.08-21.09.18:382][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23713"
+[2017.11.08-21.09.18:382][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23723"
+[2017.11.08-21.09.18:382][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23727"
+[2017.11.08-21.09.18:382][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23739"
+[2017.11.08-21.09.18:382][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23745"
+[2017.11.08-21.09.18:382][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_23749"
+[2017.11.08-21.09.18:382][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24025"
+[2017.11.08-21.09.18:383][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24151"
+[2017.11.08-21.09.18:383][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24158"
+[2017.11.08-21.09.18:383][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24160"
+[2017.11.08-21.09.18:383][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24162"
+[2017.11.08-21.09.18:383][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24468"
+[2017.11.08-21.09.18:383][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24472"
+[2017.11.08-21.09.18:383][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24818"
+[2017.11.08-21.09.18:383][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_24859"
+[2017.11.08-21.09.18:383][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25473"
+[2017.11.08-21.09.18:383][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25488"
+[2017.11.08-21.09.18:384][616]LogProperty: Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/AIStream/PlayerBlueprints/AIS_PlayerPawn.AIS_PlayerPawn_C',MemberName="SpringArm")'
+[2017.11.08-21.09.18:384][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_32160"
+[2017.11.08-21.09.18:384][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25496"
+[2017.11.08-21.09.18:384][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25505"
+[2017.11.08-21.09.18:384][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25514"
+[2017.11.08-21.09.18:384][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25520"
+[2017.11.08-21.09.18:384][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25535"
+[2017.11.08-21.09.18:384][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25550"
+[2017.11.08-21.09.18:384][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25562"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25574"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25592"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25598"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25640"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25652"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25654"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25661"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25663"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_25969"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26249"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26251"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26263"
+[2017.11.08-21.09.18:385][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26265"
+[2017.11.08-21.09.18:386][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26269"
+[2017.11.08-21.09.18:386][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26283"
+[2017.11.08-21.09.18:386][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26287"
+[2017.11.08-21.09.18:386][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26292"
+[2017.11.08-21.09.18:386][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26297"
+[2017.11.08-21.09.18:386][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26330"
+[2017.11.08-21.09.18:386][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26345"
+[2017.11.08-21.09.18:386][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26784"
+[2017.11.08-21.09.18:386][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_26790"
+[2017.11.08-21.09.18:386][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_30831"
+[2017.11.08-21.09.18:386][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31220"
+[2017.11.08-21.09.18:386][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31259"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31271"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31458"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31316"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31328"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31340"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31352"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31416"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31418"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31423"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31438"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31443"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31494"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31496"
+[2017.11.08-21.09.18:387][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31498"
+[2017.11.08-21.09.18:388][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31500"
+[2017.11.08-21.09.18:388][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31502"
+[2017.11.08-21.09.18:388][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31505"
+[2017.11.08-21.09.18:388][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31514"
+[2017.11.08-21.09.18:388][616]Error: BEGIN OBJECT: Invalid class specified: Begin Object Class=EdGraphPin Name="EdGraphPin_31968"
+[2017.11.08-21.09.18:394][616]LogBlueprint: Warning: [Ai_Controller_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:395][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'StoredPawn' pin not found
+[2017.11.08-21.09.18:395][616]LogBlueprint: Warning: [Ai_Controller_BP] 'ControllerArrow' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:395][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'ControllerArrow' pin not found
+[2017.11.08-21.09.18:395][616]LogBlueprint: Warning: [Ai_Controller_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:395][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'StoredPawn' pin not found
+[2017.11.08-21.09.18:395][616]LogBlueprint: Warning: [Ai_Controller_BP] 'MovementRate' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:395][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'MovementRate' pin not found
+[2017.11.08-21.09.18:395][616]LogBlueprint: Warning: [Ai_Controller_BP] 'StoredPawn' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:395][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'StoredPawn' pin not found
+[2017.11.08-21.09.18:396][616]LogBlueprint: Warning: [Ai_Controller_BP] 'SpringArm' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:396][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'SpringArm' pin not found
+[2017.11.08-21.09.18:396][616]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:396][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bRightClick' pin not found
+[2017.11.08-21.09.18:397][616]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:397][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'RightClickHoldCounter' pin not found
+[2017.11.08-21.09.18:397][616]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:397][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'RightClickHoldCounter' pin not found
+[2017.11.08-21.09.18:397][616]LogBlueprint: Warning: [Ai_Controller_BP] 'RightClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:397][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'RightClickHoldCounter' pin not found
+[2017.11.08-21.09.18:397][616]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:397][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bRightClick' pin not found
+[2017.11.08-21.09.18:397][616]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:397][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bRightClick' pin not found
+[2017.11.08-21.09.18:397][616]LogBlueprint: Warning: [Ai_Controller_BP] 'bRightClick' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:397][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bRightClick' pin not found
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'LeftClickHoldCounter' pin not found
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bLeftClick' pin not found
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bLeftClick' pin not found
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'LeftClickHoldCounter' pin not found
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] 'LeftClickHoldCounter' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'LeftClickHoldCounter' pin not found
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bLeftClick' pin not found
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] 'bLeftClick' variable not found. Base class was probably changed.
+[2017.11.08-21.09.18:398][616]LogBlueprint: Warning: [Ai_Controller_BP] RecreatePinForVariable: 'bLeftClick' pin not found
+[2017.11.08-21.09.30:872][351]LogSavePackage: Save=127.68ms
+[2017.11.08-21.09.30:872][351]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Ai_Controller_BP8AC1FE094123A96C27793EA8C28D40C3.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/Ai_Controller_BP.uasset'
+[2017.11.08-21.09.30:875][351]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/ThirdPersonBP/Blueprints/Ai_Controller_BP.uasset
+[2017.11.08-21.09.40:270][462]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.08-21.09.40:270][462]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.08-21.09.41:822][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_5197"
+[2017.11.08-21.09.41:822][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_5200"
+[2017.11.08-21.09.41:822][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23449"
+[2017.11.08-21.09.41:822][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23480"
+[2017.11.08-21.09.41:822][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23526"
+[2017.11.08-21.09.41:822][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23529"
+[2017.11.08-21.09.41:822][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23531"
+[2017.11.08-21.09.41:822][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23701"
+[2017.11.08-21.09.41:822][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_32154"
+[2017.11.08-21.09.41:822][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23712"
+[2017.11.08-21.09.41:822][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23714"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23726"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23730"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23740"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23748"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_23752"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_24026"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_24157"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_24159"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_24161"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_24165"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_24471"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_24477"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_24820"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_24861"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25477"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25489"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_32161"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25498"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25507"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25515"
+[2017.11.08-21.09.41:823][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25524"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25539"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25553"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25565"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25576"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25593"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25602"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25643"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25653"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25660"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25662"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25664"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_25972"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26250"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26254"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26264"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26268"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26273"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26286"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26291"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26296"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26301"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26333"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26353"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26785"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_26792"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_30833"
+[2017.11.08-21.09.41:824][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31222"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31262"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31279"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31463"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31319"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31331"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31343"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31355"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31417"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31422"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31427"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31442"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31447"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31495"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31497"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31499"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31501"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31504"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31513"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31515"
+[2017.11.08-21.09.41:825][561]Error: BEGIN OBJECT: Invalid class specified:    Begin Object Class=EdGraphPin Name="EdGraphPin_31969"
+[2017.11.08-21.09.42:059][561]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.215 s
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: === Handled ensure: ===
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: 
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: Ensure condition failed: FunctionReference.IsSelfContext() || (MemberClass != nullptr) || bIsLocalMacro [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\K2Node_CallFunction.cpp] [Line: 1699]
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: Unknown member class in /Game/ThirdPersonBP/Blueprints/Ai_Controller_BP.Ai_Controller_BP:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_19
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: Stack: 
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B5093606
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B4E1C2D2
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B4E34746
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000AE0B2516
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000AE0CC58F
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000AF31B360
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000AF3032D0
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000AC8002AD
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000AC80008F
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000AC788E51
+[2017.11.08-21.09.42:059][561]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000AC78DBB6
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000B0B97DD0
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000B0BD6850
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x00000000AD20FFAD
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000B0B84761
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000B0B560BE
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000B0B57CC6
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000B0BD80B7
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000B0BC9B18
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B506B108
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B5053B51
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B506D22B
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B504ECB2
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: USER32.dll!0x00000000F0F3BC50
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: USER32.dll!0x00000000F0F3B5CF
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000B506D936
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor.exe!0x000000005EF94BE2
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor.exe!0x000000005EFA3970
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor.exe!0x000000005EFA39EA
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor.exe!0x000000005EFB02D9
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: UE4Editor.exe!0x000000005EFB1C47
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: KERNEL32.DLL!0x00000000F0972774
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: ntdll.dll!0x00000000F2C40D51
+[2017.11.08-21.09.42:060][561]LogOutputDevice: Error: 
+[2017.11.08-21.09.42:068][561]LogStats:                SubmitErrorReport -  0.000 s
