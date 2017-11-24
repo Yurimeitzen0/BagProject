@@ -1,0 +1,1302 @@
+﻿Log file open, 11/23/17 18:51:54
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: AiGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-815824744) SRandInit(-815824744).
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.318850
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.23-20.51.56:137][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.23-20.51.56:137][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.23-20.51.56:257][  0]LogInit: Computer: WELTALL
+[2017.11.23-20.51.56:257][  0]LogInit: User: YuriMeitzen
+[2017.11.23-20.51.56:257][  0]LogInit: CPU Page size=4096, Cores=3
+[2017.11.23-20.51.56:257][  0]LogInit: High frequency timer resolution =3.433667 MHz
+[2017.11.23-20.51.56:258][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.11.23-20.51.56:258][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.23-20.51.56:258][  0]LogMemory: Process Physical Memory: 278.32 MB used, 278.32 MB peak
+[2017.11.23-20.51.56:258][  0]LogMemory: Process Virtual Memory: 280.15 MB used, 280.15 MB peak
+[2017.11.23-20.51.56:258][  0]LogMemory: Physical Memory: 3897.86 MB used,  4252.71 MB free, 8150.58 MB total
+[2017.11.23-20.51.56:258][  0]LogMemory: Virtual Memory: 673.12 MB used,  4252.71 MB free, 134217728.00 MB total
+[2017.11.23-20.51.57:159][  0]LogInit: Using OS detected language (en-US).
+[2017.11.23-20.51.57:159][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.11.23-20.51.57:385][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.23-20.52.07:848][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.23-20.52.07:897][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2017.11.23-20.52.07:897][  0]LogD3D11RHI:       2024/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.11.23-20.52.07:899][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.23-20.52.07:899][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.23-20.52.07:899][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.23-20.52.07:908][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.23-20.52.07:908][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.23-20.52.07:908][  0]LogWindows: EnumDisplayDevices:
+[2017.11.23-20.52.07:908][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2017.11.23-20.52.07:909][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.23-20.52.07:910][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.23-20.52.07:910][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.23-20.52.07:910][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.23-20.52.07:911][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.23-20.52.07:911][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.11.23-20.52.07:911][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2017.11.23-20.52.07:911][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
+[2017.11.23-20.52.07:911][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2017.11.23-20.52.07:911][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.23-20.52.07:938][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.23-20.52.07:953][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.11.23-20.52.07:953][  0]LogD3D11RHI: HDR output is supported on display 0 (AMD Device: 0x0, Display: 0x0).
+[2017.11.23-20.52.07:953][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Intermediate/Shaders/WorkingDirectory/10436/).
+[2017.11.23-20.52.07:954][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Yuri Meitzen/AppData/Local/Temp/UnrealShaderWorkingDir/F1097B5044F1E42EBEDE5B8046D8FFCF/'.
+[2017.11.23-20.52.07:954][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.23-20.52.16:292][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.23-20.52.16:369][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.23-20.52.16:445][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.23-20.52.16:514][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.23-20.52.16:616][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.23-20.52.16:684][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.23-20.52.16:759][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.23-20.52.16:831][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.23-20.52.16:886][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.23-20.52.16:996][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.23-20.52.17:064][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.23-20.52.17:133][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.23-20.52.17:197][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.23-20.52.17:260][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.23-20.52.17:326][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.23-20.52.17:455][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.23-20.52.17:456][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.23-20.52.17:501][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.23-20.52.17:727][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.23-20.52.17:772][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.23-20.52.17:842][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.23-20.52.17:909][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.23-20.52.17:975][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.23-20.52.18:080][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.23-20.52.18:080][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.23-20.52.19:757][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.23-20.52.20:977][  0]LogDerivedDataCache: Loaded boot cache 1.20s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.23-20.52.20:977][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.23-20.52.20:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.23-20.52.20:977][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.23-20.52.20:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.23-20.52.20:977][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.23-20.52.21:623][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.23-20.52.21:679][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.23-20.52.21:714][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.23-20.52.21:715][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.23-20.52.21:786][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.23-20.52.21:786][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.23-20.52.32:831][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2017.11.23-20.52.33:430][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.23-20.52.37:325][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.23-20.52.38:898][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.23-20.52.38:958][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.23-20.52.38:958][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.23-20.52.38:958][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.23-20.52.38:958][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.23-20.52.38:958][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.23-20.52.41:188][  0]LogNetVersion: AiGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2679581370)
+[2017.11.23-20.52.42:981][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.149623 seconds
+[2017.11.23-20.52.42:990][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.23-20.52.42:990][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.23-20.52.42:990][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.23-20.52.43:066][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.23-20.53.14:810][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.23-20.53.14:864][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.23-20.53.16:633][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.23-20.53.17:513][  0]SourceControl: Source control is disabled
+[2017.11.23-20.53.17:513][  0]SourceControl: Source control is disabled
+[2017.11.23-20.53.17:566][  0]SourceControl: Source control is disabled
+[2017.11.23-20.53.17:618][  0]SourceControl: Source control is disabled
+[2017.11.23-20.53.18:842][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.23-20.53.19:116][  0]LogOcInput: OculusInput pre-init called
+[2017.11.23-20.53.19:619][  0]LogEngine: Initializing Engine...
+[2017.11.23-20.53.19:622][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.23-20.53.20:865][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.23-20.53.20:865][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.23-20.53.21:049][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.23-20.53.21:072][  0]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.23-20.53.21:100][  0]LogInit: FAudioDevice initialized.
+[2017.11.23-20.53.21:348][  0]LogDerivedDataCache: Saved boot cache 0.25s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.23-20.53.21:391][  0]LogInit: Texture streaming: Enabled
+[2017.11.23-20.53.21:533][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.23-20.53.21:896][  0]LogInit: Transaction tracking system initialized
+[2017.11.23-20.53.22:261][  0]BlueprintLog: New page: Editor Load
+[2017.11.23-20.53.23:431][  0]LocalizationService: Localization service is disabled
+[2017.11.23-20.53.24:481][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2017.11.23-20.53.24:481][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2017.11.23-20.53.24:481][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
+[2017.11.23-20.53.24:839][  0]LogConsoleResponse: Display: 
+[2017.11.23-20.53.28:182][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.23-20.53.28:182][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.23-20.53.28:183][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.23-20.53.29:279][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/' took 0.02s
+[2017.11.23-20.53.31:112][  0]SourceControl: Source control is disabled
+[2017.11.23-20.53.31:112][  0]Cmd: MAP LOAD FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.23-20.53.31:113][  0]LightingResults: New page: Lighting Build
+[2017.11.23-20.53.31:163][  0]MapCheck: New page: Map Check
+[2017.11.23-20.53.31:163][  0]LightingResults: New page: Lighting Build
+[2017.11.23-20.53.38:275][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.23-20.53.38:361][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.23-20.53.38:410][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.23-20.53.38:497][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 86,411ms to complete.
+[2017.11.23-20.53.38:497][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 7.385
+[2017.11.23-20.53.38:904][  0]LogCollectionManager: Loaded 0 collections in 0.019696 seconds
+[2017.11.23-20.53.38:996][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Collections/' took 0.01s
+[2017.11.23-20.53.38:997][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Developers/YuriMeitzen/Collections/' took 0.01s
+[2017.11.23-20.53.38:997][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Collections/' took 0.01s
+[2017.11.23-20.53.38:997][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.23-20.53.39:016][  0]LogContentBrowser: Native class hierarchy populated in 0.0193 seconds. Added 2393 classes and 502 folders.
+[2017.11.23-20.53.39:100][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.11.23-20.53.40:932][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.11.23-20.53.40:992][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.11.23-20.53.41:191][  0]LogSlate: Took 0.025162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.23-20.53.41:213][  0]LogSlate: Took 0.018897 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.23-20.53.41:233][  0]LogSlate: Took 0.013389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.23-20.53.41:552][  0]LogRenderer: Reallocating scene render targets to support 1036x576 Format 9 NumSamples 1 (Frame:1).
+[2017.11.23-20.53.41:828][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.11.23-20.53.41:829][  0]LogLoad: (Engine Initialization) Total time: 118.39 seconds
+[2017.11.23-20.53.41:829][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.23-20.53.41:830][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.23-20.53.41:830][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.23-20.53.42:193][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.11.23-20.53.42:517][  1]LogAssetRegistry: Asset discovery search completed in 69.7091 seconds
+[2017.11.23-20.53.42:520][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.23-20.53.42:520][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2017.11.23-20.53.46:324][ 89]LogSlate: Took 0.026455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.23-21.15.31:045][439]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.23-21.15.31:776][439]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.23-21.15.32:078][439]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 113 classes and 0 folders.
+[2017.11.23-21.15.33:517][439]LogSlate: Took 0.015958 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.23-21.20.55:257][625]LogSlate: Took 0.000623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.23-21.21.04:084][651]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThirdPersonExampleMap' took 0.060
+[2017.11.23-21.21.04:115][651]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/Service_StaminaCheck] ([1] browsable assets)...
+[2017.11.23-21.21.04:115][651]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/Service_StaminaCheck]
+[2017.11.23-21.21.04:628][651]LogSavePackage: Save=75.09ms
+[2017.11.23-21.21.04:628][651]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Service_StaminaCheck_Auto176184888484028CACC39C78C7FB32192.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Autosaves/Game/Blueprints/AI/Service_StaminaCheck_Auto1.uasset'
+[2017.11.23-21.21.04:649][651]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Autosaves/Game/Blueprints/AI/Service_StaminaCheck_Auto1.uasset
+[2017.11.23-21.21.04:649][651]LogFileHelpers: Auto-saving content packages took 0.564
+[2017.11.23-21.30.08:904][342]BlueprintLog: New page: Compile Service_StaminaCheck
+[2017.11.23-21.30.10:195][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Service_StaminaCheck" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset" SILENT=true
+[2017.11.23-21.30.10:304][420]LogSavePackage: Save=91.13ms
+[2017.11.23-21.30.10:304][420]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Service_StaminaCheck2F1C98F942D5A948BE1ADB95A03FF0A6.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset'
+[2017.11.23-21.30.10:312][420]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset
+[2017.11.23-21.30.16:234][812]LogSlate: Took 0.016413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.23-21.31.38:334][ 10]LogSavePackage: Save=166.10ms
+[2017.11.23-21.31.38:335][ 10]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/ThirdPersonExampleMap_Auto2BFE6BFF9421369FCB78CEDB032BBAFEA.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Autosaves/Game/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.11.23-21.31.38:335][ 10]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Autosaves/Game/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.11.23-21.31.38:338][ 10]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThirdPersonExampleMap' took 0.265
+[2017.11.23-21.31.38:338][ 10]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.265
+[2017.11.23-21.31.38:340][ 10]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/AI/AIS_Character] ([1] browsable assets)...
+[2017.11.23-21.31.38:379][ 10]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/AI/AIS_Character.AIS_Character]
+[2017.11.23-21.31.38:379][ 10]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/AIS_Character]
+[2017.11.23-21.31.38:546][ 10]LogSavePackage: Save=154.29ms
+[2017.11.23-21.31.38:546][ 10]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_Character_Auto2E1C3571F4296A941C9AD00AB997C4F96.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Autosaves/Game/Blueprints/AI/AIS_Character_Auto2.uasset'
+[2017.11.23-21.31.38:562][ 10]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Autosaves/Game/Blueprints/AI/AIS_Character_Auto2.uasset
+[2017.11.23-21.31.38:563][ 10]LogFileHelpers: Auto-saving content packages took 0.224
+[2017.11.23-21.32.08:801][525]BlueprintLog: New page: Compile Service_StaminaCheck
+[2017.11.23-21.32.10:144][581]LogSavePackage: Save=154.58ms
+[2017.11.23-21.32.10:144][581]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/ThirdPersonExampleMapDEC9C40344BB84851A9F1DA29FCA8496.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap'
+[2017.11.23-21.32.10:152][581]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap
+[2017.11.23-21.32.10:199][581]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.325
+[2017.11.23-21.32.10:202][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/AIS_Character" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_Character.uasset" SILENT=true
+[2017.11.23-21.32.10:363][581]LogSavePackage: Save=154.31ms
+[2017.11.23-21.32.10:363][581]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_CharacterDE279B6441F5716E242682A631FD5C49.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_Character.uasset'
+[2017.11.23-21.32.10:366][581]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_Character.uasset
+[2017.11.23-21.32.10:369][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/AIS_BT" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_BT.uasset" SILENT=true
+[2017.11.23-21.32.10:403][581]LogSavePackage: Save=21.52ms
+[2017.11.23-21.32.10:403][581]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_BT970DB31145882CE64A00EDADA407A767.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_BT.uasset'
+[2017.11.23-21.32.10:406][581]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_BT.uasset
+[2017.11.23-21.32.10:409][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Service_StaminaCheck" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset" SILENT=true
+[2017.11.23-21.32.10:502][581]LogSavePackage: Save=88.06ms
+[2017.11.23-21.32.10:502][581]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Service_StaminaCheck4D8000DA439EDAD905D5D9A938B1DD91.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset'
+[2017.11.23-21.32.10:505][581]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset
+[2017.11.23-21.35.00:842][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Service_StaminaCheck" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset" SILENT=true
+[2017.11.23-21.35.00:938][200]LogSavePackage: Save=89.29ms
+[2017.11.23-21.35.00:938][200]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Service_StaminaCheck77C2338A4ED025F0F047A58ABD97C963.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset'
+[2017.11.23-21.35.00:941][200]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset
+[2017.11.23-21.35.01:573][246]BlueprintLog: New page: Compile Service_StaminaCheck
+[2017.11.23-21.35.01:631][246]LogBlueprint: Error: [Compiler Service_StaminaCheck] This blueprint (self) is not a BTTask_BlueprintBase, therefore ' Target ' must have a connection.
+[2017.11.23-21.35.01:768][246]LogBlueprint: Warning: [Compiler Service_StaminaCheck] [2598,33] Compile of Service_StaminaCheck failed. 1 Fatal Issue(s) 0 Warning(s) [in 194 ms] (/Game/Blueprints/AI/Service_StaminaCheck.Service_StaminaCheck)
+[2017.11.23-21.35.07:144][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Service_StaminaCheck" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset" SILENT=true
+[2017.11.23-21.35.07:229][625]LogSavePackage: Save=79.26ms
+[2017.11.23-21.35.07:229][625]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Service_StaminaCheck14F88A9A4E2BE52B7BD12FABE533B136.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset'
+[2017.11.23-21.35.07:234][625]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset
+[2017.11.23-21.35.07:800][664]BlueprintLog: New page: Compile Service_StaminaCheck
+[2017.11.23-21.38.07:309][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/Task_Debug" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_Debug.uasset" SILENT=true
+[2017.11.23-21.38.07:350][913]LogSavePackage: Save=38.35ms
+[2017.11.23-21.38.07:350][913]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_Debug302AF4D04C2CF494E6737DA6800BF382.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_Debug.uasset'
+[2017.11.23-21.38.07:352][913]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_Debug.uasset
+[2017.11.23-21.38.08:441][  4]BlueprintLog: New page: Compile Task_Debug
+[2017.11.23-21.38.13:566][332]BlueprintLog: New page: Compile AIS_Character
+[2017.11.23-21.38.17:337][401]LogSavePackage: Save=154.78ms
+[2017.11.23-21.38.17:337][401]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/ThirdPersonExampleMap23DB1FC045F5A91A8351F984D4433500.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap'
+[2017.11.23-21.38.17:342][401]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap
+[2017.11.23-21.38.17:386][401]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.333
+[2017.11.23-21.38.17:390][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/Task_UseItem" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_UseItem.uasset" SILENT=true
+[2017.11.23-21.38.17:486][401]LogSavePackage: Save=75.13ms
+[2017.11.23-21.38.17:486][401]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_UseItem9B12423145B5448A1EAE6995ED3DB62D.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_UseItem.uasset'
+[2017.11.23-21.38.17:489][401]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_UseItem.uasset
+[2017.11.23-21.38.22:623][841]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.23-21.38.22:781][841]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.38.22:793][841]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.23-21.38.22:803][841]LogPlayLevel: [PlayLevel] Compiling Task_UseItem before play...
+[2017.11.23-21.38.22:846][841]LogPlayLevel: PlayLevel: Blueprint regeneration took 53 ms (1 blueprints)
+[2017.11.23-21.38.23:034][841]PIE: New page: PIE session: ThirdPersonExampleMap (23/11/2017 17:38:22)
+[2017.11.23-21.38.23:053][841]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.23-21.38.23:145][841]LogPlayLevel: PIE: StaticDuplicateObject took: (0.091583s)
+[2017.11.23-21.38.23:146][841]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.23-21.38.23:146][841]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2017.11.23-21.38.23:158][841]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.105471s)
+[2017.11.23-21.38.23:222][841]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.23-21.38.23:231][841]LogInit: FAudioDevice initialized.
+[2017.11.23-21.38.23:308][841]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.23-21.38.23:468][841]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.23-19.38.23
+[2017.11.23-21.38.23:687][841]LogWorld: Bringing up level for play took: 0.251646
+[2017.11.23-21.38.23:946][841]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.11.23-21.38.24:094][841]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 1,948
+[2017.11.23-21.38.24:096][841]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.38.26:727][ 69]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.26:737][ 70]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.26:745][ 71]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.26:754][ 72]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.26:762][ 73]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.26:771][ 74]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.27:793][196]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.27:801][197]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.27:810][198]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.27:818][199]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.27:826][200]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.27:835][201]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.27:843][202]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.27:852][203]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.28:712][300]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.28:720][301]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.28:729][302]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.28:738][303]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.28:746][304]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.28:755][305]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.28:764][306]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.38.33:938][920]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.38.34:081][920]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.38.56:059][184]LogSavePackage: Save=152.47ms
+[2017.11.23-21.38.56:059][184]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/ThirdPersonExampleMapB6EB2EE245BD6BBEDE8E3DB5AB996A40.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap'
+[2017.11.23-21.38.56:064][184]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap
+[2017.11.23-21.38.56:111][184]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.318
+[2017.11.23-21.38.57:086][270]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.23-21.38.57:118][270]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.38.57:118][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.23-21.38.57:118][270]PIE: New page: PIE session: ThirdPersonExampleMap (23/11/2017 17:38:57)
+[2017.11.23-21.38.57:118][270]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.23-21.38.57:155][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036581s)
+[2017.11.23-21.38.57:156][270]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.23-21.38.57:157][270]LogPlayLevel: PIE: World Init took: (0.001712s)
+[2017.11.23-21.38.57:157][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.038873s)
+[2017.11.23-21.38.57:242][270]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.23-21.38.57:263][270]LogInit: FAudioDevice initialized.
+[2017.11.23-21.38.57:318][270]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.23-21.38.57:322][270]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.23-19.38.57
+[2017.11.23-21.38.57:322][270]LogWorld: Bringing up level for play took: 0.003681
+[2017.11.23-21.38.57:325][270]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 1,179
+[2017.11.23-21.38.57:325][270]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.39.02:031][809]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.39.02:086][809]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.39.03:668][960]LogEditorViewport: Clicking on Actor (LMB): AIS_Character_C (AIS_Character)
+[2017.11.23-21.39.11:198][564]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.23-21.39.11:227][564]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.39.11:227][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.23-21.39.11:227][564]PIE: New page: PIE session: ThirdPersonExampleMap (23/11/2017 17:39:11)
+[2017.11.23-21.39.11:227][564]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.23-21.39.11:259][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031177s)
+[2017.11.23-21.39.11:260][564]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.23-21.39.11:260][564]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2017.11.23-21.39.11:260][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032918s)
+[2017.11.23-21.39.11:307][564]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.23-21.39.11:317][564]LogInit: FAudioDevice initialized.
+[2017.11.23-21.39.11:352][564]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.23-21.39.11:355][564]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.23-19.39.11
+[2017.11.23-21.39.11:356][564]LogWorld: Bringing up level for play took: 0.003549
+[2017.11.23-21.39.11:358][564]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap -0,788
+[2017.11.23-21.39.11:359][564]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.39.17:929][326]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.17:937][327]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.17:946][328]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.17:954][329]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.17:962][330]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.17:971][331]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.17:979][332]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.19:334][491]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.19:342][492]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.19:351][493]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.19:359][494]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.19:368][495]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.19:377][496]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.19:385][497]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.39.31:584][743]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-21.39.33:586][947]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-21.39.34:584][ 46]Cmd: SELECT NONE
+[2017.11.23-21.39.35:591][145]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-21.39.37:590][378]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-21.39.39:584][609]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-21.39.39:727][626]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.39.39:822][626]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.40.22:863][617]BlueprintLog: New page: Compile Service_StaminaCheck
+[2017.11.23-21.40.24:523][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Service_StaminaCheck" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset" SILENT=true
+[2017.11.23-21.40.24:630][710]LogSavePackage: Save=91.33ms
+[2017.11.23-21.40.24:630][710]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Service_StaminaCheck931936D44D03D79734D5D3B455E3FDD5.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset'
+[2017.11.23-21.40.24:633][710]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset
+[2017.11.23-21.40.27:940][951]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.23-21.40.27:970][951]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.40.27:970][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.23-21.40.27:970][951]PIE: New page: PIE session: ThirdPersonExampleMap (23/11/2017 17:40:27)
+[2017.11.23-21.40.27:970][951]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.23-21.40.28:006][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035418s)
+[2017.11.23-21.40.28:007][951]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.23-21.40.28:007][951]LogPlayLevel: PIE: World Init took: (0.001634s)
+[2017.11.23-21.40.28:008][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.037836s)
+[2017.11.23-21.40.28:056][951]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.23-21.40.28:066][951]LogInit: FAudioDevice initialized.
+[2017.11.23-21.40.28:097][951]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.23-21.40.28:100][951]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.23-19.40.28
+[2017.11.23-21.40.28:101][951]LogWorld: Bringing up level for play took: 0.003560
+[2017.11.23-21.40.28:103][951]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap -0,043
+[2017.11.23-21.40.28:103][951]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.40.28:196][954]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.28:437][982]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.28:691][ 12]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.28:944][ 42]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.29:199][ 72]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.29:452][102]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.29:704][132]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.29:954][162]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.30:207][192]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.30:461][222]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.30:713][252]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.30:965][282]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.31:223][312]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.31:477][342]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.31:731][372]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.31:985][402]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.32:242][432]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.32:497][462]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.32:750][492]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.32:851][504]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.40.32:859][505]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.40.32:869][506]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.40.32:877][507]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.40.32:886][508]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.40.32:894][509]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.40.32:903][510]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.40.33:007][522]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.33:261][551]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.33:511][580]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.33:763][609]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.34:021][639]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.34:274][668]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.40.34:387][681]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.40.34:472][681]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.42.47:512][145]BlueprintLog: New page: Compile Service_StaminaCheck
+[2017.11.23-21.42.48:613][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/AIS_BT" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_BT.uasset" SILENT=true
+[2017.11.23-21.42.48:648][193]LogSavePackage: Save=22.48ms
+[2017.11.23-21.42.48:648][193]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_BT19ACA0634948270CDCE2598848D82CD1.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_BT.uasset'
+[2017.11.23-21.42.48:650][193]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_BT.uasset
+[2017.11.23-21.42.48:654][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Service_StaminaCheck" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset" SILENT=true
+[2017.11.23-21.42.48:747][193]LogSavePackage: Save=88.58ms
+[2017.11.23-21.42.48:748][193]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Service_StaminaCheckC58144D94DE92E23383A5C9D509453C3.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset'
+[2017.11.23-21.42.48:750][193]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset
+[2017.11.23-21.42.50:869][343]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.23-21.42.50:899][343]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.42.50:899][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.23-21.42.50:900][343]PIE: New page: PIE session: ThirdPersonExampleMap (23/11/2017 17:42:50)
+[2017.11.23-21.42.50:900][343]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.23-21.42.50:939][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038823s)
+[2017.11.23-21.42.50:940][343]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.23-21.42.50:940][343]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2017.11.23-21.42.50:940][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040590s)
+[2017.11.23-21.42.50:985][343]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.23-21.42.50:995][343]LogInit: FAudioDevice initialized.
+[2017.11.23-21.42.51:028][343]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.23-21.42.51:032][343]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.23-19.42.51
+[2017.11.23-21.42.51:033][343]LogWorld: Bringing up level for play took: 0.003498
+[2017.11.23-21.42.51:035][343]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 0,888
+[2017.11.23-21.42.51:035][343]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.42.51:108][345]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.51:358][374]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.51:613][404]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.51:870][434]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.52:124][464]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.52:382][494]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.52:639][524]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.52:896][554]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.53:151][584]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.53:410][614]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.53:665][644]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.53:920][674]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.54:176][704]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.54:427][733]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.54:444][735]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.54:453][736]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.54:462][737]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.54:470][738]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.54:479][739]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.54:488][740]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.54:497][741]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.54:678][761]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.54:943][787]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.55:198][815]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.55:435][841]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.55:444][842]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.55:453][843]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.55:453][843]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.55:461][844]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.55:470][845]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.55:479][846]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.55:489][847]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.42.55:704][870]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.55:962][898]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.56:215][925]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.56:468][953]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.56:726][982]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.56:983][ 11]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.57:236][ 39]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.57:487][ 67]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.57:743][ 96]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.57:999][125]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.58:258][154]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.58:513][183]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.58:771][213]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.59:029][243]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.59:281][272]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.59:535][301]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.42.59:789][330]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.43.00:041][358]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.43.00:292][383]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.43.00:544][412]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.43.00:797][441]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.43.01:054][470]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.43.01:307][498]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.43.01:566][528]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.43.01:821][557]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.43.02:078][586]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.43.02:336][615]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 2
+[2017.11.23-21.43.02:458][629]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.43.02:560][629]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.44.17:798][635]LogSavePackage: Save=157.32ms
+[2017.11.23-21.44.17:798][635]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/ThirdPersonExampleMap6FBD4E6349B0144DC7EA9FA10FEF3BCC.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap'
+[2017.11.23-21.44.17:802][635]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap
+[2017.11.23-21.44.17:860][635]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.352
+[2017.11.23-21.44.17:883][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/AIS_Character" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_Character.uasset" SILENT=true
+[2017.11.23-21.44.18:053][635]LogSavePackage: Save=156.22ms
+[2017.11.23-21.44.18:053][635]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_CharacterD60CF3BD44E273DC718FE2B2240A3664.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_Character.uasset'
+[2017.11.23-21.44.18:056][635]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_Character.uasset
+[2017.11.23-21.44.18:585][657]BlueprintLog: New page: Compile AIS_Character
+[2017.11.23-21.45.35:959][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/Task_UseItem" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_UseItem.uasset" SILENT=true
+[2017.11.23-21.45.36:059][901]LogSavePackage: Save=74.25ms
+[2017.11.23-21.45.36:059][901]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_UseItem6829BA6A4E524590DA2FD29BEB841FBC.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_UseItem.uasset'
+[2017.11.23-21.45.36:062][901]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_UseItem.uasset
+[2017.11.23-21.45.36:105][901]LogSavePackage: Save=37.69ms
+[2017.11.23-21.45.36:105][901]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_RunBaseBehavior369153DB419A04A71421DC81F7180F0D.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunBaseBehavior.uasset'
+[2017.11.23-21.45.36:108][901]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunBaseBehavior.uasset
+[2017.11.23-21.46.21:740][650]LogSavePackage: Save=149.78ms
+[2017.11.23-21.46.21:740][650]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/ThirdPersonExampleMap037B167B4A0E64C73B12C8961A7A906E.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap'
+[2017.11.23-21.46.21:745][650]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap
+[2017.11.23-21.46.21:793][650]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.318
+[2017.11.23-21.46.21:852][650]LogSavePackage: Save=31.46ms
+[2017.11.23-21.46.21:852][650]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_RunBaseBehavior41A45B0F407DF47E03AACFA123133CAF.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunBaseBehavior.uasset'
+[2017.11.23-21.46.21:855][650]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunBaseBehavior.uasset
+[2017.11.23-21.46.22:741][708]BlueprintLog: New page: Compile Task_RunBaseBehavior
+[2017.11.23-21.47.46:934][963]LogSavePackage: Save=18.40ms
+[2017.11.23-21.47.46:934][963]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Health_BT587E821E4561B72CE2D75290ECB884A5.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/StatBehaviors/Health_BT.uasset'
+[2017.11.23-21.47.46:937][963]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/StatBehaviors/Health_BT.uasset
+[2017.11.23-21.48.16:938][850]BlueprintLog: New page: Compile Task_RunBaseBehavior
+[2017.11.23-21.48.17:965][900]LogSavePackage: Save=28.81ms
+[2017.11.23-21.48.17:965][900]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_RunBaseBehavior05025DD8427D77B88C903BBD65522C1F.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunBaseBehavior.uasset'
+[2017.11.23-21.48.17:968][900]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunBaseBehavior.uasset
+[2017.11.23-21.49.04:479][834]LogSavePackage: Save=20.28ms
+[2017.11.23-21.49.04:479][834]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Stamina_BTCAC927294D9AD44311C55CB193CD73CF.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/StatBehaviors/Stamina_BT.uasset'
+[2017.11.23-21.49.04:482][834]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/StatBehaviors/Stamina_BT.uasset
+[2017.11.23-21.50.26:439][215]BlueprintLog: New page: Compile AIS_Character
+[2017.11.23-21.50.30:038][244]LogSavePackage: Save=152.88ms
+[2017.11.23-21.50.30:039][244]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/ThirdPersonExampleMap27E10182468C4EEB0C92D8A271A5B80D.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap'
+[2017.11.23-21.50.30:043][244]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap
+[2017.11.23-21.50.30:097][244]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.337
+[2017.11.23-21.50.30:121][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/AIS_Character" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_Character.uasset" SILENT=true
+[2017.11.23-21.50.30:283][244]LogSavePackage: Save=150.07ms
+[2017.11.23-21.50.30:283][244]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_Character776209DD47F05A256BCB62B4E211A2C4.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_Character.uasset'
+[2017.11.23-21.50.30:286][244]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_Character.uasset
+[2017.11.23-21.50.30:290][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/Task_UseItem" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_UseItem.uasset" SILENT=true
+[2017.11.23-21.50.30:368][244]LogSavePackage: Save=71.51ms
+[2017.11.23-21.50.30:368][244]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_UseItem4FD23BA54B1F79D4D530B5B23CF1E0E2.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_UseItem.uasset'
+[2017.11.23-21.50.30:370][244]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_UseItem.uasset
+[2017.11.23-21.53.47:476][953]LogSlate: Took 0.020109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.11.23-21.54.24:306][618]LogClass: Warning: Property DesiredStatKey of DesiredStatKey has a struct type mismatch (tag Key != prop BlackboardKeySelector) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.11.23-21.56.26:445][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Service_StaminaCheck" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset" SILENT=true
+[2017.11.23-21.56.26:559][368]LogSavePackage: Save=98.30ms
+[2017.11.23-21.56.26:559][368]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Service_StaminaCheckE97FE48B49E7AEE0F3A5D9BEF30F5C27.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset'
+[2017.11.23-21.56.26:564][368]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Service_StaminaCheck.uasset
+[2017.11.23-21.56.30:048][560]BlueprintLog: New page: Compile Service_StaminaCheck
+[2017.11.23-21.57.21:242][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/AIS_BT" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_BT.uasset" SILENT=true
+[2017.11.23-21.57.21:275][855]LogSavePackage: Save=19.82ms
+[2017.11.23-21.57.21:275][855]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_BTCC2CA9A44CAB62736157B884721CC728.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_BT.uasset'
+[2017.11.23-21.57.21:278][855]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_BT.uasset
+[2017.11.23-21.59.28:135][539]BlueprintLog: New page: Compile Service_StaminaCheck
+[2017.11.23-21.59.38:478][216]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.23-21.59.38:517][216]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.59.38:531][216]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.23-21.59.38:544][216]LogPlayLevel: [PlayLevel] Compiling Task_UseItem before play...
+[2017.11.23-21.59.38:708][216]LogPlayLevel: PlayLevel: Blueprint regeneration took 177 ms (1 blueprints)
+[2017.11.23-21.59.38:708][216]PIE: New page: PIE session: ThirdPersonExampleMap (23/11/2017 17:59:38)
+[2017.11.23-21.59.38:709][216]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.23-21.59.38:741][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032692s)
+[2017.11.23-21.59.38:743][216]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.23-21.59.38:743][216]LogPlayLevel: PIE: World Init took: (0.001650s)
+[2017.11.23-21.59.38:743][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034849s)
+[2017.11.23-21.59.38:794][216]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.23-21.59.38:804][216]LogInit: FAudioDevice initialized.
+[2017.11.23-21.59.38:835][216]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.23-21.59.38:839][216]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.23-19.59.38
+[2017.11.23-21.59.38:840][216]LogWorld: Bringing up level for play took: 0.003618
+[2017.11.23-21.59.38:852][216]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 0,706
+[2017.11.23-21.59.38:852][216]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-21.59.41:228][479]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.41:237][480]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.41:246][481]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.41:256][482]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.41:265][483]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.41:274][484]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.41:283][485]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.42:587][629]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.42:596][630]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.42:605][631]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.42:615][632]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.42:624][633]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.42:633][634]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.42:642][635]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.43:483][726]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.43:492][727]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.43:501][728]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.43:510][729]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.43:520][730]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.43:529][731]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.43:539][732]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-21.59.58:518][450]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-21.59.58:759][477]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.23-21.59.59:241][520]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	Task_UseItem_C /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AIS_AiCon_C_0.BTComponent.Task_UseItem_C_0
+	Function /Game/Blueprints/AI/Tasks/Task_UseItem.Task_UseItem_C:ExecuteUbergraph_Task_UseItem:050F
+[2017.11.23-21.59.59:241][520]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'ExecuteUbergraph_Task_UseItem' from node: Finish Execute in graph: EventGraph in object: Task_UseItem with description: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+[2017.11.23-22.00.00:681][678]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.00:690][679]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.00:699][680]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.00:707][681]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.00:716][682]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.00:725][683]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.00:734][684]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.00:966][710]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	Task_UseItem_C /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AIS_AiCon_C_0.BTComponent.Task_UseItem_C_0
+	Function /Game/Blueprints/AI/Tasks/Task_UseItem.Task_UseItem_C:ExecuteUbergraph_Task_UseItem:050F
+[2017.11.23-22.00.00:966][710]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'ExecuteUbergraph_Task_UseItem' from node: Finish Execute in graph: EventGraph in object: Task_UseItem with description: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+[2017.11.23-22.00.01:793][803]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.01:802][804]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.01:811][805]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.01:820][806]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.01:830][807]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.01:838][808]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.01:847][809]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.00.02:329][863]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	Task_UseItem_C /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AIS_AiCon_C_0.BTComponent.Task_UseItem_C_0
+	Function /Game/Blueprints/AI/Tasks/Task_UseItem.Task_UseItem_C:ExecuteUbergraph_Task_UseItem:050F
+[2017.11.23-22.00.02:329][863]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'ExecuteUbergraph_Task_UseItem' from node: Finish Execute in graph: EventGraph in object: Task_UseItem with description: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+[2017.11.23-22.00.14:511][278]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-22.00.16:511][510]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-22.00.18:516][741]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-22.00.19:821][893]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.00.19:932][893]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.03.11:349][396]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.23-22.03.11:386][396]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.03.11:400][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.23-22.03.11:400][396]PIE: New page: PIE session: ThirdPersonExampleMap (23/11/2017 18:03:11)
+[2017.11.23-22.03.11:400][396]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.23-22.03.11:428][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028052s)
+[2017.11.23-22.03.11:430][396]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.23-22.03.11:430][396]LogPlayLevel: PIE: World Init took: (0.002108s)
+[2017.11.23-22.03.11:431][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030677s)
+[2017.11.23-22.03.11:489][396]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.23-22.03.11:499][396]LogInit: FAudioDevice initialized.
+[2017.11.23-22.03.11:536][396]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.23-22.03.11:540][396]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.23-20.03.11
+[2017.11.23-22.03.11:541][396]LogWorld: Bringing up level for play took: 0.003595
+[2017.11.23-22.03.11:543][396]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap -0,603
+[2017.11.23-22.03.11:544][396]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.03.14:327][712]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.03.14:336][713]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.03.14:345][714]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.03.14:354][715]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.03.14:363][716]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.03.14:373][717]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.03.14:382][718]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.03.31:354][665]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-22.03.31:432][674]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.23-22.03.32:070][747]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	Task_UseItem_C /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AIS_AiCon_C_0.BTComponent.Task_UseItem_C_0
+	Function /Game/Blueprints/AI/Tasks/Task_UseItem.Task_UseItem_C:ExecuteUbergraph_Task_UseItem:050F
+[2017.11.23-22.03.32:071][747]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'ExecuteUbergraph_Task_UseItem' from node: Finish Execute in graph: EventGraph in object: Task_UseItem with description: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+[2017.11.23-22.03.34:387][ 14]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	Task_UseItem_C /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AIS_AiCon_C_0.BTComponent.Task_UseItem_C_0
+	Function /Game/Blueprints/AI/Tasks/Task_UseItem.Task_UseItem_C:ExecuteUbergraph_Task_UseItem:050F
+[2017.11.23-22.03.34:388][ 14]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'ExecuteUbergraph_Task_UseItem' from node: Finish Execute in graph: EventGraph in object: Task_UseItem with description: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+[2017.11.23-22.03.55:171][ 70]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.03.55:287][ 70]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.03.56:477][151]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.23-22.03.56:515][151]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.03.56:526][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.23-22.03.56:526][151]PIE: New page: PIE session: ThirdPersonExampleMap (23/11/2017 18:03:56)
+[2017.11.23-22.03.56:527][151]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.23-22.03.56:560][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033454s)
+[2017.11.23-22.03.56:562][151]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.23-22.03.56:562][151]LogPlayLevel: PIE: World Init took: (0.001816s)
+[2017.11.23-22.03.56:562][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.035860s)
+[2017.11.23-22.03.56:666][151]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.23-22.03.56:686][151]LogInit: FAudioDevice initialized.
+[2017.11.23-22.03.56:728][151]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.23-22.03.56:732][151]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.23-20.03.56
+[2017.11.23-22.03.56:732][151]LogWorld: Bringing up level for play took: 0.003560
+[2017.11.23-22.03.56:735][151]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 0,588
+[2017.11.23-22.03.56:735][151]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.04.03:183][681]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.03:192][682]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.03:201][683]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.03:210][684]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.03:218][685]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.03:227][686]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.03:235][687]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.03:962][769]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.03:971][770]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.03:981][771]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.03:990][772]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.03:999][773]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.04:008][774]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.04:016][775]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.04:742][857]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.04:750][858]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.04:759][859]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.04:768][860]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.04:776][861]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.04:785][862]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.04.04:794][863]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.05.47:411][830]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.05.47:514][830]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.05.48:260][885]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.23-22.05.48:299][885]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.05.48:313][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.23-22.05.48:314][885]PIE: New page: PIE session: ThirdPersonExampleMap (23/11/2017 18:05:48)
+[2017.11.23-22.05.48:314][885]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.23-22.05.48:343][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029593s)
+[2017.11.23-22.05.48:345][885]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.23-22.05.48:346][885]LogPlayLevel: PIE: World Init took: (0.002123s)
+[2017.11.23-22.05.48:346][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032332s)
+[2017.11.23-22.05.48:407][885]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.23-22.05.48:416][885]LogInit: FAudioDevice initialized.
+[2017.11.23-22.05.48:454][885]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.23-22.05.48:458][885]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.23-20.05.48
+[2017.11.23-22.05.48:459][885]LogWorld: Bringing up level for play took: 0.003955
+[2017.11.23-22.05.48:461][885]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 0,315
+[2017.11.23-22.05.48:461][885]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.06.01:590][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.06.01:691][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.06.05:793][629]LogSavePackage: Save=32.71ms
+[2017.11.23-22.06.05:793][629]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_RunStatBehavior2EA929BC4027C498768484AAA98A75EB.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunStatBehavior.uasset'
+[2017.11.23-22.06.05:797][629]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunStatBehavior.uasset
+[2017.11.23-22.06.08:884][826]BlueprintLog: New page: Compile Task_RunStatBehavior
+[2017.11.23-22.06.20:576][532]LogEditorTransaction: Undo Edit Selected Key Name
+[2017.11.23-22.06.45:011][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/AIS_BT" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_BT.uasset" SILENT=true
+[2017.11.23-22.06.45:042][997]LogSavePackage: Save=19.91ms
+[2017.11.23-22.06.45:042][997]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/AIS_BT2669FBEB4EB8912F674105B445885A24.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_BT.uasset'
+[2017.11.23-22.06.45:046][997]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/AIS_BT.uasset
+[2017.11.23-22.06.45:087][997]LogSavePackage: Save=32.35ms
+[2017.11.23-22.06.45:087][997]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_RunStatBehavior53F567784BE51020AB8410982B7E3739.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunStatBehavior.uasset'
+[2017.11.23-22.06.45:090][997]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunStatBehavior.uasset
+[2017.11.23-22.07.27:304][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GoodFood" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/GoodFood.uasset" SILENT=true
+[2017.11.23-22.07.27:372][390]LogSavePackage: Save=53.67ms
+[2017.11.23-22.07.27:372][390]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/GoodFoodB756451C4EC2D06F272454A7E00745B9.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/GoodFood.uasset'
+[2017.11.23-22.07.27:376][390]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/GoodFood.uasset
+[2017.11.23-22.08.21:213][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GoodFood" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/GoodFood.uasset" SILENT=true
+[2017.11.23-22.08.21:263][577]LogSavePackage: Save=43.30ms
+[2017.11.23-22.08.21:263][577]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/GoodFood726D440744AA251D0E50DFA20235A258.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/GoodFood.uasset'
+[2017.11.23-22.08.21:266][577]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/GoodFood.uasset
+[2017.11.23-22.08.21:318][577]LogSavePackage: Save=29.47ms
+[2017.11.23-22.08.21:318][577]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_RunBaseBehavior3CE6C81E4F07CE9605D2228CFCA3A82A.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunBaseBehavior.uasset'
+[2017.11.23-22.08.21:321][577]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunBaseBehavior.uasset
+[2017.11.23-22.08.48:499][187]LogSavePackage: Save=32.97ms
+[2017.11.23-22.08.48:499][187]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_RunStatBehaviorD8EB28904229018A7AF9AF9FA7635454.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunStatBehavior.uasset'
+[2017.11.23-22.08.48:503][187]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunStatBehavior.uasset
+[2017.11.23-22.08.49:439][243]BlueprintLog: New page: Compile Task_RunStatBehavior
+[2017.11.23-22.08.54:647][588]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.23-22.08.54:690][588]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.08.54:703][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.23-22.08.54:703][588]PIE: New page: PIE session: ThirdPersonExampleMap (23/11/2017 18:08:54)
+[2017.11.23-22.08.54:703][588]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.23-22.08.54:733][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029832s)
+[2017.11.23-22.08.54:734][588]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.23-22.08.54:735][588]LogPlayLevel: PIE: World Init took: (0.001363s)
+[2017.11.23-22.08.54:735][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031668s)
+[2017.11.23-22.08.54:789][588]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.23-22.08.54:799][588]LogInit: FAudioDevice initialized.
+[2017.11.23-22.08.54:831][588]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.23-22.08.54:835][588]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.23-20.08.54
+[2017.11.23-22.08.54:836][588]LogWorld: Bringing up level for play took: 0.003621
+[2017.11.23-22.08.54:838][588]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 0,692
+[2017.11.23-22.08.54:839][588]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.08.58:746][ 44]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.58:754][ 45]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.58:763][ 46]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.58:772][ 47]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.58:781][ 48]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.58:791][ 49]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.58:799][ 50]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.59:595][140]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.59:604][141]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.59:614][142]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.59:624][143]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.59:633][144]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.59:642][145]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.08.59:651][146]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.03:477][579]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.03:485][580]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.03:493][581]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.03:502][582]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.03:511][583]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.03:519][584]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.03:528][585]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:163][659]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:171][660]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:180][661]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:188][662]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:197][663]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:206][664]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:215][665]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:938][746]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:948][747]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:956][748]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:966][749]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:975][750]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:984][751]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.04:993][752]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.05:708][830]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.05:717][831]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.05:727][832]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.05:736][833]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.05:745][834]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.05:754][835]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.05:763][836]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.06:591][926]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.06:600][927]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.06:609][928]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.06:618][929]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.06:627][930]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.06:636][931]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.06:646][932]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.09.14:651][857]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-22.09.14:780][872]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.23-22.09.14:788][873]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_RunBehaviorTree', from offset 235
+[2017.11.23-22.09.14:789][873]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/AI/Tasks/Task_RunStatBehavior.Task_RunStatBehavior_C:ReceiveExecuteAI
+	Function /Game/Blueprints/AI/Tasks/Task_RunStatBehavior.Task_RunStatBehavior_C:ExecuteUbergraph_Task_RunStatBehavior
+
+[2017.11.23-22.11.07:927][877]LogBlueprintUserMessages: [Service_StaminaCheck_C_1] 1
+[2017.11.23-22.11.07:941][878]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_RunBehaviorTree', from offset 235
+[2017.11.23-22.11.07:941][878]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/AI/Tasks/Task_RunStatBehavior.Task_RunStatBehavior_C:ReceiveExecuteAI
+	Function /Game/Blueprints/AI/Tasks/Task_RunStatBehavior.Task_RunStatBehavior_C:ExecuteUbergraph_Task_RunStatBehavior
+
+[2017.11.23-22.11.11:625][882]LogBlueprintUserMessages: [Service_StaminaCheck_C_2] 1
+[2017.11.23-22.11.11:638][883]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_RunBehaviorTree', from offset 235
+[2017.11.23-22.11.11:638][883]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/AI/Tasks/Task_RunStatBehavior.Task_RunStatBehavior_C:ReceiveExecuteAI
+	Function /Game/Blueprints/AI/Tasks/Task_RunStatBehavior.Task_RunStatBehavior_C:ExecuteUbergraph_Task_RunStatBehavior
+
+[2017.11.23-22.11.19:020][883]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.11.19:136][883]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.12.03:682][969]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/ThirdPersonExampleMap' took 0.039
+[2017.11.23-22.12.03:684][969]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/AI/Tasks/Task_RunStatBehavior] ([1] browsable assets)...
+[2017.11.23-22.12.03:684][969]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/AI/Tasks/Task_RunStatBehavior]
+[2017.11.23-22.12.03:740][969]LogSavePackage: Save=35.49ms
+[2017.11.23-22.12.03:740][969]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_RunStatBehavior_Auto3712A09BA4B7F738ACA0A169F9FE75D47.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Autosaves/Game/Blueprints/AI/Tasks/Task_RunStatBehavior_Auto3.uasset'
+[2017.11.23-22.12.03:748][969]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Autosaves/Game/Blueprints/AI/Tasks/Task_RunStatBehavior_Auto3.uasset
+[2017.11.23-22.12.03:748][969]LogFileHelpers: Auto-saving content packages took 0.065
+[2017.11.23-22.14.30:200][117]LogSavePackage: Save=32.28ms
+[2017.11.23-22.14.30:200][117]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Task_RunStatBehaviorFC4D87D54AE412D72C9AD6B73B488161.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunStatBehavior.uasset'
+[2017.11.23-22.14.30:203][117]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/Tasks/Task_RunStatBehavior.uasset
+[2017.11.23-22.17.17:078][ 66]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.23-22.17.17:140][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.17.17:154][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.23-22.17.17:154][ 66]PIE: New page: PIE session: ThirdPersonExampleMap (23/11/2017 18:17:17)
+[2017.11.23-22.17.17:154][ 66]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.23-22.17.17:188][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034273s)
+[2017.11.23-22.17.17:190][ 66]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.23-22.17.17:190][ 66]LogPlayLevel: PIE: World Init took: (0.001768s)
+[2017.11.23-22.17.17:191][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.036627s)
+[2017.11.23-22.17.17:247][ 66]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.23-22.17.17:256][ 66]LogInit: FAudioDevice initialized.
+[2017.11.23-22.17.17:293][ 66]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.23-22.17.17:297][ 66]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.23-20.17.17
+[2017.11.23-22.17.17:298][ 66]LogWorld: Bringing up level for play took: 0.003986
+[2017.11.23-22.17.17:300][ 66]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 1,154
+[2017.11.23-22.17.17:301][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.17.18:990][261]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.18:998][262]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.19:007][263]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.19:015][264]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.19:024][265]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.19:032][266]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.19:040][267]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.19:049][268]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.37:087][416]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-22.17.37:261][437]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.23-22.17.39:084][654]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-22.17.41:085][893]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.23-22.17.41:771][975]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	Task_UseItem_C /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AIS_AiCon_C_0.BTComponent.Task_UseItem_C_0
+	Function /Game/Blueprints/AI/Tasks/Task_UseItem.Task_UseItem_C:ExecuteUbergraph_Task_UseItem:050F
+[2017.11.23-22.17.41:771][975]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'ExecuteUbergraph_Task_UseItem' from node: Finish Execute in graph: EventGraph in object: Task_UseItem with description: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+[2017.11.23-22.17.42:874][107]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	Task_UseItem_C /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AIS_AiCon_C_0.BTComponent.Task_UseItem_C_0
+	Function /Game/Blueprints/AI/Tasks/Task_UseItem.Task_UseItem_C:ExecuteUbergraph_Task_UseItem:050F
+[2017.11.23-22.17.42:875][107]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'ExecuteUbergraph_Task_UseItem' from node: Finish Execute in graph: EventGraph in object: Task_UseItem with description: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+[2017.11.23-22.17.50:009][959]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	Task_UseItem_C /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AIS_AiCon_C_0.BTComponent.Task_UseItem_C_0
+	Function /Game/Blueprints/AI/Tasks/Task_UseItem.Task_UseItem_C:ExecuteUbergraph_Task_UseItem:050F
+[2017.11.23-22.17.50:010][959]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'ExecuteUbergraph_Task_UseItem' from node: Finish Execute in graph: EventGraph in object: Task_UseItem with description: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+[2017.11.23-22.17.51:731][164]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	Task_UseItem_C /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AIS_AiCon_C_0.BTComponent.Task_UseItem_C_0
+	Function /Game/Blueprints/AI/Tasks/Task_UseItem.Task_UseItem_C:ExecuteUbergraph_Task_UseItem:050F
+[2017.11.23-22.17.51:732][164]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'ExecuteUbergraph_Task_UseItem' from node: Finish Execute in graph: EventGraph in object: Task_UseItem with description: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+[2017.11.23-22.17.53:094][327]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+	Task_UseItem_C /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AIS_AiCon_C_0.BTComponent.Task_UseItem_C_0
+	Function /Game/Blueprints/AI/Tasks/Task_UseItem.Task_UseItem_C:ExecuteUbergraph_Task_UseItem:050F
+[2017.11.23-22.17.53:095][327]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue from function: 'ExecuteUbergraph_Task_UseItem' from node: Finish Execute in graph: EventGraph in object: Task_UseItem with description: Accessed None trying to read property CallFunc_GetBlackboardValueAsActor_ReturnValue
+[2017.11.23-22.17.55:744][643]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.55:752][644]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.55:761][645]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.55:769][646]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.55:777][647]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.55:786][648]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.55:795][649]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.57:778][884]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.57:786][885]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.57:794][886]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.57:802][887]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.57:810][888]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.57:819][889]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.57:827][890]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.17.57:836][891]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Right Click Hold
+[2017.11.23-22.18.00:767][235]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.18.00:873][235]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.23-22.18.02:765][383]LogEditorViewport: Clicking on Actor (LMB): PlantFoodItem_C (PlantFoodItem2)
+[2017.11.23-22.18.10:502][ 42]LogEditorViewport: Clicking on Actor (LMB): PlantFoodItem_C (PlantFoodItem3)
+[2017.11.23-22.18.19:980][ 13]LogEditorViewport: Clicking on Actor (LMB): GoodFood_C (GoodFood7)
+[2017.11.23-22.18.25:701][536]LogSavePackage: Save=162.70ms
+[2017.11.23-22.18.25:701][536]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/ThirdPersonExampleMapBC9B9B7E421D89D76229CF94FCB83524.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap'
+[2017.11.23-22.18.25:706][536]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap
+[2017.11.23-22.18.25:753][536]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.353
+[2017.11.23-22.18.25:755][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/FindGoodFood" FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/FindGoodFood.uasset" SILENT=true
+[2017.11.23-22.18.25:776][536]LogSavePackage: Save=12.69ms
+[2017.11.23-22.18.25:776][536]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Saved/FindGoodFood3C1A200149EEFB73AE61FB95259414D9.tmp' to '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/FindGoodFood.uasset'
+[2017.11.23-22.18.25:779][536]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Blueprints/AI/FindGoodFood.uasset
+[2017.11.23-22.42.29:421][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.23-22.42.29:785][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.23-22.42.29:907][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.23-22.42.30:089][334]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.23-22.42.30:509][335]Cmd: QUIT_EDITOR
+[2017.11.23-22.42.31:580][335]LogExit: Preparing to exit.
+[2017.11.23-22.42.32:746][335]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/' was aborted.
+[2017.11.23-22.42.33:039][335]LogExit: Editor shut down
+[2017.11.23-22.42.33:088][335]LogExit: Transaction tracking system shut down
+[2017.11.23-22.42.33:383][335]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.23-22.42.33:383][335]LogDirectoryWatcher: A directory notification for '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/' was aborted.
+[2017.11.23-22.42.33:383][335]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.23-22.42.33:383][335]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.23-22.42.33:384][335]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.23-22.42.34:947][335]LogExit: Object subsystem successfully closed.
+[2017.11.23-22.42.35:858][335]LogD3D11RHI: Shutdown
+[2017.11.23-22.42.35:877][335]LogD3D11RHI: CleanupD3DDevice
+[2017.11.23-22.42.36:435][335]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.23-22.42.41:959][335]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
+[2017.11.23-22.42.41:959][335]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.11.23-22.42.41:959][335]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.11.23-22.42.41:992][335]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.11.23-22.42.41:992][335]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.11.23-22.42.41:992][335]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.11.23-22.42.42:011][335]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.23-22.42.42:069][335]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.11.23-22.42.42:070][335]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.11.23-22.42.42:070][335]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.11.23-22.42.42:088][335]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Collections/' was aborted.
+[2017.11.23-22.42.42:088][335]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Developers/YuriMeitzen/Collections/' was aborted.
+[2017.11.23-22.42.42:088][335]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Collections/' was aborted.
+[2017.11.23-22.42.42:088][335]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.11.23-22.42.42:152][335]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.11.23-22.42.42:152][335]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.11.23-22.42.42:279][335]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.11.23-22.42.42:279][335]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.11.23-22.42.42:280][335]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.11.23-22.42.42:280][335]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.11.23-22.42.42:280][335]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.11.23-22.42.42:280][335]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.11.23-22.42.42:301][335]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.11.23-22.42.42:301][335]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.11.23-22.42.42:301][335]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.11.23-22.42.42:301][335]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.11.23-22.42.42:356][335]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.11.23-22.42.42:382][335]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.11.23-22.42.42:659][335]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.11.23-22.42.42:659][335]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.11.23-22.42.42:659][335]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.11.23-22.42.42:659][335]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.11.23-22.42.42:659][335]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.11.23-22.42.42:659][335]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.11.23-22.42.42:659][335]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.11.23-22.42.42:659][335]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.11.23-22.42.42:660][335]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.11.23-22.42.42:660][335]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.11.23-22.42.42:660][335]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.11.23-22.42.42:702][335]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.11.23-22.42.42:702][335]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.11.23-22.42.42:702][335]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.11.23-22.42.42:702][335]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.11.23-22.42.42:702][335]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.11.23-22.42.42:888][335]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.11.23-22.42.42:996][335]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.11.23-22.42.43:102][335]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.11.23-22.42.43:218][335]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.11.23-22.42.43:218][335]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.11.23-22.42.43:218][335]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.11.23-22.42.43:218][335]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.11.23-22.42.43:683][335]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.11.23-22.42.43:683][335]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.11.23-22.42.43:683][335]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.11.23-22.42.43:683][335]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.11.23-22.42.43:701][335]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.11.23-22.42.43:746][335]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.11.23-22.42.43:747][335]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.11.23-22.42.43:840][335]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.11.23-22.42.43:840][335]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.11.23-22.42.43:900][335]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.11.23-22.42.43:939][335]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.11.23-22.42.43:939][335]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.11.23-22.42.43:977][335]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.11.23-22.42.43:977][335]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.11.23-22.42.43:977][335]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.11.23-22.42.43:977][335]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.11.23-22.42.43:978][335]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.11.23-22.42.43:978][335]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.11.23-22.42.43:979][335]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.11.23-22.42.44:075][335]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.11.23-22.42.44:106][335]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.11.23-22.42.44:142][335]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.11.23-22.42.44:163][335]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.11.23-22.42.44:254][335]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.11.23-22.42.44:308][335]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.11.23-22.42.44:420][335]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.11.23-22.42.44:524][335]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.11.23-22.42.44:556][335]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.11.23-22.42.44:556][335]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.11.23-22.42.44:556][335]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.11.23-22.42.44:579][335]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.11.23-22.42.44:609][335]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.11.23-22.42.44:609][335]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.11.23-22.42.44:609][335]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.11.23-22.42.44:628][335]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.11.23-22.42.44:628][335]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.11.23-22.42.44:628][335]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.11.23-22.42.44:643][335]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.11.23-22.42.44:709][335]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.11.23-22.42.44:709][335]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.11.23-22.42.44:722][335]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.11.23-22.42.44:726][335]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.11.23-22.42.44:726][335]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.11.23-22.42.44:726][335]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.11.23-22.42.44:726][335]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.11.23-22.42.44:787][335]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.11.23-22.42.44:787][335]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.11.23-22.42.44:787][335]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.11.23-22.42.44:787][335]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.11.23-22.42.44:787][335]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.11.23-22.42.44:787][335]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.11.23-22.42.44:787][335]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.11.23-22.42.44:787][335]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.11.23-22.42.44:787][335]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.11.23-22.42.44:802][335]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.11.23-22.42.44:896][335]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.11.23-22.42.45:788][335]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.11.23-22.42.45:788][335]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.11.23-22.42.45:789][335]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.11.23-22.42.45:789][335]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.11.23-22.42.45:789][335]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.11.23-22.42.45:789][335]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.11.23-22.42.45:789][335]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.11.23-22.42.45:789][335]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.11.23-22.42.45:789][335]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.11.23-22.42.45:789][335]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.11.23-22.42.46:162][335]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.11.23-22.42.46:162][335]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.11.23-22.42.46:168][335]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.11.23-22.42.46:168][335]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.11.23-22.42.46:168][335]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.11.23-22.42.46:168][335]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.11.23-22.42.46:168][335]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.11.23-22.42.46:408][335]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.11.23-22.42.46:463][335]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.11.23-22.42.46:463][335]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.11.23-22.42.46:499][335]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.11.23-22.42.46:499][335]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.11.23-22.42.46:523][335]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.11.23-22.42.46:603][335]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.11.23-22.42.46:714][335]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.11.23-22.42.46:773][335]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.11.23-22.42.46:773][335]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.11.23-22.42.46:773][335]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.11.23-22.42.46:773][335]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.11.23-22.42.46:799][335]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.11.23-22.42.46:822][335]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.11.23-22.42.46:863][335]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.11.23-22.42.46:916][335]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.11.23-22.42.46:916][335]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.11.23-22.42.46:950][335]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (262)
+[2017.11.23-22.42.46:950][335]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (260)
+[2017.11.23-22.42.46:950][335]LogModuleManager: Shutting down and abandoning module PhysXVehicles (258)
+[2017.11.23-22.42.46:951][335]LogModuleManager: Shutting down and abandoning module OculusEditor (256)
+[2017.11.23-22.42.46:951][335]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (254)
+[2017.11.23-22.42.46:951][335]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (252)
+[2017.11.23-22.42.46:951][335]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (250)
+[2017.11.23-22.42.46:986][335]LogModuleManager: Shutting down and abandoning module UdpMessaging (248)
+[2017.11.23-22.42.47:086][335]LogModuleManager: Shutting down and abandoning module TcpMessaging (246)
+[2017.11.23-22.42.47:223][335]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (244)
+[2017.11.23-22.42.47:277][335]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (242)
+[2017.11.23-22.42.47:277][335]LogModuleManager: Shutting down and abandoning module FacialAnimation (240)
+[2017.11.23-22.42.47:277][335]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (238)
+[2017.11.23-22.42.47:310][335]LogModuleManager: Shutting down and abandoning module GraphEditor (237)
+[2017.11.23-22.42.47:310][335]LogModuleManager: Shutting down and abandoning module ContentBrowser (235)
+[2017.11.23-22.42.47:313][335]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (232)
+[2017.11.23-22.42.47:314][335]LogModuleManager: Shutting down and abandoning module Paper2D (230)
+[2017.11.23-22.42.47:314][335]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (228)
+[2017.11.23-22.42.47:314][335]LogModuleManager: Shutting down and abandoning module WmfMedia (226)
+[2017.11.23-22.42.47:315][335]LogModuleManager: Shutting down and abandoning module PacketHandler (224)
+[2017.11.23-22.42.47:315][335]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (222)
+[2017.11.23-22.42.47:315][335]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (220)
+[2017.11.23-22.42.47:363][335]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.11.23-22.42.47:363][335]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.11.23-22.42.47:363][335]LogModuleManager: Shutting down and abandoning module MediaAssets (214)
+[2017.11.23-22.42.47:363][335]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (212)
+[2017.11.23-22.42.47:363][335]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.23-22.42.47:426][335]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.23-22.42.47:447][335]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.23-22.42.47:447][335]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.23-22.42.47:448][335]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.23-22.42.47:448][335]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.23-22.42.47:476][335]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.23-22.42.47:477][335]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.23-22.42.47:477][335]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.23-22.42.47:509][335]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.23-22.42.47:542][335]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.23-22.42.47:542][335]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.23-22.42.47:607][335]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.23-22.42.47:608][335]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.23-22.42.47:612][335]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.23-22.42.47:612][335]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.23-22.42.47:612][335]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.23-22.42.47:612][335]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.23-22.42.47:612][335]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.23-22.42.47:612][335]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.23-22.42.47:612][335]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.23-22.42.47:612][335]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.23-22.42.47:613][335]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.23-22.42.47:680][335]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.23-22.42.47:689][335]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.23-22.42.47:689][335]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.23-22.42.47:713][335]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.23-22.42.47:713][335]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.23-22.42.47:746][335]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.23-22.42.47:774][335]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.23-22.42.47:784][335]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.23-22.42.47:795][335]LogDerivedDataCache: Shutdown
+[2017.11.23-22.42.47:814][335]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.23-22.42.47:815][335]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.23-22.42.47:864][335]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.23-22.42.47:881][335]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.23-22.42.47:895][335]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.23-22.42.47:895][335]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.23-22.42.47:919][335]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.23-22.42.47:919][335]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.23-22.42.47:919][335]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.23-22.42.47:919][335]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.23-22.42.47:920][335]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.23-22.42.47:921][335]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.23-22.42.47:931][335]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.23-22.42.47:931][335]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.23-22.42.47:931][335]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.23-22.42.47:931][335]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.23-22.42.47:980][335]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.23-22.42.47:999][335]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.23-22.42.47:999][335]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.11.23-22.42.48:013][335]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7AEB7D22-4AB3-DDC6-95A1-33A922162FC0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=4d336c304cb600f3833bee9ec6324b6b%7C97e6c6ec20b34e1681bb9ded12457367%7Cea9e9fd9-3d7e-4d9a-8813-872780a612b3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.23-22.42.48:014][335]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7AEB7D22-4AB3-DDC6-95A1-33A922162FC0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=4d336c304cb600f3833bee9ec6324b6b%7C97e6c6ec20b34e1681bb9ded12457367%7Cea9e9fd9-3d7e-4d9a-8813-872780a612b3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.23-22.42.48:043][335]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.23-22.42.48:070][335]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.23-22.42.48:106][335]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.23-22.42.48:106][335]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.23-22.42.48:148][335]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.23-22.42.48:148][335]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.23-22.42.48:149][335]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.23-22.42.48:149][335]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.23-22.42.48:186][335]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.23-22.42.48:197][335]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.23-22.42.48:197][335]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.23-22.42.48:209][335]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.23-22.42.48:209][335]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.23-22.42.48:209][335]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.23-22.42.48:209][335]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.23-22.42.48:209][335]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.23-22.42.48:209][335]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.23-22.42.48:209][335]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.23-22.42.48:209][335]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.23-22.42.48:258][335]LogExit: Exiting.
+[2017.11.23-22.42.48:289][335]Log file closed, 11/23/17 20:42:48
