@@ -1,0 +1,1009 @@
+﻿Log file open, 11/28/17 01:06:21
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: AiGame
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(626031752) SRandInit(626031752).
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.206910
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.28-03.06.23:641][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.28-03.06.23:641][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.28-03.06.23:949][  0]LogInit: Computer: WELTALL
+[2017.11.28-03.06.23:949][  0]LogInit: User: YuriMeitzen
+[2017.11.28-03.06.23:949][  0]LogInit: CPU Page size=4096, Cores=3
+[2017.11.28-03.06.23:949][  0]LogInit: High frequency timer resolution =3.433663 MHz
+[2017.11.28-03.06.23:950][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.11.28-03.06.23:950][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.28-03.06.23:950][  0]LogMemory: Process Physical Memory: 279.52 MB used, 279.52 MB peak
+[2017.11.28-03.06.23:950][  0]LogMemory: Process Virtual Memory: 280.79 MB used, 280.79 MB peak
+[2017.11.28-03.06.23:950][  0]LogMemory: Physical Memory: 3829.88 MB used,  4320.70 MB free, 8150.58 MB total
+[2017.11.28-03.06.23:950][  0]LogMemory: Virtual Memory: 674.18 MB used,  4320.70 MB free, 134217728.00 MB total
+[2017.11.28-03.06.24:791][  0]LogInit: Using OS detected language (en-US).
+[2017.11.28-03.06.24:791][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.11.28-03.06.25:056][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.28-03.06.42:582][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.28-03.06.42:644][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2017.11.28-03.06.42:644][  0]LogD3D11RHI:       2024/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.11.28-03.06.42:646][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.28-03.06.42:646][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.28-03.06.42:646][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.28-03.06.42:655][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.28-03.06.42:655][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.28-03.06.42:655][  0]LogWindows: EnumDisplayDevices:
+[2017.11.28-03.06.42:655][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2017.11.28-03.06.42:656][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.28-03.06.42:656][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.28-03.06.42:657][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.28-03.06.42:657][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.28-03.06.42:658][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.11.28-03.06.42:658][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.11.28-03.06.42:658][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2017.11.28-03.06.42:658][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
+[2017.11.28-03.06.42:658][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2017.11.28-03.06.42:658][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.28-03.06.42:754][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.28-03.06.42:773][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.11.28-03.06.42:773][  0]LogD3D11RHI: HDR output is supported on display 0 (AMD Device: 0x0, Display: 0x0).
+[2017.11.28-03.06.42:774][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Intermediate/Shaders/WorkingDirectory/9948/).
+[2017.11.28-03.06.42:774][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Yuri Meitzen/AppData/Local/Temp/UnrealShaderWorkingDir/A93FA36A4169F3D9B3BE4D8174F72485/'.
+[2017.11.28-03.06.42:774][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.11.28-03.07.00:016][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.28-03.07.00:129][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.11.28-03.07.00:225][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.28-03.07.00:462][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.11.28-03.07.00:674][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.11.28-03.07.00:795][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.28-03.07.00:897][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.28-03.07.00:996][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.28-03.07.01:116][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.11.28-03.07.01:248][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.11.28-03.07.01:379][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.28-03.07.01:501][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.28-03.07.01:658][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.28-03.07.01:781][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.28-03.07.01:887][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.28-03.07.02:192][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.28-03.07.02:192][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.28-03.07.02:298][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.11.28-03.07.02:702][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.11.28-03.07.02:751][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.11.28-03.07.02:904][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.28-03.07.03:028][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.28-03.07.03:153][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.28-03.07.03:313][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.11.28-03.07.03:313][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.11.28-03.07.06:218][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.11.28-03.07.22:417][  0]LogDerivedDataCache: Loaded boot cache 16.20s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.28-03.07.22:417][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.11.28-03.07.22:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.28-03.07.22:417][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.28-03.07.22:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.28-03.07.22:417][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.28-03.07.22:444][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.28-03.07.22:456][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.28-03.07.22:474][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.28-03.07.22:475][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.28-03.07.22:647][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.28-03.07.22:647][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.28-03.07.43:750][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2017.11.28-03.07.43:928][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.28-03.07.45:386][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.28-03.07.45:484][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.28-03.07.45:484][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.28-03.07.45:484][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.11.28-03.07.45:484][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.11.28-03.07.45:484][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.11.28-03.07.45:513][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.28-03.07.46:123][  0]LogNetVersion: AiGame , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2679581370)
+[2017.11.28-03.07.46:487][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.133433 seconds
+[2017.11.28-03.07.46:496][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.11.28-03.07.46:496][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.11.28-03.07.46:496][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.28-03.07.46:608][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.28-03.09.00:651][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.28-03.09.00:712][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.28-03.09.02:179][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.28-03.09.02:986][  0]SourceControl: Source control is disabled
+[2017.11.28-03.09.02:986][  0]SourceControl: Source control is disabled
+[2017.11.28-03.09.03:090][  0]SourceControl: Source control is disabled
+[2017.11.28-03.09.03:184][  0]SourceControl: Source control is disabled
+[2017.11.28-03.09.04:421][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.28-03.09.04:810][  0]LogOcInput: OculusInput pre-init called
+[2017.11.28-03.09.05:267][  0]LogEngine: Initializing Engine...
+[2017.11.28-03.09.05:270][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.28-03.09.05:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.28-03.09.05:605][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.28-03.09.05:800][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.28-03.09.05:844][  0]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.28-03.09.05:862][  0]LogInit: FAudioDevice initialized.
+[2017.11.28-03.09.06:096][  0]LogDerivedDataCache: Saved boot cache 0.23s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.11.28-03.09.06:141][  0]LogInit: Texture streaming: Enabled
+[2017.11.28-03.09.06:366][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.28-03.09.06:777][  0]LogInit: Transaction tracking system initialized
+[2017.11.28-03.09.07:913][  0]BlueprintLog: New page: Editor Load
+[2017.11.28-03.09.09:426][  0]LocalizationService: Localization service is disabled
+[2017.11.28-03.09.10:458][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2017.11.28-03.09.10:458][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2017.11.28-03.09.10:458][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
+[2017.11.28-03.09.10:762][  0]LogConsoleResponse: Display: 
+[2017.11.28-03.09.11:625][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.28-03.09.11:625][  0]LogCook: Display: Mobile HDR setting 1
+[2017.11.28-03.09.11:626][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.11.28-03.09.12:801][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/' took 0.02s
+[2017.11.28-03.09.14:696][  0]SourceControl: Source control is disabled
+[2017.11.28-03.09.14:696][  0]Cmd: MAP LOAD FILE="../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.28-03.09.14:697][  0]LightingResults: New page: Lighting Build
+[2017.11.28-03.09.14:753][  0]MapCheck: New page: Map Check
+[2017.11.28-03.09.14:753][  0]LightingResults: New page: Lighting Build
+[2017.11.28-03.09.16:864][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.28-03.09.16:908][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.28-03.09.16:949][  0]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.11.28-03.09.16:949][  0]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2017.11.28-03.09.16:954][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.28-03.09.17:024][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 69,724ms to complete.
+[2017.11.28-03.09.17:024][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.328
+[2017.11.28-03.09.17:316][  0]LogCollectionManager: Loaded 0 collections in 0.001197 seconds
+[2017.11.28-03.09.17:400][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Collections/' took 0.01s
+[2017.11.28-03.09.17:400][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Developers/YuriMeitzen/Collections/' took 0.01s
+[2017.11.28-03.09.17:400][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Collections/' took 0.01s
+[2017.11.28-03.09.17:400][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.11.28-03.09.17:415][  0]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 2393 classes and 502 folders.
+[2017.11.28-03.09.17:487][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.28-03.09.19:159][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.11.28-03.09.19:252][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.11.28-03.09.19:436][  0]LogSlate: Took 0.025821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.28-03.09.19:457][  0]LogSlate: Took 0.017219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.28-03.09.19:477][  0]LogSlate: Took 0.012751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.28-03.09.19:680][  0]LogRenderer: Reallocating scene render targets to support 1036x552 Format 9 NumSamples 1 (Frame:1).
+[2017.11.28-03.09.20:008][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.11.28-03.09.20:009][  0]LogLoad: (Engine Initialization) Total time: 187.56 seconds
+[2017.11.28-03.09.20:009][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.11.28-03.09.20:009][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.28-03.09.20:009][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.28-03.09.20:373][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.11.28-03.09.20:510][  0]LogSlate: Took 0.019578 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.28-03.09.21:041][  2]LogAssetRegistry: Asset discovery search completed in 97.3121 seconds
+[2017.11.28-03.09.21:044][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.28-03.09.21:044][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
+[2017.11.28-03.09.31:400][741]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.28-03.09.31:580][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-03.09.31:581][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.28-03.09.31:616][741]PIE: New page: PIE session: ThirdPersonExampleMap (27/11/2017 23:09:31)
+[2017.11.28-03.09.31:616][741]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.28-03.09.31:652][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036548s)
+[2017.11.28-03.09.31:654][741]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.28-03.09.31:655][741]LogPlayLevel: PIE: World Init took: (0.001883s)
+[2017.11.28-03.09.31:655][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.039066s)
+[2017.11.28-03.09.31:719][741]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.28-03.09.31:742][741]LogInit: FAudioDevice initialized.
+[2017.11.28-03.09.31:789][741]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.28-03.09.31:794][741]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.28-01.09.31
+[2017.11.28-03.09.31:796][741]LogWorld: Bringing up level for play took: 0.004474
+[2017.11.28-03.09.31:845][741]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.11.28-03.09.31:847][741]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap -0,381
+[2017.11.28-03.09.31:848][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-03.09.31:856][741]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood
+[2017.11.28-03.09.31:929][744]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood2
+[2017.11.28-03.09.31:929][744]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.32:264][784]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood
+[2017.11.28-03.09.32:957][867]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood2
+[2017.11.28-03.09.33:007][873]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.09.33:770][962]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.34:007][990]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.34:325][ 28]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.09.34:838][ 89]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.35:635][184]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.35:865][211]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.37:595][417]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.37:831][445]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.40:454][756]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood5
+[2017.11.28-03.09.41:830][920]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.41:831][920]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood7
+[2017.11.28-03.09.42:142][957]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:151][958]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:177][961]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:185][962]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:252][970]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:261][971]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:278][973]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:287][974]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:313][977]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:322][978]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:340][980]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:349][981]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:365][983]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:366][983]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:375][984]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:375][984]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:383][985]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:392][986]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:417][989]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:426][990]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:426][990]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:434][991]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:568][  7]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:577][  8]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:627][ 14]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:636][ 15]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:678][ 20]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:686][ 21]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:762][ 30]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:771][ 31]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:797][ 34]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:805][ 35]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:805][ 35]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:814][ 36]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:814][ 36]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:822][ 37]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:859][ 41]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:868][ 42]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:894][ 45]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:902][ 46]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:911][ 47]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:919][ 48]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:919][ 48]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:928][ 49]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.42:954][ 52]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:962][ 53]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.42:987][ 56]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:030][ 61]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:038][ 62]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:047][ 63]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood5
+[2017.11.28-03.09.43:064][ 65]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:072][ 66]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:131][ 73]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:132][ 73]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:140][ 74]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:157][ 76]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:165][ 77]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:216][ 83]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:224][ 84]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:233][ 85]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:233][ 85]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood3
+[2017.11.28-03.09.43:251][ 87]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:277][ 90]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:285][ 91]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:302][ 93]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:302][ 93]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:310][ 94]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:311][ 94]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:336][ 97]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:345][ 98]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:345][ 98]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:362][100]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:446][110]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:454][111]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:480][114]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood7
+[2017.11.28-03.09.43:514][118]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:522][119]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:530][120]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:539][121]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:547][122]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:556][123]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:556][123]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:564][124]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:564][124]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:581][126]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:590][127]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:599][128]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:599][128]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:607][129]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:607][129]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.09.43:624][131]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:632][132]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:633][132]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:641][133]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:667][136]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:667][136]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:676][137]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.43:692][139]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:727][143]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:736][144]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:770][148]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:779][149]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:797][151]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:813][153]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:839][156]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:856][158]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:865][159]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:873][160]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:882][161]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:890][162]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:898][163]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:933][167]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:959][170]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:967][171]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:975][172]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:984][173]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.43:992][174]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:010][176]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:027][178]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:035][179]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:035][179]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:044][180]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:086][185]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:095][186]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:120][189]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:129][190]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:129][190]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:137][191]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:146][192]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:154][193]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:171][195]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:180][196]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:188][197]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:197][198]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:197][198]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.44:205][199]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:231][202]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:231][202]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:240][203]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:248][204]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:257][205]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:283][208]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:301][210]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:309][211]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:318][212]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:327][213]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:335][214]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:360][217]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:360][217]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:369][218]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:369][218]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:378][219]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:386][220]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:386][220]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood
+[2017.11.28-03.09.44:394][221]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:403][222]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:420][224]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:428][225]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:445][227]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:454][228]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.44:487][232]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.44:487][232]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood7
+[2017.11.28-03.09.44:487][232]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood3
+[2017.11.28-03.09.44:487][232]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.44:488][232]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood
+[2017.11.28-03.09.44:488][232]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.09.44:756][264]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood5
+[2017.11.28-03.09.44:844][274]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.45:564][359]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood7
+[2017.11.28-03.09.45:916][400]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.45:916][400]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood5
+[2017.11.28-03.09.45:916][400]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.45:924][401]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.45:958][405]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.45:966][406]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.45:983][408]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.45:992][409]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:009][411]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:017][412]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:026][413]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:060][417]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:068][418]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:077][419]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:110][423]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.46:111][423]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:119][424]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.46:136][426]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:228][437]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:245][439]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:271][442]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:280][443]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:306][446]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:324][448]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:341][450]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:383][455]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.46:384][455]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood8
+[2017.11.28-03.09.46:392][456]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.46:418][459]LogBlueprintUserMessages: [AIS_AiCon_C_0] PlantFoodItem
+[2017.11.28-03.09.46:443][462]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.09.46:671][489]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.09.47:292][561]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.48:930][753]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.49:606][834]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.49:640][838]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.49:858][864]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.50:112][894]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.50:364][924]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.50:614][954]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.50:866][984]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.51:117][ 14]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.51:368][ 44]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.51:493][ 59]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.28-03.09.51:544][ 65]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood
+[2017.11.28-03.09.51:619][ 74]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.51:636][ 76]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood3
+[2017.11.28-03.09.51:788][ 94]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood
+[2017.11.28-03.09.51:872][104]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.52:116][133]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood6
+[2017.11.28-03.09.52:124][134]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.52:377][164]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.52:630][194]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.52:882][224]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.52:899][226]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood3
+[2017.11.28-03.09.53:017][240]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood6
+[2017.11.28-03.09.53:017][240]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood3
+[2017.11.28-03.09.53:134][254]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.53:185][260]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood3
+[2017.11.28-03.09.53:387][284]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.53:430][289]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.53:489][296]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.28-03.09.53:642][314]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.53:793][332]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood
+[2017.11.28-03.09.53:894][344]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.54:147][374]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.54:265][388]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.54:265][388]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood
+[2017.11.28-03.09.54:400][404]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.54:652][434]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.54:678][437]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.54:695][439]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.54:904][464]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.55:156][494]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.55:256][506]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.55:409][524]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.55:494][534]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.28-03.09.55:661][554]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.55:913][584]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.56:024][597]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.56:168][614]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.56:419][644]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.56:664][673]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.56:672][674]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.56:923][704]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.57:175][734]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.57:344][754]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.57:427][764]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.57:494][772]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.28-03.09.57:679][794]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.57:842][813]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.57:909][821]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.09.57:934][824]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.58:187][854]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.58:439][884]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.58:692][914]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.58:834][931]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood
+[2017.11.28-03.09.58:935][943]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood3
+[2017.11.28-03.09.58:944][944]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.59:089][961]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood
+[2017.11.28-03.09.59:197][974]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.59:416][  0]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood6
+[2017.11.28-03.09.59:449][  4]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.59:492][  9]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.28-03.09.59:703][ 34]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.09.59:956][ 64]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.00:215][ 91]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.00:457][119]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.00:708][149]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.00:801][160]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood3
+[2017.11.28-03.10.00:962][179]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.01:214][209]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.01:469][239]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.01:494][242]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.28-03.10.01:678][264]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood6
+[2017.11.28-03.10.01:678][264]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.10.01:719][269]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 0
+[2017.11.28-03.10.01:719][269]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.01:971][299]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 0
+[2017.11.28-03.10.01:971][299]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.01:988][301]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood3
+[2017.11.28-03.10.02:223][329]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 0
+[2017.11.28-03.10.02:223][329]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.02:474][359]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 0
+[2017.11.28-03.10.02:475][359]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.02:533][366]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood3
+[2017.11.28-03.10.02:725][389]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 0
+[2017.11.28-03.10.02:725][389]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.02:978][419]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 0
+[2017.11.28-03.10.02:978][419]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.03:231][449]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 0
+[2017.11.28-03.10.03:231][449]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.03:484][479]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 0
+[2017.11.28-03.10.03:484][479]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.10.03:493][480]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.28-03.10.03:494][480]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.10.03:494][480]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood3
+[2017.11.28-03.10.03:494][480]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood6
+[2017.11.28-03.10.04:369][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-03.10.04:404][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-03.10.20:077][852]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.28-03.10.20:228][852]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.28-03.10.20:253][852]LogSlate: Took 0.024099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.28-03.10.38:462][248]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 113 classes and 0 folders.
+[2017.11.28-03.10.39:632][249]LogSlate: Took 0.012870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.28-03.10.56:690][441]LogTemp: Repeating last play command: Selected Viewport
+[2017.11.28-03.10.56:735][441]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-03.10.56:739][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.28-03.10.56:739][441]PIE: New page: PIE session: ThirdPersonExampleMap (27/11/2017 23:10:56)
+[2017.11.28-03.10.56:739][441]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.11.28-03.10.56:776][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036596s)
+[2017.11.28-03.10.56:778][441]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.28-03.10.56:778][441]LogPlayLevel: PIE: World Init took: (0.001825s)
+[2017.11.28-03.10.56:778][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.038957s)
+[2017.11.28-03.10.56:824][441]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.28-03.10.56:834][441]LogInit: FAudioDevice initialized.
+[2017.11.28-03.10.56:867][441]LogLoad: Game class is 'AIS_GameMode_C'
+[2017.11.28-03.10.56:871][441]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.11.28-01.10.56
+[2017.11.28-03.10.56:872][441]LogWorld: Bringing up level for play took: 0.003657
+[2017.11.28-03.10.56:875][441]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap 0,647
+[2017.11.28-03.10.56:875][441]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-03.10.56:881][441]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood
+[2017.11.28-03.10.56:970][444]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood2
+[2017.11.28-03.10.56:971][444]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.10.57:545][492]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood2
+[2017.11.28-03.10.57:638][500]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood
+[2017.11.28-03.10.58:734][590]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.01:068][776]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood5
+[2017.11.28-03.11.01:766][854]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Left mouse button hold
+[2017.11.28-03.11.01:774][855]LogBlueprintUserMessages: [AIS_PlayerController_C_0] Left mouse button hold
+[2017.11.28-03.11.02:625][957]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood5
+[2017.11.28-03.11.02:625][957]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.04:517][184]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.05:159][261]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.05:742][331]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood5
+[2017.11.28-03.11.05:834][342]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.07:876][587]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood5
+[2017.11.28-03.11.09:151][740]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.13:102][214]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.13:202][226]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.11.13:502][262]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.13:911][311]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.14:228][349]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.11.14:395][369]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.14:395][369]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.11.14:428][373]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.14:628][397]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.11.14:877][427]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.14:911][431]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.11.15:127][457]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.15:377][487]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.15:511][503]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.15:628][517]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.15:720][528]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.15:870][546]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.11.15:878][547]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.16:128][577]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.16:378][607]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.16:628][637]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.16:779][655]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.28-03.11.16:879][667]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.17:129][697]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.17:379][727]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.17:630][757]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.17:880][787]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.18:130][817]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.18:380][847]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.18:631][877]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.18:773][894]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.28-03.11.18:881][907]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.19:132][937]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.19:382][967]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.19:541][986]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.19:633][997]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.19:883][ 27]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.20:134][ 57]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.20:301][ 77]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.20:383][ 87]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.20:476][ 98]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.20:634][117]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.20:776][134]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.28-03.11.20:884][147]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.21:134][177]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.21:384][207]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.21:634][237]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.21:885][267]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.22:135][297]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.22:385][327]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.22:635][357]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.22:777][374]LogBlueprintUserMessages: [AIS_Character_2] Feeling like a true communist!!!
+[2017.11.28-03.11.22:827][380]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.22:885][387]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.23:135][417]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.23:385][447]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.23:636][477]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.23:645][478]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.11.23:695][484]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.23:886][507]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.24:137][537]LogBlueprintUserMessages: [Service_StaminaCheck_C_0] 1
+[2017.11.28-03.11.24:271][553]LogBlueprintUserMessages: [AIS_AiCon_C_0] AIS_PlayerPawn
+[2017.11.28-03.11.24:271][553]LogBlueprintUserMessages: [AIS_AiCon_C_0] GoodFood4
+[2017.11.28-03.11.24:338][561]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-03.11.24:380][561]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.11.28-03.12.10:010][279]LogEditorTransaction: Undo Create Pin Link
+[2017.11.28-03.12.10:271][290]LogEditorTransaction: Undo Create Pin Link
+[2017.11.28-03.12.29:074][384]Cmd: QUIT_EDITOR
+[2017.11.28-03.12.30:051][384]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.11.28-03.12.30:096][384]LogExit: Preparing to exit.
+[2017.11.28-03.12.30:908][384]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/' was aborted.
+[2017.11.28-03.12.30:915][384]LogScriptCore: Error: Script Msg: A null object was passed as a world context object to UEngine::GetWorldFromContextObject().
+[2017.11.28-03.12.30:915][384]LogScriptCore: Error: Script call stack:
+	[Empty] (FFrame::GetScriptCallstack() called from native code)
+[2017.11.28-03.12.30:958][384]LogExit: Editor shut down
+[2017.11.28-03.12.30:966][384]LogExit: Transaction tracking system shut down
+[2017.11.28-03.12.31:042][384]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.28-03.12.31:042][384]LogDirectoryWatcher: A directory notification for '../../../../../MyDocuments/Unreal Projects/BagProject/AiGame/Content/' was aborted.
+[2017.11.28-03.12.31:042][384]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.28-03.12.31:042][384]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.11.28-03.12.31:042][384]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.11.28-03.12.31:154][384]LogExit: Object subsystem successfully closed.
+[2017.11.28-03.12.31:177][384]LogD3D11RHI: Shutdown
+[2017.11.28-03.12.31:177][384]LogD3D11RHI: CleanupD3DDevice
+[2017.11.28-03.12.31:330][384]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.28-03.12.31:342][384]LogModuleManager: Shutting down and abandoning module BlueprintGraph (538)
+[2017.11.28-03.12.31:342][384]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (536)
+[2017.11.28-03.12.31:342][384]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.11.28-03.12.31:342][384]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2017.11.28-03.12.31:342][384]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2017.11.28-03.12.31:342][384]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.11.28-03.12.31:342][384]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.11.28-03.12.31:343][384]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.11.28-03.12.31:343][384]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.11.28-03.12.31:343][384]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.11.28-03.12.31:343][384]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Collections/' was aborted.
+[2017.11.28-03.12.31:343][384]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Content/Developers/YuriMeitzen/Collections/' was aborted.
+[2017.11.28-03.12.31:344][384]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/BagProject/AiGame/Saved/Collections/' was aborted.
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module Media (479)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2017.11.28-03.12.31:344][384]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2017.11.28-03.12.31:345][384]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2017.11.28-03.12.31:345][384]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2017.11.28-03.12.31:345][384]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2017.11.28-03.12.31:345][384]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2017.11.28-03.12.31:345][384]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2017.11.28-03.12.31:345][384]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2017.11.28-03.12.31:345][384]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2017.11.28-03.12.31:345][384]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2017.11.28-03.12.31:345][384]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2017.11.28-03.12.32:240][384]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2017.11.28-03.12.32:240][384]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2017.11.28-03.12.32:240][384]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2017.11.28-03.12.32:240][384]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2017.11.28-03.12.32:240][384]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2017.11.28-03.12.32:240][384]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2017.11.28-03.12.32:240][384]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2017.11.28-03.12.32:241][384]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2017.11.28-03.12.32:296][384]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2017.11.28-03.12.32:296][384]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2017.11.28-03.12.32:296][384]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2017.11.28-03.12.32:296][384]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2017.11.28-03.12.32:296][384]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2017.11.28-03.12.32:296][384]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2017.11.28-03.12.32:296][384]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2017.11.28-03.12.32:297][384]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2017.11.28-03.12.32:297][384]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2017.11.28-03.12.32:297][384]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2017.11.28-03.12.32:307][384]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2017.11.28-03.12.32:389][384]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2017.11.28-03.12.32:389][384]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2017.11.28-03.12.32:389][384]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2017.11.28-03.12.32:389][384]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2017.11.28-03.12.32:389][384]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2017.11.28-03.12.32:389][384]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2017.11.28-03.12.32:389][384]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2017.11.28-03.12.32:389][384]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2017.11.28-03.12.32:389][384]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2017.11.28-03.12.32:389][384]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2017.11.28-03.12.32:389][384]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2017.11.28-03.12.32:390][384]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2017.11.28-03.12.32:391][384]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2017.11.28-03.12.32:391][384]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2017.11.28-03.12.32:392][384]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2017.11.28-03.12.32:392][384]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2017.11.28-03.12.32:392][384]LogModuleManager: Shutting down and abandoning module HotReload (267)
+[2017.11.28-03.12.32:392][384]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (262)
+[2017.11.28-03.12.32:392][384]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (260)
+[2017.11.28-03.12.32:392][384]LogModuleManager: Shutting down and abandoning module PhysXVehicles (258)
+[2017.11.28-03.12.32:392][384]LogModuleManager: Shutting down and abandoning module OculusEditor (256)
+[2017.11.28-03.12.32:392][384]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (254)
+[2017.11.28-03.12.32:392][384]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (252)
+[2017.11.28-03.12.32:392][384]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (250)
+[2017.11.28-03.12.32:392][384]LogModuleManager: Shutting down and abandoning module UdpMessaging (248)
+[2017.11.28-03.12.32:493][384]LogModuleManager: Shutting down and abandoning module TcpMessaging (246)
+[2017.11.28-03.12.32:594][384]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (244)
+[2017.11.28-03.12.32:594][384]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (242)
+[2017.11.28-03.12.32:594][384]LogModuleManager: Shutting down and abandoning module FacialAnimation (240)
+[2017.11.28-03.12.32:594][384]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (238)
+[2017.11.28-03.12.32:594][384]LogModuleManager: Shutting down and abandoning module GraphEditor (237)
+[2017.11.28-03.12.32:594][384]LogModuleManager: Shutting down and abandoning module ContentBrowser (235)
+[2017.11.28-03.12.32:597][384]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (232)
+[2017.11.28-03.12.32:597][384]LogModuleManager: Shutting down and abandoning module Paper2D (230)
+[2017.11.28-03.12.32:597][384]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (228)
+[2017.11.28-03.12.32:597][384]LogModuleManager: Shutting down and abandoning module WmfMedia (226)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module PacketHandler (224)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (222)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (220)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module MediaAssets (214)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (212)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.11.28-03.12.32:598][384]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.11.28-03.12.32:599][384]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.11.28-03.12.32:599][384]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.11.28-03.12.32:599][384]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.11.28-03.12.32:599][384]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.11.28-03.12.32:599][384]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.11.28-03.12.32:599][384]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.11.28-03.12.32:599][384]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.11.28-03.12.32:599][384]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.11.28-03.12.32:605][384]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.11.28-03.12.32:605][384]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.11.28-03.12.32:605][384]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.11.28-03.12.32:605][384]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.11.28-03.12.32:606][384]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.11.28-03.12.32:606][384]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.11.28-03.12.32:606][384]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.11.28-03.12.32:606][384]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.11.28-03.12.32:606][384]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.11.28-03.12.32:606][384]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.11.28-03.12.32:606][384]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.11.28-03.12.32:606][384]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.11.28-03.12.32:606][384]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.11.28-03.12.32:606][384]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.11.28-03.12.32:606][384]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.11.28-03.12.32:606][384]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.11.28-03.12.32:608][384]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.28-03.12.32:693][384]LogDerivedDataCache: Shutdown
+[2017.11.28-03.12.32:693][384]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.28-03.12.32:693][384]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.28-03.12.32:693][384]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.28-03.12.32:693][384]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.28-03.12.32:694][384]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.28-03.12.32:695][384]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.28-03.12.32:696][384]LogOnline: Display: Unloading online subsystem: NULL
+[2017.11.28-03.12.32:696][384]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.28-03.12.32:696][384]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.28-03.12.32:696][384]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.28-03.12.32:696][384]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA1386455-4525-2F26-1FA5-32B059AA8752%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=4d336c304cb600f3833bee9ec6324b6b%7C97e6c6ec20b34e1681bb9ded12457367%7Cea9e9fd9-3d7e-4d9a-8813-872780a612b3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.28-03.12.32:726][384]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.28-03.12.32:728][384]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.11.28-03.12.32:728][384]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.11.28-03.12.32:728][384]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.11.28-03.12.32:728][384]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.11.28-03.12.32:728][384]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.11.28-03.12.32:728][384]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.11.28-03.12.32:728][384]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.11.28-03.12.32:730][384]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.11.28-03.12.32:730][384]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.11.28-03.12.32:730][384]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.11.28-03.12.32:730][384]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.11.28-03.12.32:730][384]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.11.28-03.12.32:730][384]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.11.28-03.12.32:730][384]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.11.28-03.12.32:730][384]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.11.28-03.12.32:730][384]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.28-03.12.32:730][384]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.28-03.12.32:730][384]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.28-03.12.32:733][384]LogExit: Exiting.
+[2017.11.28-03.12.32:759][384]Log file closed, 11/28/17 01:12:32
