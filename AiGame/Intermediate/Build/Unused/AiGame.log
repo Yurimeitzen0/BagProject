@@ -1,0 +1,24 @@
+﻿  Performing full C++ include scan (building a new target)
+  Creating makefile for AiGameEditor (no existing makefile)
+  Parsing headers for AiGameEditor
+    Running UnrealHeaderTool "D:\MyDocuments\Unreal Projects\BagProject\AiGame\AiGame.uproject" "D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\AiGameEditor\DebugGame\AiGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for AiGameEditor in 11,086755 seconds
+  Performing 14 actions (3 in parallel)
+  [2/14] Resource PCLaunch.rc
+  SharedPCH.Engine.NonOptimized.cpp
+  AIS_Character_CPP.cpp
+  AIS_CPP_StatItem.cpp
+  AiGame.cpp
+  AIS_DataProvider.cpp
+  AIS_StatTest.cpp
+  AiGame.init.gen.cpp
+  AIS_Character_CPP.gen.cpp
+  AIS_CPP_StatItem.gen.cpp
+  AIS_DataProvider.gen.cpp
+  AIS_StatTest.gen.cpp
+  [13/14] Link UE4Editor-AiGame-Win64-DebugGame.dll
+  [14/14] Link UE4Editor-AiGame-Win64-DebugGame.lib
+     Creating library D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-AiGame-Win64-DebugGame.lib and object D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-AiGame-Win64-DebugGame.exp
+     Creating library D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-AiGame-Win64-DebugGame.suppressed.lib and object D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\DebugGame\UE4Editor-AiGame-Win64-DebugGame.suppressed.exp
+  Deploying AiGameEditor Win64 DebugGame...
+  Total build time: 140,17 seconds (Local executor: 49,80 seconds)

@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AiGame-3150.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\Development\AiGame\AiGame.cpp.obj"
+"D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\Development\AiGame\AIS_Character_CPP.cpp.obj"
+"D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\Development\AiGame\AIS_CPP_StatItem.cpp.obj"
+"D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\Development\AiGame\AIS_StatTest.cpp.obj"
+"D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\Development\AiGame\AiGame.init.gen.cpp.obj"
+"D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\Development\AiGame\AIS_Character_CPP.gen.cpp.obj"
+"D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\Development\AiGame\AIS_CPP_StatItem.gen.cpp.obj"
+"D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\Development\AiGame\AIS_StatTest.gen.cpp.obj"
+"D:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\AiGame\PCLaunch.rc.res"
+"D:\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\MyDocuments\Unreal Projects\BagProject\AiGame\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AiGame-3150.lib"

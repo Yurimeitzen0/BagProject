@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\AiGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{17A975E2-4059-4FDE-A481-08BF48066226}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AiGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\AiGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BA51CB69-3683-4597-B186-9949ECB9E4C1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\AiGame">
+      <UniqueIdentifier>{6B9A94D9-2ACD-4B3A-B5E9-233F7D17B746}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\AiGame\AiGame.Build.cs">
+      <Filter>Source\AiGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\AiGame\AiGame.cpp">
+      <Filter>Source\AiGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AiGame\AiGame.h">
+      <Filter>Source\AiGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AiGame\AIS_CPP_StatItem.cpp">
+      <Filter>Source\AiGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AiGame\AIS_CPP_StatItem.h">
+      <Filter>Source\AiGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\AiGame\AIS_Character_CPP.h">
+      <Filter>Source\AiGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AiGame\AIS_StatTest.h">
+      <Filter>Source\AiGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AiGame\AIS_DataProvider.h">
+      <Filter>Source\AiGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\AiGame\AIS_Character_CPP.cpp">
+      <Filter>Source\AiGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AiGame\AIS_StatTest.cpp">
+      <Filter>Source\AiGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AiGame\AIS_DataProvider.cpp">
+      <Filter>Source\AiGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
