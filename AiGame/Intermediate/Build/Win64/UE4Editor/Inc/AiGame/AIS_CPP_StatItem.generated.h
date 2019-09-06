@@ -1,11 +1,11 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef AIGAME_AIS_CPP_StatItem_generated_h
@@ -18,21 +18,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define AiGame_Source_AiGame_AIS_CPP_StatItem_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAIS_CPP_StatItem(); \
-	friend AIGAME_API class UClass* Z_Construct_UClass_AAIS_CPP_StatItem(); \
+	friend struct Z_Construct_UClass_AAIS_CPP_StatItem_Statics; \
 public: \
-	DECLARE_CLASS(AAIS_CPP_StatItem, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/AiGame"), NO_API) \
-	DECLARE_SERIALIZER(AAIS_CPP_StatItem) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AAIS_CPP_StatItem, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AiGame"), NO_API) \
+	DECLARE_SERIALIZER(AAIS_CPP_StatItem)
 
 
 #define AiGame_Source_AiGame_AIS_CPP_StatItem_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAAIS_CPP_StatItem(); \
-	friend AIGAME_API class UClass* Z_Construct_UClass_AAIS_CPP_StatItem(); \
+	friend struct Z_Construct_UClass_AAIS_CPP_StatItem_Statics; \
 public: \
-	DECLARE_CLASS(AAIS_CPP_StatItem, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/AiGame"), NO_API) \
-	DECLARE_SERIALIZER(AAIS_CPP_StatItem) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AAIS_CPP_StatItem, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AiGame"), NO_API) \
+	DECLARE_SERIALIZER(AAIS_CPP_StatItem)
 
 
 #define AiGame_Source_AiGame_AIS_CPP_StatItem_h_12_STANDARD_CONSTRUCTORS \

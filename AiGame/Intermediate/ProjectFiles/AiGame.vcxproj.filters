@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
 		<None Include="..\..\AiGame.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{2AEF68BB-90D8-459A-A06C-C35871B006E1}</UniqueIdentifier>
+			<UniqueIdentifier>{9CA4D43F-5BE3-4870-B676-548094A2105E}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\AiGame.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{A41EBB45-36D0-44CB-9EE8-F0E2EB5E822B}</UniqueIdentifier>
+			<UniqueIdentifier>{CD0AFD00-2621-4277-96D2-9BD0359880E7}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\AiGame">
-			<UniqueIdentifier>{077CAB85-4289-4227-90D9-B84A5D3DA97E}</UniqueIdentifier>
+			<UniqueIdentifier>{81A47733-5AF7-4B3A-8F22-C2E8C97E28DB}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\AiGame\AiGame.Build.cs">
 			<Filter>Source\AiGame</Filter>

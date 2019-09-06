@@ -1,11 +1,11 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef AIGAME_AIS_StatTest_generated_h
@@ -18,21 +18,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define AiGame_Source_AiGame_AIS_StatTest_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAIS_StatTest(); \
-	friend AIGAME_API class UClass* Z_Construct_UClass_UAIS_StatTest(); \
+	friend struct Z_Construct_UClass_UAIS_StatTest_Statics; \
 public: \
-	DECLARE_CLASS(UAIS_StatTest, UEnvQueryTest, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/AiGame"), NO_API) \
-	DECLARE_SERIALIZER(UAIS_StatTest) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(UAIS_StatTest, UEnvQueryTest, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AiGame"), NO_API) \
+	DECLARE_SERIALIZER(UAIS_StatTest)
 
 
 #define AiGame_Source_AiGame_AIS_StatTest_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesUAIS_StatTest(); \
-	friend AIGAME_API class UClass* Z_Construct_UClass_UAIS_StatTest(); \
+	friend struct Z_Construct_UClass_UAIS_StatTest_Statics; \
 public: \
-	DECLARE_CLASS(UAIS_StatTest, UEnvQueryTest, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/AiGame"), NO_API) \
-	DECLARE_SERIALIZER(UAIS_StatTest) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(UAIS_StatTest, UEnvQueryTest, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/AiGame"), NO_API) \
+	DECLARE_SERIALIZER(UAIS_StatTest)
 
 
 #define AiGame_Source_AiGame_AIS_StatTest_h_15_STANDARD_CONSTRUCTORS \

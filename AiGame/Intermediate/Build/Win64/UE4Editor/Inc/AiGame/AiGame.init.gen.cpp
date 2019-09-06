@@ -1,10 +1,10 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "GeneratedCppIncludes.h"
+#include "UObject/GeneratedCppIncludes.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeAiGame_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/AiGame",
 				PKG_CompiledIn | 0x00000000,
-				0x25FE9775,
+				0x75483DB4,
 				0x15E3C7E9,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
